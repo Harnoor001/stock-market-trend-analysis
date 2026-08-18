@@ -1,0 +1,38 @@
+STOCK MARKET TREND ANALYSIS
+===========================
+
+Analysis Period: 2021-08-16 to 2026-08-14
+
+PERFORMANCE
+-----------
+Highest total return: NVDA (1028.62%)
+Lowest total return: AMZN (59.23%)
+
+RISK
+----
+Highest annualized volatility: NVDA (51.94%)
+Lowest annualized volatility: AAPL (28.04%)
+
+SINGLE-DAY MOVEMENTS
+--------------------
+Highest single-day return: NVDA (24.37%)
+Largest single-day loss: NVDA (-16.97%)
+
+TRENDS
+------
+Bullish: AMZN, NVDA
+Mixed: AAPL, MSFT, GOOGL
+Bearish: None
+
+CORRELATION
+-----------
+Highest correlated pair: GOOGL-AMZN (0.6209)
+Lowest correlated pair: AAPL-NVDA (0.4786)
+
+KEY OBSERVATIONS
+----------------
+1. NVDA had the highest historical total price return, while AMZN had the lowest.
+2. NVDA had the highest annualized volatility, and AAPL had the lowest.
+3. Stocks in the at-or-above-median return and volatility region: GOOGL, NVDA.
+4. Stocks below the median annualized volatility: AAPL, MSFT.
+5. These are descriptive historical comparisons; they do not establish future outcomes or investment suitability.
