@@ -1,109 +1,100 @@
-"""Download historical stock data from Yahoo Finance through yFinance."""
+"""Download daily OHLCV + adjusted-close data from Yahoo Finance.
 
-from pathlib import Path
+Raw files are written one per symbol to data/raw/<SYMBOL>.csv and are not
+committed; everything downstream reads them from disk, so the download is the
+only step that needs network access.
+"""
+
 import time
 
 import pandas as pd
 import yfinance as yf
 
+from src import config
+from src.config import Paths
 
-TICKERS = ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA"]
-START_DATE = "2021-08-16"
-END_DATE = "2026-08-16"  # yFinance treats the end date as exclusive.
-RAW_DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
-EXPECTED_COLUMNS = ["Date", "Open", "High", "Low", "Close", "Volume"]
-DOWNLOAD_ATTEMPTS = 3
+RAW_COLUMNS = ["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"]
 
 
-def _prepare_downloaded_data(data: pd.DataFrame, ticker: str) -> pd.DataFrame:
-    """Convert one yFinance result into the project's raw CSV format."""
+def to_trading_date(values: pd.Series) -> pd.Series:
+    """Convert timestamps to plain trading dates in the *exchange's* local time.
+
+    Yahoo can return NSE dates as midnight Asia/Kolkata. Converting those to UTC
+    first would move every date back a day (00:00 IST = 18:30 UTC the day before),
+    so a time zone is dropped while keeping the local wall-clock date.
+    """
+    dates = pd.to_datetime(values, errors="coerce")
+    if getattr(dates.dt, "tz", None) is not None:
+        dates = dates.dt.tz_localize(None)
+    return dates.dt.normalize()
+
+
+def _extract_symbol(downloaded: pd.DataFrame, symbol: str) -> pd.DataFrame:
+    """Pull one symbol out of a (possibly multi-index) yfinance result."""
+    data = downloaded
     if isinstance(data.columns, pd.MultiIndex):
-        if ticker in data.columns.get_level_values(-1):
-            data = data.xs(ticker, axis=1, level=-1)
-        elif ticker in data.columns.get_level_values(0):
-            data = data.xs(ticker, axis=1, level=0)
-
+        for level in range(data.columns.nlevels):
+            if symbol in data.columns.get_level_values(level):
+                data = data.xs(symbol, axis=1, level=level)
+                break
+        else:
+            return pd.DataFrame(columns=RAW_COLUMNS)
     data = data.reset_index()
-    date_column = "Date" if "Date" in data.columns else "Datetime"
-    data = data.rename(columns={date_column: "Date"})
-    data["Date"] = pd.to_datetime(data["Date"], errors="coerce", utc=True).dt.tz_localize(None)
-    return data[[column for column in EXPECTED_COLUMNS if column in data.columns]]
+    data = data.rename(columns={"Datetime": "Date"})
+    if "Date" not in data.columns:
+        return pd.DataFrame(columns=RAW_COLUMNS)
+    data["Date"] = to_trading_date(data["Date"])
+    data = data[[column for column in RAW_COLUMNS if column in data.columns]]
+    return data.dropna(how="all", subset=[c for c in RAW_COLUMNS[1:] if c in data.columns])
 
 
-def validate_stock_data(data: pd.DataFrame) -> None:
-    """Raise a clear error when downloaded data has an unexpected structure."""
-    missing_columns = [column for column in EXPECTED_COLUMNS if column not in data.columns]
-    if missing_columns:
-        raise ValueError(f"Missing expected columns: {missing_columns}")
-    if data.empty:
-        raise ValueError("Downloaded dataset is empty")
-    if data["Date"].isna().any():
-        raise ValueError("One or more dates are invalid")
-    if not data["Date"].is_monotonic_increasing:
-        raise ValueError("Dates are not sorted chronologically")
-    if data.duplicated().any():
-        raise ValueError("Dataset contains completely duplicated rows")
+def _download(symbols: list[str], start: str, end: str) -> pd.DataFrame:
+    return yf.download(
+        symbols,
+        start=start,
+        end=end,
+        interval="1d",
+        auto_adjust=False,  # keep both Close and Adj Close
+        actions=False,
+        group_by="ticker",
+        progress=False,
+        threads=True,
+    )
 
 
-def download_stock_data(ticker: str) -> pd.DataFrame:
-    """Download and validate daily OHLCV data for one ticker."""
-    downloaded = pd.DataFrame()
-    for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
-        try:
-            downloaded = yf.download(
-                ticker,
-                start=START_DATE,
-                end=END_DATE,
-                interval="1d",
-                auto_adjust=False,
-                progress=False,
-                group_by="column",
-                threads=False,
-            )
-        except Exception as error:
-            if attempt == DOWNLOAD_ATTEMPTS:
-                raise RuntimeError(f"yFinance request failed after {DOWNLOAD_ATTEMPTS} attempts: {error}") from error
-
-        if not downloaded.empty:
+def download_all(symbols: list[str], start: str, end: str, attempts: int = config.DOWNLOAD_ATTEMPTS) -> dict[str, pd.DataFrame]:
+    """Batch-download symbols, retrying only the ones that came back empty."""
+    results: dict[str, pd.DataFrame] = {}
+    pending = list(symbols)
+    for attempt in range(1, attempts + 1):
+        if not pending:
             break
-        if attempt < DOWNLOAD_ATTEMPTS:
-            time.sleep(2)
-
-    if downloaded.empty:
-        raise ValueError(f"No data returned by yFinance after {DOWNLOAD_ATTEMPTS} attempts")
-
-    data = _prepare_downloaded_data(downloaded, ticker)
-    validate_stock_data(data)
-    return data
-
-
-def main() -> int:
-    """Download all configured tickers and save them as raw CSV files."""
-    RAW_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    failures: dict[str, str] = {}
-
-    for ticker in TICKERS:
         try:
-            data = download_stock_data(ticker)
-            output_path = RAW_DATA_DIR / f"{ticker}.csv"
-            data.to_csv(output_path, index=False)
-
-            saved_data = pd.read_csv(output_path, parse_dates=["Date"])
-            validate_stock_data(saved_data)
-            print(f"{ticker}: {len(saved_data)} rows collected")
-        except Exception as error:  # Keep other tickers running if one request fails.
-            failures[ticker] = str(error)
-            print(f"{ticker}: download failed - {error}")
-
-    if failures:
-        print("\nData collection finished with errors:")
-        for ticker, error in failures.items():
-            print(f"- {ticker}: {error}")
-        return 1
-
-    print(f"\nSaved raw CSV files to: {RAW_DATA_DIR}")
-    return 0
+            downloaded = _download(pending, start, end)
+        except Exception as error:  # network/API errors: retry the whole batch
+            print(f"Attempt {attempt}: download error ({error})")
+            downloaded = pd.DataFrame()
+        still_pending = []
+        for symbol in pending:
+            data = _extract_symbol(downloaded, symbol) if not downloaded.empty else pd.DataFrame()
+            if data.empty or "Adj Close" not in data.columns:
+                still_pending.append(symbol)
+            else:
+                results[symbol] = data
+        pending = still_pending
+        if pending and attempt < attempts:
+            time.sleep(2 * attempt)
+    for symbol in pending:
+        print(f"{symbol}: no data returned after {attempts} attempts")
+    return results
 
 
-if __name__ == "__main__":
-    raise SystemExit(main())
+def run(paths: Paths = Paths(), symbols: list[str] | None = None, start: str = config.START_DATE, end: str = config.END_DATE) -> list[str]:
+    """Download and save raw files; return the list of symbols that failed."""
+    paths.ensure()
+    symbols = symbols or config.all_symbols()
+    results = download_all(symbols, start, end)
+    for symbol, data in results.items():
+        data.to_csv(paths.raw / f"{symbol}.csv", index=False)
+    print(f"Downloaded {len(results)}/{len(symbols)} symbols ({start} to before {end}) into {paths.raw}")
+    return [symbol for symbol in symbols if symbol not in results]

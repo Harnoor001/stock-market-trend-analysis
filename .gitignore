@@ -38,26 +38,20 @@ data/raw/*
 data/processed/*
 outputs/figures/*
 
-# Dashboard-required validated processed data
-!data/processed/
-!data/processed/final_stock_analysis.csv
+# Processed outputs the dashboard reads are committed so the deployed app works
+# without downloading data. prices.parquet (only needed by the pipeline) is not.
+!data/processed/returns.parquet
+!data/processed/trends.parquet
+!data/processed/rolling_correlation_benchmark.parquet
+!data/processed/average_pairwise_correlation.parquet
+!data/processed/stock_summary.csv
 !data/processed/benchmark_summary.csv
-!data/processed/benchmark_rolling_correlation.csv
+!data/processed/sector_summary.csv
+!data/processed/trend_summary.csv
 !data/processed/correlation_matrix.csv
 !data/processed/correlation_pairs.csv
+!data/processed/data_quality.csv
 !data/processed/final_insights.txt
-!data/processed/trend_summary.csv
-!data/processed/AAPL_returns.csv
-!data/processed/MSFT_returns.csv
-!data/processed/GOOGL_returns.csv
-!data/processed/AMZN_returns.csv
-!data/processed/NVDA_returns.csv
-!data/processed/SPY_returns.csv
-!data/processed/AAPL_trends.csv
-!data/processed/MSFT_trends.csv
-!data/processed/GOOGL_trends.csv
-!data/processed/AMZN_trends.csv
-!data/processed/NVDA_trends.csv
 
 # Streamlit local secrets
 .streamlit/secrets.toml

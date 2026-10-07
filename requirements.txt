@@ -1,8 +1,9 @@
-pandas
-numpy
-matplotlib
-yfinance
-jupyter
-notebook
-streamlit
-plotly
+# Runtime dependencies (also used by Streamlit Community Cloud). Tested on Python 3.11–3.13.
+# Verified with pandas 2.2 and 3.0.
+pandas>=2.2,<4
+numpy>=1.26,<3
+pyarrow>=15
+matplotlib>=3.8,<4
+yfinance>=1.0,<2
+streamlit>=1.50,<2
+plotly>=6,<8

@@ -1,15 +1,6 @@
-"""Verify that the Phase 1 project environment is available."""
+"""Entry point: run the full analysis pipeline. See `python main.py --help`."""
 
-import matplotlib
-import numpy
-import pandas
-import yfinance
-
-
-def main() -> None:
-    """Import the required project libraries and report success."""
-    print("Environment setup successful: required libraries imported.")
-
+from src.pipeline import main
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
