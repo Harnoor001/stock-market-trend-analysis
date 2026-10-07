@@ -1,26 +1,26 @@
-# Interactive Streamlit Dashboard
+# Dashboard
 
-This dashboard presents the completed Stock Market Trend Analysis results in a read-only interactive interface.
-
-## Run
-
-From the project root:
+Read-only Streamlit dashboard for the Nifty 50 market analysis. Run from the project root:
 
 ```bash
 streamlit run dashboard/app.py
 ```
 
-## Sections
+It reads the files in `data/processed/` written by `python main.py`; it never downloads data or modifies files.
 
-- Overview
-- Performance versus SPY
-- Risk and volatility
-- Moving averages and descriptive trends
-- Return correlation and rolling correlation with SPY
-- Methodology and final insights
+## Pages
 
-The dashboard reads validated files from `data/processed/`. It does not download data, run analysis scripts, modify datasets, or overwrite figures. Run the project pipeline first if the processed files are not present.
+- **Overview** – growth of ₹100 versus the Nifty, drawdown chart, and headline metrics (CAGR, excess CAGR, volatility, Sharpe, max drawdown, beta, alpha) for the selected stock
+- **Universe** – risk-versus-return scatter by sector, sortable table of every stock's metrics, and sector medians
+- **Risk** – VaR, CVaR, Sortino, Calmar, tracking error, rolling volatility and the daily-return distribution
+- **Trends** – price with 20/50/200-day moving averages and crossover markers
+- **Correlation** – sector-ordered correlation heatmap, most and least correlated pairs, rolling correlation with the Nifty, and market-wide average correlation over time
+- **Data & Methodology** – metric definitions, the data-quality report and the generated findings
 
-## Limitations
+## Controls
 
-The dashboard presents historical, descriptive analysis. It is not a live market dashboard and does not provide predictions, trading signals, or investment advice.
+The sidebar has a sector filter, a stock picker and a date range. Overview and Risk metrics are **recomputed for the selected date range** using the same tested functions as the pipeline (`src/metrics.py`). Universe, sector and correlation views cover the full analysis period.
+
+Set `STOCK_ANALYSIS_DATA_DIR` to point the dashboard at a different processed-data folder (the tests use this).
+
+Historical and descriptive only; not investment advice.
