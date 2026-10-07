@@ -43,12 +43,16 @@ python -m pytest
 
 The metric functions are tested against hand-calculated values. The end-to-end tests run the whole pipeline and every dashboard page on synthetic market data, so they need no network access. GitHub Actions runs them on every push.
 
+### Automatic data refresh
+
+The `refresh-data` GitHub Actions workflow re-runs the pipeline whenever code in `src/` changes (or on demand from the Actions tab) and commits the regenerated `data/processed/` files, so the deployed dashboard always matches the code.
+
 ## Project structure
 
 ```text
 ├── main.py                    # entry point: runs the whole pipeline
 ├── src/
-│   ├── config.py              # universe, sectors, dates, assumptions, paths (edit here only)
+│   ├── config.py              # universe, sectors, dates, assumptions, data corrections (edit here only)
 │   ├── data_collection.py     # Yahoo Finance download with retries
 │   ├── data_cleaning.py       # cleaning rules + data-quality report
 │   ├── metrics.py             # pure metric functions (CAGR, Sharpe, drawdown, beta, VaR, ...)
@@ -73,18 +77,21 @@ The metric functions are tested against hand-calculated values. The end-to-end t
 | Annualisation | 252 trading days |
 | Risk-free rate | 6% a year, a constant approximation of the 91-day T-bill average over the period |
 | Partial history | Stocks covering under 95% of the benchmark's trading days (recent listings, demergers) are kept, flagged, compared with the benchmark over their own dates, and left out of rankings. Stocks with under 252 days are excluded |
+| Data corrections | Zero-volume rows (stale prices Yahoo inserts on some exchange holidays) are dropped. Events Yahoo adjusts incorrectly are back-adjusted in `config.CORPORATE_ACTIONS`: the Oct 2025 Tata Motors demerger (a fake −40% day) and Trent's Jun 2026 bonus, which Yahoo only partly adjusted (a fake −33% day) |
+| Data-quality flags | Daily moves above 25% are flagged in `data_quality.csv` until checked against news; confirmed events (e.g. the Feb 2023 Adani/Hindenburg sell-off) are recorded in `config.VERIFIED_MOVES` |
 | Validation | Compounded returns reconcile with first/last adjusted close; latest SMAs and one correlation pair are recomputed independently; correlation matrix symmetry and bounds are checked |
 
 ## Limitations
 
 - **Survivorship bias:** the universe is *today's* Nifty 50, so stocks that dropped out over the five years are missing and results lean optimistic.
 - A constant risk-free rate shifts every Sharpe, Sortino and alpha equally; rankings are unaffected.
-- Yahoo Finance data is unofficial and occasionally has gaps or adjustment errors. The data-quality report flags suspicious moves for review.
+- Yahoo Finance data is unofficial and has adjustment errors; two were found and corrected in this audit, and the data-quality report flags any new ones.
+- TMPV's history before Oct 2025 is the pre-demerger Tata Motors (scaled to the passenger-vehicle share), so its long-run metrics mix both businesses.
 - The analysis is historical and descriptive. It does not forecast prices and is not investment advice.
 
 ## Roadmap
 
-- [x] **Phase 1 – foundations:** single config, one-command pipeline, adjusted-close returns, full risk metrics, Nifty 50 universe, tests and CI
+- [x] **Phase 1 – foundations:** single config, one-command pipeline, adjusted-close returns, full risk metrics, Nifty 50 universe, data-quality audit, tests, CI and automatic data refresh
 - [ ] **Phase 2 – analyst layer:** DuckDB + SQL analysis, question-driven findings (sector rotation, drawdown recovery, correlation in sell-offs, earnings event study), question-led dashboard
 - [ ] **Phase 3 – data science layer:** hypothesis tests on return anomalies, volatility forecasting (GARCH vs gradient boosting, walk-forward validation), regime detection
 - [ ] **Phase 4 – presentation:** findings-first README and a short written report
