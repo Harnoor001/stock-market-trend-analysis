@@ -28,11 +28,11 @@ Highest beta: ADANIENT (1.84), ADANIPORTS (1.66), SHRIRAMFIN (1.55)
 SECTORS (median of full-history stocks)
 ---------------------------------------
 Capital Goods: CAGR 44.9%, volatility 31.4%, Sharpe 1.15 (1 stock)
+Consumer Services: CAGR 25.0%, volatility 40.3%, Sharpe 0.63 (2 stocks)
 Automobile: CAGR 22.7%, volatility 26.2%, Sharpe 0.69 (5 stocks)
 Telecommunication: CAGR 22.4%, volatility 21.5%, Sharpe 0.78 (1 stock)
 Services: CAGR 20.8%, volatility 34.3%, Sharpe 0.56 (2 stocks)
 Power: CAGR 20.7%, volatility 24.9%, Sharpe 0.65 (2 stocks)
-Consumer Services: CAGR 19.8%, volatility 41.9%, Sharpe 0.51 (2 stocks)
 Construction: CAGR 18.9%, volatility 24.5%, Sharpe 0.59 (1 stock)
 Oil, Gas & Fuels: CAGR 16.2%, volatility 28.2%, Sharpe 0.45 (3 stocks)
 Metals & Mining: CAGR 14.9%, volatility 31.2%, Sharpe 0.42 (4 stocks)
@@ -52,7 +52,7 @@ Market-wide 60-day average pairwise correlation ranged 0.10-0.47 (peak around 20
 
 TRENDS (latest observation)
 ---------------------------
-Bearish: 24, Bullish: 2, Mixed: 23
+Bearish: 23, Bullish: 2, Mixed: 24
 
 DATA NOTES
 ----------
