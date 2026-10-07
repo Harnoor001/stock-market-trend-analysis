@@ -1,167 +1,94 @@
-# Stock Market Trend Analysis
+# Nifty 50 Market Analysis
 
-## Overview
+Historical performance, risk and correlation analysis of the 50 stocks in India's Nifty 50 index, benchmarked against the index itself, with an interactive Streamlit dashboard.
 
-Stock Market Trend Analysis is a reproducible Python project for descriptive analysis of historical daily market data. It covers stock performance, risk, moving-average trends, return correlations, comparison with the SPY benchmark, and an interactive Streamlit dashboard.
+Live demo: [stock-market-trend-analysis-hsk.streamlit.app](https://stock-market-trend-analysis-hsk.streamlit.app/)
 
-## Objectives
+## What it does
 
-The project analyzes:
+- Downloads five years of daily prices (Oct 2021 – Sep 2026) for all 50 constituents and a total-return benchmark
+- Cleans the data and writes a **data-quality report**: dropped rows, coverage, late listings, suspicious moves
+- Computes returns from **adjusted closes**, so dividends and splits are included (total return, not price return)
+- Calculates, per stock and for the benchmark:
+  - **Return:** total return, CAGR, excess CAGR versus the benchmark over the same dates
+  - **Risk:** annualised volatility, maximum drawdown with peak / trough / recovery dates, VaR and CVaR (95%, one day)
+  - **Risk-adjusted:** Sharpe, Sortino, Calmar
+  - **Versus the market:** beta, Jensen's alpha, correlation, tracking error, information ratio
+- Summarises **sectors** (median metrics, share of stocks beating the index)
+- Builds a sector-ordered **correlation matrix**, ranked pairs, rolling correlation with the index, and a market-wide average pairwise correlation over time
+- Labels each stock's moving-average trend (SMA 20/50/200) and SMA20/SMA50 crossovers
+- Writes a plain-text findings file and summary figures
 
-- AAPL — Apple
-- MSFT — Microsoft
-- GOOGL — Alphabet/Google
-- AMZN — Amazon
-- NVDA — NVIDIA
+## Run it
 
-The stocks are compared with SPY, used as a broad U.S. equity-market benchmark. The analysis is historical and descriptive; it is not intended to provide investment advice.
-
-## Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Plotly
-- yFinance
-- Jupyter Notebook
-- Streamlit
-
-## Analysis performed
-
-- Historical market-data collection from Yahoo Finance through yFinance
-- Data cleaning and exploratory data analysis
-- Daily returns and cumulative returns
-- Performance metrics and stock comparisons
-- SPY benchmark comparison
-- Excess return and relative performance
-- Daily, annualized, and rolling volatility
-- 20-day, 50-day, and 200-day simple moving averages
-- Descriptive trend classification
-- SMA20/SMA50 crossover analysis
-- Daily-return correlation matrix and rolling correlation
-- Integrated risk-performance analysis
-
-## Benchmark analysis — SPY
-
-SPY is used as the benchmark for comparing the five stocks with the broader U.S. equity market over the same historical period. The benchmark analysis includes:
-
-- Total return comparison
-- Excess return
-- Relative performance
-- Volatility comparison
-- 60-trading-day rolling correlation with SPY
-
-The benchmark workflow is implemented in `src/benchmark_data.py`, `src/benchmark_cleaning.py`, `src/benchmark_returns.py`, and `src/benchmark_analysis.py`. The corresponding notebook is `notebooks/07_benchmark_analysis.ipynb`.
-
-## Interactive Dashboard
-
-The read-only Streamlit dashboard presents the validated project outputs through:
-
-- Overview
-- Performance
-- Risk
-- Trends
-- Correlation
-- Methodology
-
-It reads validated processed datasets and does not download data, run analysis scripts, or modify project files.
-
-Run locally from the project root:
+Requires Python 3.11+.
 
 ```bash
-streamlit run dashboard/app.py
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+python main.py                     # download, clean, analyse and write all outputs
+streamlit run dashboard/app.py     # open the dashboard
 ```
 
-Live Demo: [stock-market-trend-analysis-hsk.streamlit.app](https://stock-market-trend-analysis-hsk.streamlit.app/)
+`python main.py --skip-download` re-runs the analysis on already-downloaded raw files.
+
+### Tests
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest
+```
+
+The metric functions are tested against hand-calculated values. The end-to-end tests run the whole pipeline and every dashboard page on synthetic market data, so they need no network access. GitHub Actions runs them on every push.
 
 ## Project structure
 
 ```text
-stock-market-trend-analysis/
-├── dashboard/
-│   ├── app.py
-│   └── README.md
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_performance_analysis.ipynb
-│   ├── 03_risk_analysis.ipynb
-│   ├── 04_trend_analysis.ipynb
-│   ├── 05_correlation_analysis.ipynb
-│   ├── 06_final_analysis.ipynb
-│   └── 07_benchmark_analysis.ipynb
+├── main.py                    # entry point: runs the whole pipeline
 ├── src/
-│   ├── data_collection.py
-│   ├── data_cleaning.py
-│   ├── performance_analysis.py
-│   ├── risk_analysis.py
-│   ├── trend_analysis.py
-│   ├── correlation_analysis.py
-│   ├── final_analysis.py
-│   ├── benchmark_data.py
-│   ├── benchmark_cleaning.py
-│   ├── benchmark_returns.py
-│   └── benchmark_analysis.py
-├── outputs/
-│   └── figures/
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── main.py
+│   ├── config.py              # universe, sectors, dates, assumptions, paths (edit here only)
+│   ├── data_collection.py     # Yahoo Finance download with retries
+│   ├── data_cleaning.py       # cleaning rules + data-quality report
+│   ├── metrics.py             # pure metric functions (CAGR, Sharpe, drawdown, beta, VaR, ...)
+│   ├── performance.py         # returns, stock / benchmark / sector summaries
+│   ├── trends.py              # moving averages, trend labels, crossovers
+│   ├── correlation.py         # correlation matrix, pairs, rolling correlations
+│   ├── insights.py            # findings text and figures
+│   └── pipeline.py            # orchestration
+├── dashboard/app.py           # Streamlit dashboard (reads data/processed)
+├── tests/                     # pytest: metrics, pipeline, dashboard
+├── data/processed/            # outputs the dashboard reads (committed)
+└── notebooks/archive_v1_us/   # original 5-stock US analysis (v1)
 ```
 
-## Key outputs
+## Methodology
 
-Important generated and dashboard-consumed outputs include:
-
-- `data/processed/final_stock_analysis.csv` — consolidated stock-level analysis
-- `data/processed/final_insights.txt` — generated descriptive observations
-- `data/processed/benchmark_summary.csv` — stock-versus-SPY comparison
-- `data/processed/benchmark_rolling_correlation.csv` — rolling stock-versus-SPY correlations
-- `data/processed/correlation_matrix.csv` — daily-return correlation matrix
-- `data/processed/correlation_pairs.csv` — ranked unique stock pairs
-
-Phase-specific figures and additional processed files are stored under `outputs/figures/` and `data/processed/`.
-
-## Reproducibility
-
-Create and activate a virtual environment, then install the dependencies:
-
-```bash
-python -m venv .venv
-python -m pip install -r requirements.txt
-```
-
-To rebuild the analytical pipeline and benchmark outputs, run the scripts from the project root:
-
-```bash
-python src/data_collection.py
-python src/data_cleaning.py
-python src/performance_analysis.py
-python src/risk_analysis.py
-python src/trend_analysis.py
-python src/correlation_analysis.py
-python src/final_analysis.py
-python src/benchmark_data.py
-python src/benchmark_cleaning.py
-python src/benchmark_returns.py
-python src/benchmark_analysis.py
-```
-
-The notebooks can then be executed in numerical order. To run the already-built dashboard, use only:
-
-```bash
-streamlit run dashboard/app.py
-```
+| Choice | Detail |
+| --- | --- |
+| Universe | Nifty 50 constituents effective 30 Sep 2026 (BSE replaced Wipro in the September rebalance) |
+| Benchmark | Nippon India Nifty BeES ETF, adjusted close. Unlike the `^NSEI` price index it includes dividends, so it compares like-for-like with total-return stock figures |
+| Returns | Simple daily returns of the adjusted close, computed per stock before aligning dates |
+| Annualisation | 252 trading days |
+| Risk-free rate | 6% a year, a constant approximation of the 91-day T-bill average over the period |
+| Partial history | Stocks covering under 95% of the benchmark's trading days (recent listings, demergers) are kept, flagged, compared with the benchmark over their own dates, and left out of rankings. Stocks with under 252 days are excluded |
+| Validation | Compounded returns reconcile with first/last adjusted close; latest SMAs and one correlation pair are recomputed independently; correlation matrix symmetry and bounds are checked |
 
 ## Limitations
 
-- The project uses historical data only; it does not provide real-time market data.
-- The latest observation means the latest observation available in the datasets.
-- The analysis is descriptive rather than predictive.
-- Historical performance does not guarantee future results.
-- Correlations can change over time and do not imply causation.
-- The project does not provide investment advice or trading recommendations.
+- **Survivorship bias:** the universe is *today's* Nifty 50, so stocks that dropped out over the five years are missing and results lean optimistic.
+- A constant risk-free rate shifts every Sharpe, Sortino and alpha equally; rankings are unaffected.
+- Yahoo Finance data is unofficial and occasionally has gaps or adjustment errors. The data-quality report flags suspicious moves for review.
+- The analysis is historical and descriptive. It does not forecast prices and is not investment advice.
+
+## Roadmap
+
+- [x] **Phase 1 – foundations:** single config, one-command pipeline, adjusted-close returns, full risk metrics, Nifty 50 universe, tests and CI
+- [ ] **Phase 2 – analyst layer:** DuckDB + SQL analysis, question-driven findings (sector rotation, drawdown recovery, correlation in sell-offs, earnings event study), question-led dashboard
+- [ ] **Phase 3 – data science layer:** hypothesis tests on return anomalies, volatility forecasting (GARCH vs gradient boosting, walk-forward validation), regime detection
+- [ ] **Phase 4 – presentation:** findings-first README and a short written report
+
+## Version history
+
+v1 analysed five US tech stocks (AAPL, MSFT, GOOGL, AMZN, NVDA) against SPY. Its notebooks are kept in `notebooks/archive_v1_us/` and the original code is at commit `0183cb9`.
