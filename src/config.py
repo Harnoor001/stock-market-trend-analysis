@@ -72,6 +72,18 @@ UNIVERSE: dict[str, tuple[str, str]] = {
 BENCHMARK = "NIFTYBEES.NS"
 BENCHMARK_NAME = "Nifty 50 (Nifty BeES ETF, total return)"
 
+# Corporate actions Yahoo's adjusted close does not handle. Yahoo adjusts for
+# splits and dividends but not spin-offs, so a demerger shows up as a fake crash.
+# Prices before `ex_date` are multiplied by `factor` (the same back-adjustment
+# used for splits), leaving the ex-date return as the genuine market move.
+CORPORATE_ACTIONS: dict[str, list[dict]] = {
+    "TMPV.NS": [{
+        "ex_date": "2025-10-14",
+        "factor": 400.00 / 660.75,  # PV price discovered in special session / prior Tata Motors close
+        "note": "Tata Motors demerger: CV business spun off 1:1 (price discovery ₹400 vs ₹660.75 close)",
+    }],
+}
+
 # ---------------------------------------------------------------------------
 # Analysis period (fixed so results are reproducible; end date is exclusive).
 # ---------------------------------------------------------------------------

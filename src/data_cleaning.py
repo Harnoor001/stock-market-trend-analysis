@@ -4,6 +4,9 @@ Rules (no value is ever imputed):
 - rows with an invalid date or a missing price/volume field are dropped
 - duplicate dates keep the first row
 - non-positive prices are dropped
+- zero-volume rows are dropped: no shares traded, so the "price" is a stale
+  carry-forward (Yahoo inserts these on some exchange holidays)
+- spin-offs listed in config.CORPORATE_ACTIONS are back-adjusted
 - a symbol with fewer than MIN_OBSERVATIONS clean rows is excluded
 - a symbol covering less than FULL_HISTORY_COVERAGE of the benchmark's
   trading days is kept but flagged as partial history
@@ -27,14 +30,27 @@ def clean_prices(raw: pd.DataFrame, symbol: str) -> pd.DataFrame:
     data = raw.copy()
     data["Date"] = pd.to_datetime(data["Date"], errors="coerce")
     for column in PRICE_COLUMNS:
-        data[column] = pd.to_numeric(data[column], errors="coerce")
+        data[column] = pd.to_numeric(data[column], errors="coerce").astype("float64")
 
     data = data.dropna(subset=["Date", *PRICE_COLUMNS])
     data = data.sort_values("Date").drop_duplicates(subset="Date", keep="first")
     prices = ["Open", "High", "Low", "Close", "Adj Close"]
-    data = data[(data[prices] > 0).all(axis=1) & (data["Volume"] >= 0)]
+    data = data[(data[prices] > 0).all(axis=1) & (data["Volume"] > 0)]
     data = data.set_index("Date")[PRICE_COLUMNS]
+    data = apply_corporate_actions(data, symbol)
     validate_clean(data, symbol)
+    return data
+
+
+def apply_corporate_actions(data: pd.DataFrame, symbol: str) -> pd.DataFrame:
+    """Back-adjust prices before each configured spin-off so the ex-date isn't a fake loss."""
+    actions = config.CORPORATE_ACTIONS.get(symbol, [])
+    if not actions:
+        return data
+    data = data.copy()
+    for action in actions:
+        before = data.index < pd.Timestamp(action["ex_date"])
+        data.loc[before, ["Open", "High", "Low", "Close", "Adj Close"]] *= action["factor"]
     return data
 
 
@@ -49,7 +65,8 @@ def validate_clean(data: pd.DataFrame, symbol: str) -> None:
         raise ValueError(f"{symbol}: missing values remain")
 
 
-def quality_row(symbol: str, raw_rows: int, clean: pd.DataFrame | None, calendar: pd.DatetimeIndex | None, note: str = "") -> dict:
+def quality_row(symbol: str, raw_rows: int, clean: pd.DataFrame | None, calendar: pd.DatetimeIndex | None,
+                note: str = "", zero_volume: int = 0) -> dict:
     """Describe one symbol's data quality."""
     row = {
         "Ticker": config.short_name(symbol),
@@ -60,7 +77,7 @@ def quality_row(symbol: str, raw_rows: int, clean: pd.DataFrame | None, calendar
         "First Date": None,
         "Last Date": None,
         "Coverage": 0.0,
-        "Zero Volume Days": 0,
+        "Zero Volume Rows Dropped": 0,
         "Suspicious Moves": 0,
         "Status": "Missing",
         "Notes": note,
@@ -72,7 +89,7 @@ def quality_row(symbol: str, raw_rows: int, clean: pd.DataFrame | None, calendar
     row.update({
         "First Date": clean.index.min().date().isoformat(),
         "Last Date": clean.index.max().date().isoformat(),
-        "Zero Volume Days": int((clean["Volume"] == 0).sum()),
+        "Zero Volume Rows Dropped": zero_volume,
         "Suspicious Moves": int((returns.abs() > config.SUSPICIOUS_DAILY_MOVE).sum()),
     })
     if calendar is not None and len(calendar):
@@ -88,6 +105,8 @@ def quality_row(symbol: str, raw_rows: int, clean: pd.DataFrame | None, calendar
         row["Notes"] = row["Notes"] or f"data starts {row['First Date']} (listing, demerger or symbol change)"
     else:
         row["Status"] = "Full history"
+    for action in config.CORPORATE_ACTIONS.get(symbol, []):
+        row["Notes"] = (row["Notes"] + "; " if row["Notes"] else "") + f"adjusted for {action['note']}"
     if row["Suspicious Moves"]:
         row["Notes"] = (row["Notes"] + "; " if row["Notes"] else "") + "large daily moves flagged for review"
     return row
@@ -98,6 +117,7 @@ def run(paths: Paths = Paths()) -> tuple[pd.DataFrame, pd.DataFrame]:
     paths.ensure()
     cleaned: dict[str, pd.DataFrame] = {}
     raw_rows: dict[str, int] = {}
+    zero_volume: dict[str, int] = {}
     errors: dict[str, str] = {}
 
     for symbol in config.all_symbols():
@@ -108,6 +128,8 @@ def run(paths: Paths = Paths()) -> tuple[pd.DataFrame, pd.DataFrame]:
             continue
         raw = pd.read_csv(path)
         raw_rows[symbol] = len(raw)
+        if "Volume" in raw.columns:
+            zero_volume[symbol] = int((pd.to_numeric(raw["Volume"], errors="coerce") == 0).sum())
         try:
             cleaned[symbol] = clean_prices(raw, symbol)
         except ValueError as error:
@@ -118,7 +140,7 @@ def run(paths: Paths = Paths()) -> tuple[pd.DataFrame, pd.DataFrame]:
     calendar = cleaned[config.BENCHMARK].index
 
     quality = pd.DataFrame([
-        quality_row(symbol, raw_rows[symbol], cleaned.get(symbol), calendar, errors.get(symbol, ""))
+        quality_row(symbol, raw_rows[symbol], cleaned.get(symbol), calendar, errors.get(symbol, ""), zero_volume.get(symbol, 0))
         for symbol in config.all_symbols()
     ])
     benchmark_mask = quality["Symbol"] == config.BENCHMARK

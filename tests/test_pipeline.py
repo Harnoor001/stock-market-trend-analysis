@@ -129,3 +129,31 @@ def test_ist_dates_are_not_shifted_to_previous_day():
     assert list(extracted["Date"].dt.strftime("%Y-%m-%d")) == ["2024-01-02", "2024-01-03"]
     assert list(extracted.columns) == ["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"]
     assert _extract_symbol(downloaded, "INFY.NS").empty
+
+
+def test_zero_volume_rows_are_dropped():
+    raw = pd.DataFrame({
+        "Date": ["2026-04-30", "2026-05-01", "2026-05-04"],
+        "Open": [10, 10, 11], "High": [10, 10, 11], "Low": [10, 10, 11],
+        "Close": [10, 10, 11], "Adj Close": [10, 10, 11], "Volume": [500, 0, 700],
+    })
+    clean = data_cleaning.clean_prices(raw, "TEST")
+    assert list(clean.index.strftime("%Y-%m-%d")) == ["2026-04-30", "2026-05-04"]
+
+
+def test_spin_off_is_back_adjusted(monkeypatch):
+    monkeypatch.setitem(config.CORPORATE_ACTIONS, "DEMO.NS", [{"ex_date": "2025-10-14", "factor": 400 / 660.75, "note": "demo"}])
+    raw = pd.DataFrame({
+        "Date": ["2025-10-10", "2025-10-13", "2025-10-14", "2025-10-15"],
+        "Open": [670, 665, 400, 395], "High": [680, 670, 401, 397], "Low": [660, 655, 390, 388],
+        "Close": [678.95, 660.75, 395.45, 390.85], "Adj Close": [678.95, 660.75, 395.45, 390.85],
+        "Volume": [1, 1, 1, 1],
+    })
+    clean = data_cleaning.clean_prices(raw, "DEMO.NS")
+    returns = clean["Adj Close"].pct_change()
+    assert clean.loc["2025-10-13", "Close"] == pytest.approx(400.0)
+    assert returns.loc["2025-10-14"] == pytest.approx(395.45 / 400 - 1)  # genuine move, not -40%
+    assert returns.loc["2025-10-13"] == pytest.approx(660.75 / 678.95 - 1)  # earlier returns unchanged
+    assert clean.loc["2025-10-15", "Close"] == pytest.approx(390.85)  # post ex-date untouched
+    row = data_cleaning.quality_row("DEMO.NS", 4, clean, clean.index)
+    assert "adjusted for demo" in row["Notes"]
