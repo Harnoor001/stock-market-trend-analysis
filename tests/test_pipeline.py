@@ -113,3 +113,19 @@ def test_insights_mention_key_sections(pipeline_results):
     for heading in ["BENCHMARK", "PERFORMANCE", "RISK", "SECTORS", "CORRELATION", "DATA NOTES"]:
         assert heading in text
     assert config.short_name(LATE_LISTING) in text
+
+
+def test_ist_dates_are_not_shifted_to_previous_day():
+    from src.data_collection import _extract_symbol, to_trading_date
+
+    ist = pd.Series(pd.DatetimeIndex(["2024-01-02", "2024-01-03"]).tz_localize("Asia/Kolkata"))
+    assert list(to_trading_date(ist).dt.strftime("%Y-%m-%d")) == ["2024-01-02", "2024-01-03"]
+
+    # Shape of a real yfinance batch result: (symbol, field) columns, tz-aware index.
+    index = pd.DatetimeIndex(["2024-01-02", "2024-01-03"], name="Date").tz_localize("Asia/Kolkata")
+    columns = pd.MultiIndex.from_product([["TCS.NS"], ["Open", "High", "Low", "Close", "Adj Close", "Volume"]])
+    downloaded = pd.DataFrame(1.0, index=index, columns=columns)
+    extracted = _extract_symbol(downloaded, "TCS.NS")
+    assert list(extracted["Date"].dt.strftime("%Y-%m-%d")) == ["2024-01-02", "2024-01-03"]
+    assert list(extracted.columns) == ["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"]
+    assert _extract_symbol(downloaded, "INFY.NS").empty

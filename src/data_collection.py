@@ -16,6 +16,19 @@ from src.config import Paths
 RAW_COLUMNS = ["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"]
 
 
+def to_trading_date(values: pd.Series) -> pd.Series:
+    """Convert timestamps to plain trading dates in the *exchange's* local time.
+
+    Yahoo can return NSE dates as midnight Asia/Kolkata. Converting those to UTC
+    first would move every date back a day (00:00 IST = 18:30 UTC the day before),
+    so a time zone is dropped while keeping the local wall-clock date.
+    """
+    dates = pd.to_datetime(values, errors="coerce")
+    if getattr(dates.dt, "tz", None) is not None:
+        dates = dates.dt.tz_localize(None)
+    return dates.dt.normalize()
+
+
 def _extract_symbol(downloaded: pd.DataFrame, symbol: str) -> pd.DataFrame:
     """Pull one symbol out of a (possibly multi-index) yfinance result."""
     data = downloaded
@@ -30,7 +43,7 @@ def _extract_symbol(downloaded: pd.DataFrame, symbol: str) -> pd.DataFrame:
     data = data.rename(columns={"Datetime": "Date"})
     if "Date" not in data.columns:
         return pd.DataFrame(columns=RAW_COLUMNS)
-    data["Date"] = pd.to_datetime(data["Date"], errors="coerce", utc=True).dt.tz_localize(None).dt.normalize()
+    data["Date"] = to_trading_date(data["Date"])
     data = data[[column for column in RAW_COLUMNS if column in data.columns]]
     return data.dropna(how="all", subset=[c for c in RAW_COLUMNS[1:] if c in data.columns])
 
