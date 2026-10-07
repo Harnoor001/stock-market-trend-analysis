@@ -79,6 +79,7 @@ def quality_row(symbol: str, raw_rows: int, clean: pd.DataFrame | None, calendar
         "Coverage": 0.0,
         "Zero Volume Rows Dropped": 0,
         "Suspicious Moves": 0,
+        "Verified Large Moves": 0,
         "Status": "Missing",
         "Notes": note,
     }
@@ -86,11 +87,15 @@ def quality_row(symbol: str, raw_rows: int, clean: pd.DataFrame | None, calendar
         return row
 
     returns = clean["Adj Close"].pct_change().dropna()
+    large = returns[returns.abs() > config.SUSPICIOUS_DAILY_MOVE]
+    verified = config.VERIFIED_MOVES.get(symbol, {})
+    unverified = [d for d in large.index if d.date().isoformat() not in verified]
     row.update({
         "First Date": clean.index.min().date().isoformat(),
         "Last Date": clean.index.max().date().isoformat(),
         "Zero Volume Rows Dropped": zero_volume,
-        "Suspicious Moves": int((returns.abs() > config.SUSPICIOUS_DAILY_MOVE).sum()),
+        "Suspicious Moves": len(unverified),
+        "Verified Large Moves": len(large) - len(unverified),
     })
     if calendar is not None and len(calendar):
         row["Coverage"] = float(clean.index.isin(calendar).sum() / len(calendar))
@@ -108,7 +113,11 @@ def quality_row(symbol: str, raw_rows: int, clean: pd.DataFrame | None, calendar
     for action in config.CORPORATE_ACTIONS.get(symbol, []):
         row["Notes"] = (row["Notes"] + "; " if row["Notes"] else "") + f"adjusted for {action['note']}"
     if row["Suspicious Moves"]:
-        row["Notes"] = (row["Notes"] + "; " if row["Notes"] else "") + "large daily moves flagged for review"
+        days = ", ".join(d.date().isoformat() for d in unverified)
+        row["Notes"] = (row["Notes"] + "; " if row["Notes"] else "") + f"unexplained large moves on {days}: review"
+    if row["Verified Large Moves"]:
+        row["Notes"] = (row["Notes"] + "; " if row["Notes"] else "") + "large moves checked: " + "; ".join(
+            f"{day} {reason}" for day, reason in verified.items())
     return row
 
 

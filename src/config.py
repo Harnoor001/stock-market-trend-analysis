@@ -72,15 +72,22 @@ UNIVERSE: dict[str, tuple[str, str]] = {
 BENCHMARK = "NIFTYBEES.NS"
 BENCHMARK_NAME = "Nifty 50 (Nifty BeES ETF, total return)"
 
-# Corporate actions Yahoo's adjusted close does not handle. Yahoo adjusts for
-# splits and dividends but not spin-offs, so a demerger shows up as a fake crash.
-# Prices before `ex_date` are multiplied by `factor` (the same back-adjustment
-# used for splits), leaving the ex-date return as the genuine market move.
+# Price corrections for events Yahoo's adjusted close gets wrong, found by
+# auditing the data-quality report. Prices before `ex_date` are multiplied by
+# `factor` (the standard split-style back-adjustment), so the return on
+# `ex_date` becomes the genuine market move instead of a fake crash.
 CORPORATE_ACTIONS: dict[str, list[dict]] = {
     "TMPV.NS": [{
         "ex_date": "2025-10-14",
         "factor": 400.00 / 660.75,  # PV price discovered in special session / prior Tata Motors close
         "note": "Tata Motors demerger: CV business spun off 1:1 (price discovery ₹400 vs ₹660.75 close)",
+    }],
+    "TRENT.NS": [{
+        # Yahoo applied the June 2026 1:2 bonus adjustment (x 2/3) only to prices
+        # from 2026-01-01, leaving a fake -33% day; finish the adjustment.
+        "ex_date": "2026-01-01",
+        "factor": 2 / 3,
+        "note": "1:2 bonus (Jun 2026) that Yahoo only partly adjusted",
     }],
 }
 
@@ -106,7 +113,16 @@ SMA_WINDOWS = {"SMA20": 20, "SMA50": 50, "SMA200": 200}
 # Data-quality rules
 MIN_OBSERVATIONS = 252  # stocks with less than ~1 year of data are excluded
 FULL_HISTORY_COVERAGE = 0.95  # share of benchmark days needed to count as full history
-SUSPICIOUS_DAILY_MOVE = 0.40  # |daily return| above this is flagged for review
+SUSPICIOUS_DAILY_MOVE = 0.25  # |daily return| above this is flagged for review
+
+# Large moves checked against news and confirmed genuine, so the quality
+# report shows them as reviewed rather than open flags.
+VERIFIED_MOVES: dict[str, dict[str, str]] = {
+    "ADANIENT.NS": {
+        "2023-02-01": "Hindenburg report sell-off",
+        "2023-02-02": "Hindenburg report sell-off",
+    },
+}
 
 DOWNLOAD_ATTEMPTS = 3
 

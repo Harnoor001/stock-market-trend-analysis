@@ -157,3 +157,14 @@ def test_spin_off_is_back_adjusted(monkeypatch):
     assert clean.loc["2025-10-15", "Close"] == pytest.approx(390.85)  # post ex-date untouched
     row = data_cleaning.quality_row("DEMO.NS", 4, clean, clean.index)
     assert "adjusted for demo" in row["Notes"]
+
+
+def test_large_moves_are_flagged_unless_verified(monkeypatch):
+    dates = pd.bdate_range("2024-01-01", periods=5)
+    clean = pd.DataFrame({c: [100, 101, 70, 71, 72] for c in data_cleaning.PRICE_COLUMNS}, index=dates, dtype="float64")
+    row = data_cleaning.quality_row("X.NS", 5, clean, dates)
+    assert row["Suspicious Moves"] == 1 and "2024-01-03" in row["Notes"]
+    monkeypatch.setitem(config.VERIFIED_MOVES, "X.NS", {"2024-01-03": "known event"})
+    row = data_cleaning.quality_row("X.NS", 5, clean, dates)
+    assert row["Suspicious Moves"] == 0 and row["Verified Large Moves"] == 1
+    assert "known event" in row["Notes"]
