@@ -1,0 +1,62 @@
+NIFTY 50 MARKET ANALYSIS
+========================
+
+Period: 2021-10-04 to 2026-09-30 (1238 trading days)
+Universe: 50 stocks with data; 49 with full history.
+Benchmark: Nifty 50 (Nifty BeES ETF, total return)
+Risk-free rate assumption: 6.0% a year
+
+BENCHMARK
+---------
+CAGR 6.6%, volatility 12.6%, Sharpe 0.10, max drawdown -16.1%
+
+PERFORMANCE (full-history stocks)
+---------------------------------
+Highest CAGR: BSE (90.8%), BEL (44.6%), SHRIRAMFIN (33.5%)
+Lowest CAGR: TCS (-8.9%), INFY (-7.4%), HDFCLIFE (-6.3%)
+Best risk-adjusted (Sharpe): BSE (1.43), BEL (1.15), M&M (0.89)
+34 of 49 stocks beat the benchmark's CAGR over the same dates.
+
+RISK
+----
+Most volatile: BSE (49.3%), ADANIENT (48.3%), ETERNAL (45.9%)
+Least volatile: NESTLEIND (19.2%), ITC (19.9%), SUNPHARMA (20.0%)
+Deepest drawdown: TMPV (-75.4%, trough 2026-09-29)
+Stocks still below their pre-drawdown peak: 17 of 49
+Highest beta: ADANIENT (1.84), ADANIPORTS (1.67), SHRIRAMFIN (1.55)
+
+SECTORS (median of full-history stocks)
+---------------------------------------
+Capital Goods: CAGR 44.6%, volatility 31.3%, Sharpe 1.15 (1 stock)
+Automobile: CAGR 22.5%, volatility 26.2%, Sharpe 0.68 (5 stocks)
+Telecommunication: CAGR 22.3%, volatility 21.4%, Sharpe 0.78 (1 stock)
+Services: CAGR 20.7%, volatility 34.2%, Sharpe 0.55 (2 stocks)
+Power: CAGR 20.6%, volatility 24.9%, Sharpe 0.64 (2 stocks)
+Consumer Services: CAGR 19.7%, volatility 41.8%, Sharpe 0.51 (2 stocks)
+Construction: CAGR 18.8%, volatility 24.4%, Sharpe 0.59 (1 stock)
+Oil, Gas & Fuels: CAGR 16.1%, volatility 28.2%, Sharpe 0.45 (3 stocks)
+Metals & Mining: CAGR 14.8%, volatility 31.2%, Sharpe 0.42 (4 stocks)
+Healthcare: CAGR 13.4%, volatility 22.8%, Sharpe 0.39 (5 stocks)
+Construction Materials: CAGR 11.3%, volatility 23.3%, Sharpe 0.32 (2 stocks)
+Financial Services: CAGR 7.3%, volatility 24.5%, Sharpe 0.17 (11 stocks)
+Consumer Durables: CAGR 6.1%, volatility 23.1%, Sharpe 0.08 (2 stocks)
+FMCG: CAGR 5.9%, volatility 20.2%, Sharpe 0.11 (4 stocks)
+Information Technology: CAGR -1.9%, volatility 25.5%, Sharpe -0.18 (4 stocks)
+
+CORRELATION
+-----------
+Average same-sector pair correlation 0.39 vs cross-sector 0.25.
+Most correlated pair: BAJAJFINSV-BAJFINANCE (0.79)
+Least correlated pair: HINDUNILVR-ONGC (-0.02)
+Market-wide 60-day average pairwise correlation ranged 0.10-0.47 (peak around 2022-02-25).
+
+TRENDS (latest observation)
+---------------------------
+Bearish: 23, Bullish: 2, Mixed: 24
+
+DATA NOTES
+----------
+Partial history (excluded from rankings): JIOFIN
+Excluded or missing: None
+Universe is today's Nifty 50, so it is survivorship-biased: stocks that left the index are not included.
+These are descriptive historical comparisons, not forecasts or investment advice.
