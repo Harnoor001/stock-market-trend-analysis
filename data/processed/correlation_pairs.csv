@@ -1,1226 +1,1226 @@
 Stock A,Stock B,Sector A,Sector B,Same Sector,Correlation
-BAJAJFINSV,BAJFINANCE,Financial Services,Financial Services,True,0.7910624868689192
-JSWSTEEL,TATASTEEL,Metals & Mining,Metals & Mining,True,0.7763763781738541
-ADANIENT,ADANIPORTS,Metals & Mining,Services,False,0.7742709416676442
-INFY,TCS,Information Technology,Information Technology,True,0.7304875025021749
-HINDALCO,TATASTEEL,Metals & Mining,Metals & Mining,True,0.701513756612616
-HCLTECH,INFY,Information Technology,Information Technology,True,0.6945298933416046
-INFY,TECHM,Information Technology,Information Technology,True,0.6885717821123409
-HCLTECH,TCS,Information Technology,Information Technology,True,0.6805068804973134
-TCS,TECHM,Information Technology,Information Technology,True,0.6477357835836636
-GRASIM,ULTRACEMCO,Construction Materials,Construction Materials,True,0.6366320708312061
-HCLTECH,TECHM,Information Technology,Information Technology,True,0.6320743923094767
-HINDALCO,JSWSTEEL,Metals & Mining,Metals & Mining,True,0.6250393700778122
-HDFCLIFE,SBILIFE,Financial Services,Financial Services,True,0.6146623739755745
-NTPC,POWERGRID,Power,Power,True,0.5881408754335063
-AXISBANK,ICICIBANK,Financial Services,Financial Services,True,0.5751578837549443
-AXISBANK,SBIN,Financial Services,Financial Services,True,0.5336561147676258
-GRASIM,JSWSTEEL,Construction Materials,Metals & Mining,False,0.5195764191011838
-COALINDIA,NTPC,"Oil, Gas & Fuels",Power,False,0.516046366794344
-ICICIBANK,SBIN,Financial Services,Financial Services,True,0.5115411641252404
-COALINDIA,ONGC,"Oil, Gas & Fuels","Oil, Gas & Fuels",True,0.5062255255442687
-EICHERMOT,MARUTI,Automobile,Automobile,True,0.5054128404088667
-TATASTEEL,COALINDIA,Metals & Mining,"Oil, Gas & Fuels",False,0.503485825121501
-SBIN,ADANIPORTS,Financial Services,Services,False,0.500740615874965
-M&M,TMPV,Automobile,Automobile,True,0.48925693997273245
-HDFCBANK,ICICIBANK,Financial Services,Financial Services,True,0.48793035904329096
-M&M,MARUTI,Automobile,Automobile,True,0.4843516815732059
-HINDUNILVR,NESTLEIND,FMCG,FMCG,True,0.4748105315864537
-EICHERMOT,M&M,Automobile,Automobile,True,0.4740010082348466
-ONGC,NTPC,"Oil, Gas & Fuels",Power,False,0.4700820353051378
-HDFCBANK,KOTAKBANK,Financial Services,Financial Services,True,0.4693828684046007
-JIOFIN,ADANIPORTS,Financial Services,Services,False,0.46823375732397715
-BEL,SBIN,Capital Goods,Financial Services,False,0.4638837540373213
-LT,SBIN,Construction,Financial Services,False,0.46362825158360355
-GRASIM,TATASTEEL,Construction Materials,Metals & Mining,False,0.46307061834776553
-BEL,ADANIPORTS,Capital Goods,Services,False,0.4609163219995228
-BAJFINANCE,SHRIRAMFIN,Financial Services,Financial Services,True,0.4588488638759448
-SBIN,SHRIRAMFIN,Financial Services,Financial Services,True,0.4580942201656455
-BAJAJFINSV,SHRIRAMFIN,Financial Services,Financial Services,True,0.4577926434819791
-LT,ULTRACEMCO,Construction,Construction Materials,False,0.45686028189773076
-ICICIBANK,KOTAKBANK,Financial Services,Financial Services,True,0.4568492421243154
-GRASIM,SBIN,Construction Materials,Financial Services,False,0.4558567769262901
-TATASTEEL,NTPC,Metals & Mining,Power,False,0.45549778364782206
-BEL,COALINDIA,Capital Goods,"Oil, Gas & Fuels",False,0.4549597481739031
-JIOFIN,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.45484567038878215
-SBIN,NTPC,Financial Services,Power,False,0.4514791060803121
-BEL,NTPC,Capital Goods,Power,False,0.4509265866353672
-TMPV,TATASTEEL,Automobile,Metals & Mining,False,0.44808778494438134
-AXISBANK,HDFCBANK,Financial Services,Financial Services,True,0.44805306825953517
-LT,SHRIRAMFIN,Construction,Financial Services,False,0.447334824347151
-LT,GRASIM,Construction,Construction Materials,False,0.4472714126035048
-LT,TATASTEEL,Construction,Metals & Mining,False,0.4464805737507112
-GRASIM,BAJAJFINSV,Construction Materials,Financial Services,False,0.44577810818594643
-JIOFIN,ADANIENT,Financial Services,Metals & Mining,False,0.44466463885526925
-BAJAJFINSV,SBIN,Financial Services,Financial Services,True,0.44365258909026434
-BEL,LT,Capital Goods,Construction,False,0.441356599985941
-AXISBANK,BAJAJFINSV,Financial Services,Financial Services,True,0.4404565275148433
-AXISBANK,SHRIRAMFIN,Financial Services,Financial Services,True,0.43968042300210713
-HINDALCO,COALINDIA,Metals & Mining,"Oil, Gas & Fuels",False,0.43958241855454117
-ULTRACEMCO,JSWSTEEL,Construction Materials,Metals & Mining,False,0.43753087112399586
-LT,JSWSTEEL,Construction,Metals & Mining,False,0.4332940882498204
-NTPC,ADANIPORTS,Power,Services,False,0.43325652944167437
-SBIN,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.4329027558421395
-LT,RELIANCE,Construction,"Oil, Gas & Fuels",False,0.4312085473931943
-LT,ADANIPORTS,Construction,Services,False,0.4309559553550824
-BAJFINANCE,HDFCBANK,Financial Services,Financial Services,True,0.4308779377448518
-TMPV,LT,Automobile,Construction,False,0.4304113236679951
-SBIN,ADANIENT,Financial Services,Metals & Mining,False,0.43034592780584846
-LT,JIOFIN,Construction,Financial Services,False,0.4300830488367596
-JIOFIN,SHRIRAMFIN,Financial Services,Financial Services,True,0.42916089497074794
-JIOFIN,TATASTEEL,Financial Services,Metals & Mining,False,0.4282580572731265
-MARUTI,TMPV,Automobile,Automobile,True,0.42731034846267124
-HINDUNILVR,TATACONSUM,FMCG,FMCG,True,0.4264495241868343
-ULTRACEMCO,BAJAJFINSV,Construction Materials,Financial Services,False,0.42626945394151206
-BAJFINANCE,SBIN,Financial Services,Financial Services,True,0.4247771562788634
-BAJAJ-AUTO,EICHERMOT,Automobile,Automobile,True,0.42440478335530973
-BEL,TATASTEEL,Capital Goods,Metals & Mining,False,0.42381430659085934
-BAJAJFINSV,ICICIBANK,Financial Services,Financial Services,True,0.4234244072102091
-M&M,ULTRACEMCO,Automobile,Construction Materials,False,0.4220043838946982
-GRASIM,ICICIBANK,Construction Materials,Financial Services,False,0.4216865540795862
-TMPV,JIOFIN,Automobile,Financial Services,False,0.4199123899863255
-BAJFINANCE,ICICIBANK,Financial Services,Financial Services,True,0.4190748866861307
-BAJAJ-AUTO,MARUTI,Automobile,Automobile,True,0.4189971552899282
-RELIANCE,ADANIPORTS,"Oil, Gas & Fuels",Services,False,0.41895897468775795
-AXISBANK,BAJFINANCE,Financial Services,Financial Services,True,0.4169751704353911
-ULTRACEMCO,INDIGO,Construction Materials,Services,False,0.4166936950428924
-JIOFIN,INDIGO,Financial Services,Services,False,0.41545960062372017
-GRASIM,HINDALCO,Construction Materials,Metals & Mining,False,0.4151734743203856
-NESTLEIND,TATACONSUM,FMCG,FMCG,True,0.4150810043232238
-CIPLA,DRREDDY,Healthcare,Healthcare,True,0.4139397286794385
-BAJAJFINSV,SBILIFE,Financial Services,Financial Services,True,0.41349351340191065
-M&M,BAJAJFINSV,Automobile,Financial Services,False,0.4133544602155124
-GRASIM,BAJFINANCE,Construction Materials,Financial Services,False,0.4128162675977107
-SBIN,TATASTEEL,Financial Services,Metals & Mining,False,0.4127508333889299
-ULTRACEMCO,BAJFINANCE,Construction Materials,Financial Services,False,0.4125208938080477
-LT,HDFCBANK,Construction,Financial Services,False,0.41233256891160525
-BAJFINANCE,KOTAKBANK,Financial Services,Financial Services,True,0.411956813857707
-LT,ICICIBANK,Construction,Financial Services,False,0.4113118610543605
-ULTRACEMCO,ICICIBANK,Construction Materials,Financial Services,False,0.4107175164609571
-ICICIBANK,SHRIRAMFIN,Financial Services,Financial Services,True,0.40954289946249467
-GRASIM,ADANIPORTS,Construction Materials,Services,False,0.4094817965514816
-SBIN,JSWSTEEL,Financial Services,Metals & Mining,False,0.4088748053288609
-TATASTEEL,ONGC,Metals & Mining,"Oil, Gas & Fuels",False,0.40886599083668357
-BAJAJFINSV,HDFCBANK,Financial Services,Financial Services,True,0.40863033741975074
-HDFCBANK,SBIN,Financial Services,Financial Services,True,0.40862743526851214
-ULTRACEMCO,SBIN,Construction Materials,Financial Services,False,0.40835026715182643
-JSWSTEEL,NTPC,Metals & Mining,Power,False,0.40805687315049777
-LT,NTPC,Construction,Power,False,0.40789098168345816
-BAJAJ-AUTO,M&M,Automobile,Automobile,True,0.40777735509239
-TITAN,BAJAJFINSV,Consumer Durables,Financial Services,False,0.4075732398326898
-AXISBANK,KOTAKBANK,Financial Services,Financial Services,True,0.40753357887748853
-TMPV,SHRIRAMFIN,Automobile,Financial Services,False,0.4068179968698747
-TATASTEEL,RELIANCE,Metals & Mining,"Oil, Gas & Fuels",False,0.4065207310046364
-BAJAJFINSV,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.40641224472653553
-SHRIRAMFIN,INDIGO,Financial Services,Services,False,0.40485427058666873
-TMPV,JSWSTEEL,Automobile,Metals & Mining,False,0.40480965922835827
-HINDALCO,ONGC,Metals & Mining,"Oil, Gas & Fuels",False,0.40378960816129006
-ULTRACEMCO,TATASTEEL,Construction Materials,Metals & Mining,False,0.4031218054654918
-JSWSTEEL,COALINDIA,Metals & Mining,"Oil, Gas & Fuels",False,0.4028194987707534
-LT,AXISBANK,Construction,Financial Services,False,0.40228786246642767
-GRASIM,AXISBANK,Construction Materials,Financial Services,False,0.4017634056425306
-JSWSTEEL,ADANIPORTS,Metals & Mining,Services,False,0.4017532389875289
-EICHERMOT,GRASIM,Automobile,Construction Materials,False,0.4012568450723986
-TMPV,ULTRACEMCO,Automobile,Construction Materials,False,0.4009685579072758
-ULTRACEMCO,SHRIRAMFIN,Construction Materials,Financial Services,False,0.40005928146968944
-EICHERMOT,TMPV,Automobile,Automobile,True,0.3993357298669087
-TMPV,GRASIM,Automobile,Construction Materials,False,0.39831536567369236
-BAJAJFINSV,KOTAKBANK,Financial Services,Financial Services,True,0.3981830329903273
-GRASIM,SHRIRAMFIN,Construction Materials,Financial Services,False,0.3965562186833796
-BEL,JIOFIN,Capital Goods,Financial Services,False,0.3940140062862693
-ULTRACEMCO,HDFCBANK,Construction Materials,Financial Services,False,0.39399277628936125
-M&M,BAJFINANCE,Automobile,Financial Services,False,0.3938918990714479
-TMPV,SBIN,Automobile,Financial Services,False,0.3934936900887481
-TATASTEEL,ADANIPORTS,Metals & Mining,Services,False,0.39310006743449305
-LT,BAJAJFINSV,Construction,Financial Services,False,0.39238704756506254
-GRASIM,HDFCBANK,Construction Materials,Financial Services,False,0.3915304112845413
-BAJAJFINSV,ADANIPORTS,Financial Services,Services,False,0.39056527874799696
-TMPV,TITAN,Automobile,Consumer Durables,False,0.3904456329231722
-GRASIM,INDIGO,Construction Materials,Services,False,0.39027185015949506
-SBIN,INDIGO,Financial Services,Services,False,0.3897555049445088
-JIOFIN,SBIN,Financial Services,Financial Services,True,0.3894459115051094
-BEL,JSWSTEEL,Capital Goods,Metals & Mining,False,0.38936839400291956
-M&M,SHRIRAMFIN,Automobile,Financial Services,False,0.38772203578206427
-TMPV,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.3861768971429346
-M&M,GRASIM,Automobile,Construction Materials,False,0.38616533775584316
-TITAN,BAJFINANCE,Consumer Durables,Financial Services,False,0.38551574209927875
-ULTRACEMCO,ADANIPORTS,Construction Materials,Services,False,0.38500281747507337
-GRASIM,RELIANCE,Construction Materials,"Oil, Gas & Fuels",False,0.383382513354382
-ICICIBANK,JSWSTEEL,Financial Services,Metals & Mining,False,0.3829775544968455
-M&M,INDIGO,Automobile,Services,False,0.3828658000577087
-JSWSTEEL,RELIANCE,Metals & Mining,"Oil, Gas & Fuels",False,0.38161969546736485
-KOTAKBANK,SBIN,Financial Services,Financial Services,True,0.38155812409407724
-BAJAJFINSV,TATASTEEL,Financial Services,Metals & Mining,False,0.38128893308385287
-HDFCBANK,SHRIRAMFIN,Financial Services,Financial Services,True,0.38095415900569424
-TMPV,BAJAJFINSV,Automobile,Financial Services,False,0.38078534036727796
-BAJFINANCE,ADANIPORTS,Financial Services,Services,False,0.3806653513336461
-ASIANPAINT,HINDUNILVR,Consumer Durables,FMCG,False,0.3804011010224463
-GRASIM,TITAN,Construction Materials,Consumer Durables,False,0.3799627568277209
-LT,BAJFINANCE,Construction,Financial Services,False,0.3797037469800442
-SHRIRAMFIN,ADANIPORTS,Financial Services,Services,False,0.37936002794333473
-BEL,HINDALCO,Capital Goods,Metals & Mining,False,0.3791675516622981
-JIOFIN,NTPC,Financial Services,Power,False,0.3791460811501386
-AXISBANK,JIOFIN,Financial Services,Financial Services,True,0.3790720110801232
-LT,INDIGO,Construction,Services,False,0.3784186075744882
-TMPV,INDIGO,Automobile,Services,False,0.3779167779728814
-EICHERMOT,SBIN,Automobile,Financial Services,False,0.37698546226919544
-ULTRACEMCO,AXISBANK,Construction Materials,Financial Services,False,0.3769170193725514
-ULTRACEMCO,ASIANPAINT,Construction Materials,Consumer Durables,False,0.37668716192135904
-M&M,LT,Automobile,Construction,False,0.37596021309388594
-BAJAJFINSV,HDFCLIFE,Financial Services,Financial Services,True,0.37574622058890494
-BEL,POWERGRID,Capital Goods,Power,False,0.375580209695092
-BAJFINANCE,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.3753812198166116
-RELIANCE,NTPC,"Oil, Gas & Fuels",Power,False,0.37414595877814233
-EICHERMOT,ULTRACEMCO,Automobile,Construction Materials,False,0.37403664799536473
-COALINDIA,RELIANCE,"Oil, Gas & Fuels","Oil, Gas & Fuels",True,0.37401269613349414
-MARUTI,BAJFINANCE,Automobile,Financial Services,False,0.37380533849143543
-BAJAJFINSV,JSWSTEEL,Financial Services,Metals & Mining,False,0.37341240720370517
-MARUTI,INDIGO,Automobile,Services,False,0.37320509401584
-CIPLA,SUNPHARMA,Healthcare,Healthcare,True,0.37184667527749704
-GRASIM,TATACONSUM,Construction Materials,FMCG,False,0.3706243180152747
-M&M,TITAN,Automobile,Consumer Durables,False,0.37049001800362247
-HDFCBANK,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.36860119025391125
-COALINDIA,ADANIPORTS,"Oil, Gas & Fuels",Services,False,0.3683089394976292
-BAJAJ-AUTO,TMPV,Automobile,Automobile,True,0.36788557662620525
-EICHERMOT,LT,Automobile,Construction,False,0.3675226032921563
-MARUTI,BAJAJFINSV,Automobile,Financial Services,False,0.3671271368969906
-M&M,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.36642466169117327
-AXISBANK,JSWSTEEL,Financial Services,Metals & Mining,False,0.36516330004401143
-LT,HINDALCO,Construction,Metals & Mining,False,0.36466962546806814
-GRASIM,NTPC,Construction Materials,Power,False,0.3646317822191468
-POWERGRID,ADANIPORTS,Power,Services,False,0.36453717797123636
-ICICIBANK,INDIGO,Financial Services,Services,False,0.3635862810335597
-ICICIBANK,ADANIPORTS,Financial Services,Services,False,0.36327217549156127
-BEL,SHRIRAMFIN,Capital Goods,Financial Services,False,0.36304925925195247
-HDFCBANK,JIOFIN,Financial Services,Financial Services,True,0.3625531273912269
-COALINDIA,POWERGRID,"Oil, Gas & Fuels",Power,False,0.3622224212034245
-BEL,ADANIENT,Capital Goods,Metals & Mining,False,0.36221457016801517
-TMPV,ADANIPORTS,Automobile,Services,False,0.3615209418555428
-MARUTI,TITAN,Automobile,Consumer Durables,False,0.3614647694149904
-M&M,ICICIBANK,Automobile,Financial Services,False,0.3610793291248299
-M&M,SBIN,Automobile,Financial Services,False,0.3606552495900822
-TMPV,BEL,Automobile,Capital Goods,False,0.3605963819137268
-MARUTI,LT,Automobile,Construction,False,0.3603533056238137
-HINDALCO,RELIANCE,Metals & Mining,"Oil, Gas & Fuels",False,0.360215816657411
-MARUTI,SBIN,Automobile,Financial Services,False,0.36003440387753816
-LT,TITAN,Construction,Consumer Durables,False,0.3597429787946295
-ADANIENT,NTPC,Metals & Mining,Power,False,0.3589696204983344
-BAJFINANCE,JSWSTEEL,Financial Services,Metals & Mining,False,0.3587054478752931
-SHRIRAMFIN,JSWSTEEL,Financial Services,Metals & Mining,False,0.35846905836014387
-BAJAJFINSV,INDIGO,Financial Services,Services,False,0.3576703927027383
-BEL,RELIANCE,Capital Goods,"Oil, Gas & Fuels",False,0.3575488154845974
-ULTRACEMCO,RELIANCE,Construction Materials,"Oil, Gas & Fuels",False,0.35739304523725934
-HDFCBANK,ADANIPORTS,Financial Services,Services,False,0.3572055941952423
-ULTRACEMCO,TITAN,Construction Materials,Consumer Durables,False,0.35705902417249363
-SHRIRAMFIN,NTPC,Financial Services,Power,False,0.35682370908263084
-SBIN,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.35650045149064746
-GRASIM,ASIANPAINT,Construction Materials,Consumer Durables,False,0.35624472384737005
-BEL,ONGC,Capital Goods,"Oil, Gas & Fuels",False,0.35558016649874635
-LT,SBILIFE,Construction,Financial Services,False,0.3554403718106031
-ULTRACEMCO,JIOFIN,Construction Materials,Financial Services,False,0.35530159170294284
-BAJAJFINSV,JIOFIN,Financial Services,Financial Services,True,0.35508219027765053
-BAJFINANCE,INDIGO,Financial Services,Services,False,0.3550168672250876
-GRASIM,SBILIFE,Construction Materials,Financial Services,False,0.3548721184648775
-GRASIM,KOTAKBANK,Construction Materials,Financial Services,False,0.3548273107103494
-MARUTI,ULTRACEMCO,Automobile,Construction Materials,False,0.35471254043903183
-M&M,ADANIPORTS,Automobile,Services,False,0.35463535494688575
-DRREDDY,SUNPHARMA,Healthcare,Healthcare,True,0.35439207365129266
-AXISBANK,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.35429163678832304
-GRASIM,HDFCLIFE,Construction Materials,Financial Services,False,0.35418806254800295
-M&M,JSWSTEEL,Automobile,Metals & Mining,False,0.35401222762252804
-MARUTI,AXISBANK,Automobile,Financial Services,False,0.3539650018578406
-HINDALCO,NTPC,Metals & Mining,Power,False,0.353218566727065
-TMPV,HINDALCO,Automobile,Metals & Mining,False,0.35299594327878775
-HINDUNILVR,ITC,FMCG,FMCG,True,0.35295577677474577
-ADANIPORTS,INDIGO,Services,Services,True,0.35272410179235214
-ASIANPAINT,BAJAJFINSV,Consumer Durables,Financial Services,False,0.35222117583625423
-EICHERMOT,ICICIBANK,Automobile,Financial Services,False,0.3521528346061015
-M&M,HDFCBANK,Automobile,Financial Services,False,0.35188190627418975
-TMPV,NTPC,Automobile,Power,False,0.3518341401189693
-SHRIRAMFIN,TATASTEEL,Financial Services,Metals & Mining,False,0.3501449468748957
-EICHERMOT,AXISBANK,Automobile,Financial Services,False,0.34944451023484596
-AXISBANK,INDIGO,Financial Services,Services,False,0.34940384410967196
-HDFCBANK,JSWSTEEL,Financial Services,Metals & Mining,False,0.34936659844719653
-ULTRACEMCO,SBILIFE,Construction Materials,Financial Services,False,0.34918633991348813
-ULTRACEMCO,HDFCLIFE,Construction Materials,Financial Services,False,0.34901118800709025
-ASIANPAINT,TITAN,Consumer Durables,Consumer Durables,True,0.34876776789511743
-M&M,TRENT,Automobile,Consumer Services,False,0.34856150700051514
-AXISBANK,TATASTEEL,Financial Services,Metals & Mining,False,0.34837598147205456
-EICHERMOT,TITAN,Automobile,Consumer Durables,False,0.3481891732679462
-TITAN,TRENT,Consumer Durables,Consumer Services,False,0.34804821035922373
-AXISBANK,ADANIPORTS,Financial Services,Services,False,0.3480266655760756
-ONGC,RELIANCE,"Oil, Gas & Fuels","Oil, Gas & Fuels",True,0.3466641090358741
-ASIANPAINT,NESTLEIND,Consumer Durables,FMCG,False,0.34653235478874084
-MARUTI,GRASIM,Automobile,Construction Materials,False,0.3464380586680921
-BEL,GRASIM,Capital Goods,Construction Materials,False,0.34633190079599635
-GRASIM,JIOFIN,Construction Materials,Financial Services,False,0.34626729786185706
-GRASIM,ADANIENT,Construction Materials,Metals & Mining,False,0.346120113676271
-EICHERMOT,SHRIRAMFIN,Automobile,Financial Services,False,0.346087545735375
-ICICIBANK,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.3458658253380894
-JIOFIN,JSWSTEEL,Financial Services,Metals & Mining,False,0.34566683518134034
-EICHERMOT,BAJAJFINSV,Automobile,Financial Services,False,0.34472144545575
-ULTRACEMCO,KOTAKBANK,Construction Materials,Financial Services,False,0.3445947646544225
-LT,KOTAKBANK,Construction,Financial Services,False,0.3444394092034389
-TMPV,BAJFINANCE,Automobile,Financial Services,False,0.34443285614110564
-JSWSTEEL,ONGC,Metals & Mining,"Oil, Gas & Fuels",False,0.3440106723358288
-TRENT,INDIGO,Consumer Services,Services,False,0.34395827897080183
-EICHERMOT,JIOFIN,Automobile,Financial Services,False,0.3437412474786922
-EICHERMOT,JSWSTEEL,Automobile,Metals & Mining,False,0.3435197174335077
-ICICIBANK,TATASTEEL,Financial Services,Metals & Mining,False,0.34309533080797344
-MARUTI,ASIANPAINT,Automobile,Consumer Durables,False,0.34280766744013835
-TATASTEEL,INDIGO,Metals & Mining,Services,False,0.3421143519406281
-EICHERMOT,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.34198717547128954
-TITAN,JSWSTEEL,Consumer Durables,Metals & Mining,False,0.3419861722639614
-ADANIENT,RELIANCE,Metals & Mining,"Oil, Gas & Fuels",False,0.3415944472068778
-SBILIFE,ADANIPORTS,Financial Services,Services,False,0.3414570752912392
-SBILIFE,SBIN,Financial Services,Financial Services,True,0.34113105248209596
-BAJAJFINSV,ADANIENT,Financial Services,Metals & Mining,False,0.34065368671801904
-BAJFINANCE,SBILIFE,Financial Services,Financial Services,True,0.34065027906954287
-JSWSTEEL,INDIGO,Metals & Mining,Services,False,0.3402760115109132
-BAJFINANCE,TATASTEEL,Financial Services,Metals & Mining,False,0.3402071275780956
-HDFCBANK,HDFCLIFE,Financial Services,Financial Services,True,0.3400798130143294
-SBILIFE,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.33981544655458323
-TRENT,TATASTEEL,Consumer Services,Metals & Mining,False,0.33952942160165883
-JIOFIN,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.3385383079949594
-ADANIENT,JSWSTEEL,Metals & Mining,Metals & Mining,True,0.3383913983708223
-TITAN,ADANIPORTS,Consumer Durables,Services,False,0.3377053755281164
-ASIANPAINT,BAJFINANCE,Consumer Durables,Financial Services,False,0.3376407384580191
-TITAN,TATACONSUM,Consumer Durables,FMCG,False,0.3368917428240609
-M&M,BEL,Automobile,Capital Goods,False,0.3365089769238111
-ETERNAL,JIOFIN,Consumer Services,Financial Services,False,0.33632221467450624
-ASIANPAINT,TATACONSUM,Consumer Durables,FMCG,False,0.33601574907068504
-KOTAKBANK,SHRIRAMFIN,Financial Services,Financial Services,True,0.33563085924366465
-MARUTI,SHRIRAMFIN,Automobile,Financial Services,False,0.3354935423942196
-KOTAKBANK,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.33544470245253416
-TATASTEEL,POWERGRID,Metals & Mining,Power,False,0.33507615205616015
-TMPV,KOTAKBANK,Automobile,Financial Services,False,0.3350756413706768
-AXISBANK,HDFCLIFE,Financial Services,Financial Services,True,0.3344316515539778
-LT,COALINDIA,Construction,"Oil, Gas & Fuels",False,0.33423230631990547
-HDFCBANK,INDIGO,Financial Services,Services,False,0.33306552152963326
-ICICIBANK,JIOFIN,Financial Services,Financial Services,True,0.3325953780202539
-BAJFINANCE,JIOFIN,Financial Services,Financial Services,True,0.33230429475760803
-TRENT,JSWSTEEL,Consumer Services,Metals & Mining,False,0.3322783404279881
-ITC,TATACONSUM,FMCG,FMCG,True,0.33207139137346076
-BEL,ULTRACEMCO,Capital Goods,Construction Materials,False,0.3319878310691832
-TMPV,TRENT,Automobile,Consumer Services,False,0.3319651210157434
-ASIANPAINT,INDIGO,Consumer Durables,Services,False,0.33192449156622894
-GRASIM,TRENT,Construction Materials,Consumer Services,False,0.3319017379472638
-TITAN,SHRIRAMFIN,Consumer Durables,Financial Services,False,0.33188442511294264
-SBIN,POWERGRID,Financial Services,Power,False,0.33186581812005306
-LT,HDFCLIFE,Construction,Financial Services,False,0.331738582648845
-LT,ADANIENT,Construction,Metals & Mining,False,0.3315948687339935
-EICHERMOT,BAJFINANCE,Automobile,Financial Services,False,0.3311473413348363
-RELIANCE,BHARTIARTL,"Oil, Gas & Fuels",Telecommunication,False,0.3311080519571645
-ONGC,POWERGRID,"Oil, Gas & Fuels",Power,False,0.33091805592348006
-TITAN,SBILIFE,Consumer Durables,Financial Services,False,0.33022555374413415
-M&M,AXISBANK,Automobile,Financial Services,False,0.3297622327510713
-ULTRACEMCO,TRENT,Construction Materials,Consumer Services,False,0.3295539663185118
-JIOFIN,POWERGRID,Financial Services,Power,False,0.3287995077463525
-EICHERMOT,TRENT,Automobile,Consumer Services,False,0.32846769031608675
-TITAN,RELIANCE,Consumer Durables,"Oil, Gas & Fuels",False,0.32828206790968145
-EICHERMOT,KOTAKBANK,Automobile,Financial Services,False,0.3281296517466289
-LT,POWERGRID,Construction,Power,False,0.32768036297860886
-TRENT,BAJFINANCE,Consumer Services,Financial Services,False,0.3272331314216247
-TMPV,AXISBANK,Automobile,Financial Services,False,0.3257614288696236
-HDFCLIFE,ADANIPORTS,Financial Services,Services,False,0.3256684628386872
-SBILIFE,TATASTEEL,Financial Services,Metals & Mining,False,0.3256520956355188
-SBIN,HINDALCO,Financial Services,Metals & Mining,False,0.32548109488713806
-KOTAKBANK,JSWSTEEL,Financial Services,Metals & Mining,False,0.32528781086895864
-HDFCLIFE,SHRIRAMFIN,Financial Services,Financial Services,True,0.32512897499421217
-BEL,INDIGO,Capital Goods,Services,False,0.32508639315052845
-M&M,JIOFIN,Automobile,Financial Services,False,0.3249157854987113
-TRENT,BAJAJFINSV,Consumer Services,Financial Services,False,0.3242754183572053
-EICHERMOT,HDFCBANK,Automobile,Financial Services,False,0.3240792595166635
-EICHERMOT,ASIANPAINT,Automobile,Consumer Durables,False,0.3238325024501372
-M&M,KOTAKBANK,Automobile,Financial Services,False,0.32264865357804445
-SHRIRAMFIN,ADANIENT,Financial Services,Metals & Mining,False,0.3225055634761739
-TITAN,TATASTEEL,Consumer Durables,Metals & Mining,False,0.3223703723218186
-ULTRACEMCO,TATACONSUM,Construction Materials,FMCG,False,0.32229560040986244
-BAJFINANCE,HDFCLIFE,Financial Services,Financial Services,True,0.32229117499300447
-JSWSTEEL,BHARTIARTL,Metals & Mining,Telecommunication,False,0.32225233881370535
-BAJFINANCE,ADANIENT,Financial Services,Metals & Mining,False,0.322220188210275
-M&M,TATASTEEL,Automobile,Metals & Mining,False,0.3219376443322949
-SHRIRAMFIN,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.3217151864221347
-ULTRACEMCO,NTPC,Construction Materials,Power,False,0.32062146111549555
-EICHERMOT,SBILIFE,Automobile,Financial Services,False,0.3204071874887815
-SBILIFE,JSWSTEEL,Financial Services,Metals & Mining,False,0.3202399665102295
-JSWSTEEL,POWERGRID,Metals & Mining,Power,False,0.3201725156666974
-TRENT,SBIN,Consumer Services,Financial Services,False,0.31938949778550185
-MARUTI,ICICIBANK,Automobile,Financial Services,False,0.31879151017360163
-TRENT,RELIANCE,Consumer Services,"Oil, Gas & Fuels",False,0.3184564959709118
-M&M,SBILIFE,Automobile,Financial Services,False,0.31838559024451546
-TMPV,ADANIENT,Automobile,Metals & Mining,False,0.3179783341810728
-HDFCBANK,TATASTEEL,Financial Services,Metals & Mining,False,0.3158588157745848
-ITC,JSWSTEEL,FMCG,Metals & Mining,False,0.31529855188295974
-TMPV,TATACONSUM,Automobile,FMCG,False,0.3147345744689277
-MARUTI,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.3146606168335887
-BAJAJFINSV,NTPC,Financial Services,Power,False,0.31453024620665515
-ICICIBANK,BHARTIARTL,Financial Services,Telecommunication,False,0.3140004611588037
-ADANIENT,TATASTEEL,Metals & Mining,Metals & Mining,True,0.3137506189249391
-TATACONSUM,BAJAJFINSV,FMCG,Financial Services,False,0.3134350283584705
-ITC,RELIANCE,FMCG,"Oil, Gas & Fuels",False,0.3133064009457189
-LT,TRENT,Construction,Consumer Services,False,0.3128252371894791
-EICHERMOT,INDIGO,Automobile,Services,False,0.3128027107511784
-JIOFIN,SBILIFE,Financial Services,Financial Services,True,0.3127274885023554
-AXISBANK,NTPC,Financial Services,Power,False,0.31247216888570095
-GRASIM,BHARTIARTL,Construction Materials,Telecommunication,False,0.312220617111727
-LT,ASIANPAINT,Construction,Consumer Durables,False,0.31179729975205817
-BAJAJ-AUTO,TITAN,Automobile,Consumer Durables,False,0.31171667463423314
-HINDALCO,ADANIPORTS,Metals & Mining,Services,False,0.31150435266393156
-TITAN,SBIN,Consumer Durables,Financial Services,False,0.3104137695190064
-BAJAJ-AUTO,SHRIRAMFIN,Automobile,Financial Services,False,0.3104028610236235
-HDFCLIFE,SBIN,Financial Services,Financial Services,True,0.30973565584263624
-EICHERMOT,ADANIPORTS,Automobile,Services,False,0.3097250648460922
-HDFCLIFE,JIOFIN,Financial Services,Financial Services,True,0.30915356316808057
-HDFCLIFE,INDIGO,Financial Services,Services,False,0.3090814694520939
-TMPV,SBILIFE,Automobile,Financial Services,False,0.3086954397454093
-GRASIM,POWERGRID,Construction Materials,Power,False,0.3083002450939115
-BSE,JIOFIN,Financial Services,Financial Services,True,0.3081911988327725
-MARUTI,KOTAKBANK,Automobile,Financial Services,False,0.3080886602911309
-HDFCLIFE,KOTAKBANK,Financial Services,Financial Services,True,0.30738007827281616
-TRENT,ADANIPORTS,Consumer Services,Services,False,0.3073019756869464
-HDFCLIFE,ADANIENT,Financial Services,Metals & Mining,False,0.3072729247050032
-EICHERMOT,TATACONSUM,Automobile,FMCG,False,0.3069620273757931
-GRASIM,NESTLEIND,Construction Materials,FMCG,False,0.30661973006991994
-ULTRACEMCO,ADANIENT,Construction Materials,Metals & Mining,False,0.30648454653980794
-RELIANCE,INDIGO,"Oil, Gas & Fuels",Services,False,0.3064089397298221
-M&M,BHARTIARTL,Automobile,Telecommunication,False,0.3059809793985431
-TMPV,HDFCBANK,Automobile,Financial Services,False,0.3053729879303475
-ADANIENT,COALINDIA,Metals & Mining,"Oil, Gas & Fuels",False,0.3049444061754502
-JIOFIN,HINDALCO,Financial Services,Metals & Mining,False,0.30493392534552966
-SBIN,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.3047959841266202
-KOTAKBANK,SBILIFE,Financial Services,Financial Services,True,0.3047697004009979
-GRASIM,ITC,Construction Materials,FMCG,False,0.30452748456621304
-TMPV,ICICIBANK,Automobile,Financial Services,False,0.3042578754375857
-TMPV,HDFCLIFE,Automobile,Financial Services,False,0.3038659395035913
-HDFCLIFE,TATASTEEL,Financial Services,Metals & Mining,False,0.3038112660987241
-LT,HCLTECH,Construction,Information Technology,False,0.3034581365126984
-EICHERMOT,TATASTEEL,Automobile,Metals & Mining,False,0.3034125431972432
-M&M,ADANIENT,Automobile,Metals & Mining,False,0.30282652653877923
-ULTRACEMCO,NESTLEIND,Construction Materials,FMCG,False,0.3028054754559925
-EICHERMOT,BHARTIARTL,Automobile,Telecommunication,False,0.3027643385558835
-RELIANCE,POWERGRID,"Oil, Gas & Fuels",Power,False,0.30272199783343556
-TRENT,HINDALCO,Consumer Services,Metals & Mining,False,0.30245608884088276
-LT,INFY,Construction,Information Technology,False,0.3021653806489246
-M&M,HDFCLIFE,Automobile,Financial Services,False,0.30179539221803425
-BAJAJ-AUTO,GRASIM,Automobile,Construction Materials,False,0.30178267162754274
-MARUTI,HDFCBANK,Automobile,Financial Services,False,0.3017663322513227
-MARUTI,SBILIFE,Automobile,Financial Services,False,0.30158505671699437
-ADANIPORTS,BHARTIARTL,Services,Telecommunication,False,0.3015352276919523
-KOTAKBANK,BHARTIARTL,Financial Services,Telecommunication,False,0.30141397790839014
-LT,TCS,Construction,Information Technology,False,0.3007430821773002
-BSE,TATASTEEL,Financial Services,Metals & Mining,False,0.3002848104789688
-LT,TECHM,Construction,Information Technology,False,0.30008169209675106
-HDFCBANK,SBILIFE,Financial Services,Financial Services,True,0.3000472885377601
-ETERNAL,ADANIPORTS,Consumer Services,Services,False,0.2999775390719658
-HDFCLIFE,ICICIBANK,Financial Services,Financial Services,True,0.2997813010268575
-BEL,TRENT,Capital Goods,Consumer Services,False,0.2992078850717224
-KOTAKBANK,INDIGO,Financial Services,Services,False,0.2990241487874293
-BAJAJFINSV,HINDALCO,Financial Services,Metals & Mining,False,0.2988992016735765
+BAJAJFINSV,BAJFINANCE,Financial Services,Financial Services,True,0.7910624210662877
+JSWSTEEL,TATASTEEL,Metals & Mining,Metals & Mining,True,0.7763764161760154
+ADANIENT,ADANIPORTS,Metals & Mining,Services,False,0.7742708227092101
+INFY,TCS,Information Technology,Information Technology,True,0.7304876031384395
+HINDALCO,TATASTEEL,Metals & Mining,Metals & Mining,True,0.7015136007336779
+HCLTECH,INFY,Information Technology,Information Technology,True,0.6945297510020882
+INFY,TECHM,Information Technology,Information Technology,True,0.6885718487870998
+HCLTECH,TCS,Information Technology,Information Technology,True,0.6805064839607128
+TCS,TECHM,Information Technology,Information Technology,True,0.6477356048572456
+GRASIM,ULTRACEMCO,Construction Materials,Construction Materials,True,0.6366320192099476
+HCLTECH,TECHM,Information Technology,Information Technology,True,0.6320743875127345
+HINDALCO,JSWSTEEL,Metals & Mining,Metals & Mining,True,0.6250392682566254
+HDFCLIFE,SBILIFE,Financial Services,Financial Services,True,0.6146624252552356
+NTPC,POWERGRID,Power,Power,True,0.5881405290833783
+AXISBANK,ICICIBANK,Financial Services,Financial Services,True,0.5751578170748171
+AXISBANK,SBIN,Financial Services,Financial Services,True,0.5336560582972814
+GRASIM,JSWSTEEL,Construction Materials,Metals & Mining,False,0.5195765064733893
+COALINDIA,NTPC,"Oil, Gas & Fuels",Power,False,0.5160465727127018
+ICICIBANK,SBIN,Financial Services,Financial Services,True,0.5115412072222985
+COALINDIA,ONGC,"Oil, Gas & Fuels","Oil, Gas & Fuels",True,0.5062256146759082
+EICHERMOT,MARUTI,Automobile,Automobile,True,0.5054129727875728
+TATASTEEL,COALINDIA,Metals & Mining,"Oil, Gas & Fuels",False,0.5034857916643934
+SBIN,ADANIPORTS,Financial Services,Services,False,0.5007407842204709
+M&M,TMPV,Automobile,Automobile,True,0.4892570436435878
+HDFCBANK,ICICIBANK,Financial Services,Financial Services,True,0.4879304749309706
+M&M,MARUTI,Automobile,Automobile,True,0.4843519135463942
+HINDUNILVR,NESTLEIND,FMCG,FMCG,True,0.4748108335806286
+EICHERMOT,M&M,Automobile,Automobile,True,0.4740013091685191
+ONGC,NTPC,"Oil, Gas & Fuels",Power,False,0.4700820358307725
+HDFCBANK,KOTAKBANK,Financial Services,Financial Services,True,0.46938253894664644
+JIOFIN,ADANIPORTS,Financial Services,Services,False,0.4682340021656744
+BEL,SBIN,Capital Goods,Financial Services,False,0.46388388263349434
+LT,SBIN,Construction,Financial Services,False,0.46362824216321047
+GRASIM,TATASTEEL,Construction Materials,Metals & Mining,False,0.46307066534110536
+BEL,ADANIPORTS,Capital Goods,Services,False,0.46091654586970915
+BAJFINANCE,SHRIRAMFIN,Financial Services,Financial Services,True,0.4588487340023992
+SBIN,SHRIRAMFIN,Financial Services,Financial Services,True,0.45809432601129557
+BAJAJFINSV,SHRIRAMFIN,Financial Services,Financial Services,True,0.45779247190524014
+LT,ULTRACEMCO,Construction,Construction Materials,False,0.4568603621278478
+ICICIBANK,KOTAKBANK,Financial Services,Financial Services,True,0.45684905563076594
+GRASIM,SBIN,Construction Materials,Financial Services,False,0.4558567578086072
+TATASTEEL,NTPC,Metals & Mining,Power,False,0.45549796722821106
+BEL,COALINDIA,Capital Goods,"Oil, Gas & Fuels",False,0.45496008095144297
+JIOFIN,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.45484566323172365
+SBIN,NTPC,Financial Services,Power,False,0.4514788341612381
+BEL,NTPC,Capital Goods,Power,False,0.4509265170714863
+TMPV,TATASTEEL,Automobile,Metals & Mining,False,0.4480876987472156
+AXISBANK,HDFCBANK,Financial Services,Financial Services,True,0.44805292983749023
+LT,SHRIRAMFIN,Construction,Financial Services,False,0.447334993698348
+LT,GRASIM,Construction,Construction Materials,False,0.4472714296101057
+LT,TATASTEEL,Construction,Metals & Mining,False,0.4464805187717046
+GRASIM,BAJAJFINSV,Construction Materials,Financial Services,False,0.4457777866902376
+JIOFIN,ADANIENT,Financial Services,Metals & Mining,False,0.44466472274228547
+BAJAJFINSV,SBIN,Financial Services,Financial Services,True,0.4436523927335521
+BEL,LT,Capital Goods,Construction,False,0.44135662715378426
+AXISBANK,BAJAJFINSV,Financial Services,Financial Services,True,0.44045636734796867
+AXISBANK,SHRIRAMFIN,Financial Services,Financial Services,True,0.43968035390339655
+HINDALCO,COALINDIA,Metals & Mining,"Oil, Gas & Fuels",False,0.4395828337286966
+ULTRACEMCO,JSWSTEEL,Construction Materials,Metals & Mining,False,0.43753079273499906
+LT,JSWSTEEL,Construction,Metals & Mining,False,0.4332940050186157
+NTPC,ADANIPORTS,Power,Services,False,0.4332565038718015
+SBIN,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.4329028379498119
+LT,RELIANCE,Construction,"Oil, Gas & Fuels",False,0.4312086222242217
+LT,ADANIPORTS,Construction,Services,False,0.4309559737471296
+BAJFINANCE,HDFCBANK,Financial Services,Financial Services,True,0.4308782042286146
+TMPV,LT,Automobile,Construction,False,0.43041125209850717
+SBIN,ADANIENT,Financial Services,Metals & Mining,False,0.4303459634312132
+LT,JIOFIN,Construction,Financial Services,False,0.43008324508439305
+JIOFIN,SHRIRAMFIN,Financial Services,Financial Services,True,0.4291608766644025
+JIOFIN,TATASTEEL,Financial Services,Metals & Mining,False,0.4282581915164092
+MARUTI,TMPV,Automobile,Automobile,True,0.42731031371082123
+HINDUNILVR,TATACONSUM,FMCG,FMCG,True,0.4264494631021608
+ULTRACEMCO,BAJAJFINSV,Construction Materials,Financial Services,False,0.42626922193243055
+BAJFINANCE,SBIN,Financial Services,Financial Services,True,0.4247770033415287
+BAJAJ-AUTO,EICHERMOT,Automobile,Automobile,True,0.42440475480083306
+BEL,TATASTEEL,Capital Goods,Metals & Mining,False,0.42381455730782364
+BAJAJFINSV,ICICIBANK,Financial Services,Financial Services,True,0.4234242543917532
+M&M,ULTRACEMCO,Automobile,Construction Materials,False,0.4220043158069622
+GRASIM,ICICIBANK,Construction Materials,Financial Services,False,0.42168665445048226
+TMPV,JIOFIN,Automobile,Financial Services,False,0.4199125063813894
+BAJFINANCE,ICICIBANK,Financial Services,Financial Services,True,0.4190744637524143
+BAJAJ-AUTO,MARUTI,Automobile,Automobile,True,0.4189971085860884
+RELIANCE,ADANIPORTS,"Oil, Gas & Fuels",Services,False,0.4189593319926743
+AXISBANK,BAJFINANCE,Financial Services,Financial Services,True,0.4169750807904666
+ULTRACEMCO,INDIGO,Construction Materials,Services,False,0.41669356150590864
+JIOFIN,INDIGO,Financial Services,Services,False,0.4154595883883603
+GRASIM,HINDALCO,Construction Materials,Metals & Mining,False,0.41517339561579986
+NESTLEIND,TATACONSUM,FMCG,FMCG,True,0.41508098856232084
+CIPLA,DRREDDY,Healthcare,Healthcare,True,0.4139398902950393
+BAJAJFINSV,SBILIFE,Financial Services,Financial Services,True,0.4134936983983469
+M&M,BAJAJFINSV,Automobile,Financial Services,False,0.41335438457625767
+GRASIM,BAJFINANCE,Construction Materials,Financial Services,False,0.4128158618371238
+SBIN,TATASTEEL,Financial Services,Metals & Mining,False,0.4127506653467689
+ULTRACEMCO,BAJFINANCE,Construction Materials,Financial Services,False,0.4125204748677249
+LT,HDFCBANK,Construction,Financial Services,False,0.41233284525005365
+BAJFINANCE,KOTAKBANK,Financial Services,Financial Services,True,0.411956718480495
+LT,ICICIBANK,Construction,Financial Services,False,0.4113118457610574
+ULTRACEMCO,ICICIBANK,Construction Materials,Financial Services,False,0.4107174040421741
+ICICIBANK,SHRIRAMFIN,Financial Services,Financial Services,True,0.40954258459436826
+GRASIM,ADANIPORTS,Construction Materials,Services,False,0.4094817215786311
+SBIN,JSWSTEEL,Financial Services,Metals & Mining,False,0.4088747972465034
+TATASTEEL,ONGC,Metals & Mining,"Oil, Gas & Fuels",False,0.4088657942155074
+BAJAJFINSV,HDFCBANK,Financial Services,Financial Services,True,0.40863039371542864
+HDFCBANK,SBIN,Financial Services,Financial Services,True,0.40862772190438357
+ULTRACEMCO,SBIN,Construction Materials,Financial Services,False,0.4083502986647518
+JSWSTEEL,NTPC,Metals & Mining,Power,False,0.4080565241917605
+LT,NTPC,Construction,Power,False,0.4078909761100462
+BAJAJ-AUTO,M&M,Automobile,Automobile,True,0.4077774479684812
+TITAN,BAJAJFINSV,Consumer Durables,Financial Services,False,0.4075731701385304
+AXISBANK,KOTAKBANK,Financial Services,Financial Services,True,0.407533496358139
+TMPV,SHRIRAMFIN,Automobile,Financial Services,False,0.40681817790528296
+TATASTEEL,RELIANCE,Metals & Mining,"Oil, Gas & Fuels",False,0.40652082647420185
+BAJAJFINSV,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.40641226437969596
+SHRIRAMFIN,INDIGO,Financial Services,Services,False,0.4048543450760601
+TMPV,JSWSTEEL,Automobile,Metals & Mining,False,0.4048094924010057
+HINDALCO,ONGC,Metals & Mining,"Oil, Gas & Fuels",False,0.40378952060669887
+ULTRACEMCO,TATASTEEL,Construction Materials,Metals & Mining,False,0.4031217051249549
+JSWSTEEL,COALINDIA,Metals & Mining,"Oil, Gas & Fuels",False,0.40281988196684165
+LT,AXISBANK,Construction,Financial Services,False,0.4022881333378511
+GRASIM,AXISBANK,Construction Materials,Financial Services,False,0.4017635505940482
+JSWSTEEL,ADANIPORTS,Metals & Mining,Services,False,0.4017532813030402
+EICHERMOT,GRASIM,Automobile,Construction Materials,False,0.4012568217557258
+TMPV,ULTRACEMCO,Automobile,Construction Materials,False,0.4009683325374171
+ULTRACEMCO,SHRIRAMFIN,Construction Materials,Financial Services,False,0.4000590913736069
+EICHERMOT,TMPV,Automobile,Automobile,True,0.3993357396256953
+TMPV,GRASIM,Automobile,Construction Materials,False,0.3983151889518407
+BAJAJFINSV,KOTAKBANK,Financial Services,Financial Services,True,0.39818296860495483
+GRASIM,SHRIRAMFIN,Construction Materials,Financial Services,False,0.3965561989277903
+BEL,JIOFIN,Capital Goods,Financial Services,False,0.3940142833104248
+ULTRACEMCO,HDFCBANK,Construction Materials,Financial Services,False,0.3939926100078142
+M&M,BAJFINANCE,Automobile,Financial Services,False,0.39389177104156786
+TMPV,SBIN,Automobile,Financial Services,False,0.3934936958435684
+TATASTEEL,ADANIPORTS,Metals & Mining,Services,False,0.39310013385202297
+LT,BAJAJFINSV,Construction,Financial Services,False,0.39238683585396966
+GRASIM,HDFCBANK,Construction Materials,Financial Services,False,0.39153035285782545
+BAJAJFINSV,ADANIPORTS,Financial Services,Services,False,0.3905654238261069
+TMPV,TITAN,Automobile,Consumer Durables,False,0.39044552881939926
+GRASIM,INDIGO,Construction Materials,Services,False,0.39027170840408504
+SBIN,INDIGO,Financial Services,Services,False,0.38975555202194445
+JIOFIN,SBIN,Financial Services,Financial Services,True,0.3894459883532681
+BEL,JSWSTEEL,Capital Goods,Metals & Mining,False,0.3893685484227033
+M&M,SHRIRAMFIN,Automobile,Financial Services,False,0.38772229740175546
+TMPV,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.3861771081897903
+M&M,GRASIM,Automobile,Construction Materials,False,0.3861652843234246
+TITAN,BAJFINANCE,Consumer Durables,Financial Services,False,0.3855156565270267
+ULTRACEMCO,ADANIPORTS,Construction Materials,Services,False,0.38500284901959225
+GRASIM,RELIANCE,Construction Materials,"Oil, Gas & Fuels",False,0.3833827287399658
+ICICIBANK,JSWSTEEL,Financial Services,Metals & Mining,False,0.382977883840692
+M&M,INDIGO,Automobile,Services,False,0.3828658117850546
+JSWSTEEL,RELIANCE,Metals & Mining,"Oil, Gas & Fuels",False,0.3816201632609638
+KOTAKBANK,SBIN,Financial Services,Financial Services,True,0.3815581893658546
+BAJAJFINSV,TATASTEEL,Financial Services,Metals & Mining,False,0.3812887154015263
+HDFCBANK,SHRIRAMFIN,Financial Services,Financial Services,True,0.38095382301688785
+TMPV,BAJAJFINSV,Automobile,Financial Services,False,0.38078508254150545
+BAJFINANCE,ADANIPORTS,Financial Services,Services,False,0.3806653117961481
+ASIANPAINT,HINDUNILVR,Consumer Durables,FMCG,False,0.38040165409277626
+GRASIM,TITAN,Construction Materials,Consumer Durables,False,0.3799625694285044
+LT,BAJFINANCE,Construction,Financial Services,False,0.37970349472806714
+SHRIRAMFIN,ADANIPORTS,Financial Services,Services,False,0.37936001157878213
+BEL,HINDALCO,Capital Goods,Metals & Mining,False,0.37916787623367304
+JIOFIN,NTPC,Financial Services,Power,False,0.37914590301718915
+AXISBANK,JIOFIN,Financial Services,Financial Services,True,0.3790719084185285
+LT,INDIGO,Construction,Services,False,0.3784185295476372
+TMPV,INDIGO,Automobile,Services,False,0.3779169007295347
+EICHERMOT,SBIN,Automobile,Financial Services,False,0.37698548289322
+ULTRACEMCO,AXISBANK,Construction Materials,Financial Services,False,0.3769171476557188
+ULTRACEMCO,ASIANPAINT,Construction Materials,Consumer Durables,False,0.37668714351569843
+M&M,LT,Automobile,Construction,False,0.37596012511905225
+BAJAJFINSV,HDFCLIFE,Financial Services,Financial Services,True,0.3757461696141748
+BEL,POWERGRID,Capital Goods,Power,False,0.3755796570517539
+BAJFINANCE,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.37538115877790823
+RELIANCE,NTPC,"Oil, Gas & Fuels",Power,False,0.37414578478572935
+EICHERMOT,ULTRACEMCO,Automobile,Construction Materials,False,0.37403655416682013
+COALINDIA,RELIANCE,"Oil, Gas & Fuels","Oil, Gas & Fuels",True,0.37401284474274715
+MARUTI,BAJFINANCE,Automobile,Financial Services,False,0.3738054966279981
+BAJAJFINSV,JSWSTEEL,Financial Services,Metals & Mining,False,0.3734122412955448
+MARUTI,INDIGO,Automobile,Services,False,0.3732050789326123
+CIPLA,SUNPHARMA,Healthcare,Healthcare,True,0.3718467759220133
+GRASIM,TATACONSUM,Construction Materials,FMCG,False,0.37062413922512927
+M&M,TITAN,Automobile,Consumer Durables,False,0.370490152352863
+HDFCBANK,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.3686008276584042
+COALINDIA,ADANIPORTS,"Oil, Gas & Fuels",Services,False,0.36830931423841384
+BAJAJ-AUTO,TMPV,Automobile,Automobile,True,0.3678857743255977
+EICHERMOT,LT,Automobile,Construction,False,0.36752270332270703
+MARUTI,BAJAJFINSV,Automobile,Financial Services,False,0.36712713247901985
+M&M,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.36642452642599127
+AXISBANK,JSWSTEEL,Financial Services,Metals & Mining,False,0.3651635468547144
+LT,HINDALCO,Construction,Metals & Mining,False,0.36466963636479893
+GRASIM,NTPC,Construction Materials,Power,False,0.3646314243857323
+POWERGRID,ADANIPORTS,Power,Services,False,0.3645368715848846
+ICICIBANK,INDIGO,Financial Services,Services,False,0.36358645949469615
+ICICIBANK,ADANIPORTS,Financial Services,Services,False,0.36327216023003434
+BEL,SHRIRAMFIN,Capital Goods,Financial Services,False,0.3630493796225618
+HDFCBANK,JIOFIN,Financial Services,Financial Services,True,0.3625531907622763
+COALINDIA,POWERGRID,"Oil, Gas & Fuels",Power,False,0.36222183383961115
+BEL,ADANIENT,Capital Goods,Metals & Mining,False,0.3622146863187194
+TMPV,ADANIPORTS,Automobile,Services,False,0.3615210488607292
+MARUTI,TITAN,Automobile,Consumer Durables,False,0.3614649745727187
+M&M,ICICIBANK,Automobile,Financial Services,False,0.36107929852556586
+M&M,SBIN,Automobile,Financial Services,False,0.3606553743729578
+TMPV,BEL,Automobile,Capital Goods,False,0.36059663054244084
+MARUTI,LT,Automobile,Construction,False,0.36035315854584676
+HINDALCO,RELIANCE,Metals & Mining,"Oil, Gas & Fuels",False,0.3602158526394653
+MARUTI,SBIN,Automobile,Financial Services,False,0.36003452318510487
+LT,TITAN,Construction,Consumer Durables,False,0.35974270305084227
+ADANIENT,NTPC,Metals & Mining,Power,False,0.3589698878411863
+BAJFINANCE,JSWSTEEL,Financial Services,Metals & Mining,False,0.35870526608733677
+SHRIRAMFIN,JSWSTEEL,Financial Services,Metals & Mining,False,0.358469145250387
+BAJAJFINSV,INDIGO,Financial Services,Services,False,0.3576703715798911
+BEL,RELIANCE,Capital Goods,"Oil, Gas & Fuels",False,0.3575489854935451
+ULTRACEMCO,RELIANCE,Construction Materials,"Oil, Gas & Fuels",False,0.357392873428074
+HDFCBANK,ADANIPORTS,Financial Services,Services,False,0.3572058398326793
+ULTRACEMCO,TITAN,Construction Materials,Consumer Durables,False,0.3570587492799758
+SHRIRAMFIN,NTPC,Financial Services,Power,False,0.35682308103136817
+SBIN,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.3565006416542866
+GRASIM,ASIANPAINT,Construction Materials,Consumer Durables,False,0.3562447807291757
+BEL,ONGC,Capital Goods,"Oil, Gas & Fuels",False,0.3555809433137779
+LT,SBILIFE,Construction,Financial Services,False,0.3554402885685342
+ULTRACEMCO,JIOFIN,Construction Materials,Financial Services,False,0.3553015928909359
+BAJAJFINSV,JIOFIN,Financial Services,Financial Services,True,0.35508217141648657
+BAJFINANCE,INDIGO,Financial Services,Services,False,0.35501672519747673
+GRASIM,SBILIFE,Construction Materials,Financial Services,False,0.35487242115334133
+GRASIM,KOTAKBANK,Construction Materials,Financial Services,False,0.3548274098253009
+MARUTI,ULTRACEMCO,Automobile,Construction Materials,False,0.3547126880691513
+M&M,ADANIPORTS,Automobile,Services,False,0.3546354896471847
+DRREDDY,SUNPHARMA,Healthcare,Healthcare,True,0.35439210413563665
+AXISBANK,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.3542916833954735
+GRASIM,HDFCLIFE,Construction Materials,Financial Services,False,0.354188186590465
+M&M,JSWSTEEL,Automobile,Metals & Mining,False,0.35401252986729914
+MARUTI,AXISBANK,Automobile,Financial Services,False,0.35396490807082115
+HINDALCO,NTPC,Metals & Mining,Power,False,0.35321844649352147
+TMPV,HINDALCO,Automobile,Metals & Mining,False,0.3529957473149174
+HINDUNILVR,ITC,FMCG,FMCG,True,0.3529560752432537
+ADANIPORTS,INDIGO,Services,Services,True,0.3527240673221174
+ASIANPAINT,BAJAJFINSV,Consumer Durables,Financial Services,False,0.35222140956374803
+EICHERMOT,ICICIBANK,Automobile,Financial Services,False,0.3521528697144654
+M&M,HDFCBANK,Automobile,Financial Services,False,0.35188173525673583
+TMPV,NTPC,Automobile,Power,False,0.35183384733346285
+SHRIRAMFIN,TATASTEEL,Financial Services,Metals & Mining,False,0.35014515594865464
+EICHERMOT,AXISBANK,Automobile,Financial Services,False,0.3494443585164018
+AXISBANK,INDIGO,Financial Services,Services,False,0.3494037511466028
+HDFCBANK,JSWSTEEL,Financial Services,Metals & Mining,False,0.3493667244288662
+ULTRACEMCO,SBILIFE,Construction Materials,Financial Services,False,0.3491864969545208
+ULTRACEMCO,HDFCLIFE,Construction Materials,Financial Services,False,0.34901110580620204
+ASIANPAINT,TITAN,Consumer Durables,Consumer Durables,True,0.34876816683019796
+M&M,TRENT,Automobile,Consumer Services,False,0.34856163377466876
+AXISBANK,TATASTEEL,Financial Services,Metals & Mining,False,0.3483759318191607
+EICHERMOT,TITAN,Automobile,Consumer Durables,False,0.3481891854660643
+TITAN,TRENT,Consumer Durables,Consumer Services,False,0.3480481974926055
+AXISBANK,ADANIPORTS,Financial Services,Services,False,0.34802667335942417
+ONGC,RELIANCE,"Oil, Gas & Fuels","Oil, Gas & Fuels",True,0.3466638170457843
+ASIANPAINT,NESTLEIND,Consumer Durables,FMCG,False,0.346532373031868
+MARUTI,GRASIM,Automobile,Construction Materials,False,0.3464380686197491
+BEL,GRASIM,Capital Goods,Construction Materials,False,0.3463320612433029
+GRASIM,JIOFIN,Construction Materials,Financial Services,False,0.3462673106203311
+GRASIM,ADANIENT,Construction Materials,Metals & Mining,False,0.34612012524797686
+EICHERMOT,SHRIRAMFIN,Automobile,Financial Services,False,0.3460876124268999
+ICICIBANK,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.3458661246554479
+JIOFIN,JSWSTEEL,Financial Services,Metals & Mining,False,0.34566679514620186
+EICHERMOT,BAJAJFINSV,Automobile,Financial Services,False,0.34472134896007156
+ULTRACEMCO,KOTAKBANK,Construction Materials,Financial Services,False,0.3445946465093616
+LT,KOTAKBANK,Construction,Financial Services,False,0.34443933565626406
+TMPV,BAJFINANCE,Automobile,Financial Services,False,0.34443269546978134
+JSWSTEEL,ONGC,Metals & Mining,"Oil, Gas & Fuels",False,0.34401066534849317
+TRENT,INDIGO,Consumer Services,Services,False,0.34395838097341674
+EICHERMOT,JIOFIN,Automobile,Financial Services,False,0.3437412682839091
+EICHERMOT,JSWSTEEL,Automobile,Metals & Mining,False,0.3435197390120624
+ICICIBANK,TATASTEEL,Financial Services,Metals & Mining,False,0.34309546536500374
+MARUTI,ASIANPAINT,Automobile,Consumer Durables,False,0.3428077521356322
+TATASTEEL,INDIGO,Metals & Mining,Services,False,0.3421142668911694
+EICHERMOT,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.3419873760329427
+TITAN,JSWSTEEL,Consumer Durables,Metals & Mining,False,0.3419861451518109
+ADANIENT,RELIANCE,Metals & Mining,"Oil, Gas & Fuels",False,0.3415945626815523
+SBILIFE,ADANIPORTS,Financial Services,Services,False,0.341457238831465
+SBILIFE,SBIN,Financial Services,Financial Services,True,0.34113128852739694
+BAJAJFINSV,ADANIENT,Financial Services,Metals & Mining,False,0.34065362637555247
+BAJFINANCE,SBILIFE,Financial Services,Financial Services,True,0.34065045935680854
+JSWSTEEL,INDIGO,Metals & Mining,Services,False,0.34027572389716504
+BAJFINANCE,TATASTEEL,Financial Services,Metals & Mining,False,0.34020696304184783
+HDFCBANK,HDFCLIFE,Financial Services,Financial Services,True,0.34007992390627784
+SBILIFE,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.3398155599475807
+TRENT,TATASTEEL,Consumer Services,Metals & Mining,False,0.33952963251817664
+JIOFIN,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.3385387490058793
+ADANIENT,JSWSTEEL,Metals & Mining,Metals & Mining,True,0.33839125340180254
+TITAN,ADANIPORTS,Consumer Durables,Services,False,0.33770534662855406
+ASIANPAINT,BAJFINANCE,Consumer Durables,Financial Services,False,0.33764048981499534
+TITAN,TATACONSUM,Consumer Durables,FMCG,False,0.3368914631369636
+M&M,BEL,Automobile,Capital Goods,False,0.3365091666772526
+ETERNAL,JIOFIN,Consumer Services,Financial Services,False,0.33632235359858526
+ASIANPAINT,TATACONSUM,Consumer Durables,FMCG,False,0.3360153715136844
+KOTAKBANK,SHRIRAMFIN,Financial Services,Financial Services,True,0.33563085816058413
+MARUTI,SHRIRAMFIN,Automobile,Financial Services,False,0.3354935313580553
+KOTAKBANK,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.33544463455084994
+TMPV,KOTAKBANK,Automobile,Financial Services,False,0.33507554972971315
+TATASTEEL,POWERGRID,Metals & Mining,Power,False,0.3350755195348462
+AXISBANK,HDFCLIFE,Financial Services,Financial Services,True,0.33443165450873
+LT,COALINDIA,Construction,"Oil, Gas & Fuels",False,0.33423263810262654
+HDFCBANK,INDIGO,Financial Services,Services,False,0.33306560568050053
+ICICIBANK,JIOFIN,Financial Services,Financial Services,True,0.3325952856939194
+BAJFINANCE,JIOFIN,Financial Services,Financial Services,True,0.3323043740215596
+TRENT,JSWSTEEL,Consumer Services,Metals & Mining,False,0.3322785323689969
+ITC,TATACONSUM,FMCG,FMCG,True,0.33207141686629343
+BEL,ULTRACEMCO,Capital Goods,Construction Materials,False,0.33198775041400996
+TMPV,TRENT,Automobile,Consumer Services,False,0.33196535626641954
+ASIANPAINT,INDIGO,Consumer Durables,Services,False,0.33192438075828445
+GRASIM,TRENT,Construction Materials,Consumer Services,False,0.3319017944143168
+TITAN,SHRIRAMFIN,Consumer Durables,Financial Services,False,0.3318843942905024
+SBIN,POWERGRID,Financial Services,Power,False,0.3318657718905038
+LT,HDFCLIFE,Construction,Financial Services,False,0.3317386198267755
+LT,ADANIENT,Construction,Metals & Mining,False,0.3315948132329557
+EICHERMOT,BAJFINANCE,Automobile,Financial Services,False,0.33114759215949924
+RELIANCE,BHARTIARTL,"Oil, Gas & Fuels",Telecommunication,False,0.33110791530425454
+ONGC,POWERGRID,"Oil, Gas & Fuels",Power,False,0.33091784360823295
+TITAN,SBILIFE,Consumer Durables,Financial Services,False,0.33022587301202116
+M&M,AXISBANK,Automobile,Financial Services,False,0.3297618625002486
+ULTRACEMCO,TRENT,Construction Materials,Consumer Services,False,0.3295541106149971
+JIOFIN,POWERGRID,Financial Services,Power,False,0.3287994201103086
+EICHERMOT,TRENT,Automobile,Consumer Services,False,0.3284678492861796
+TITAN,RELIANCE,Consumer Durables,"Oil, Gas & Fuels",False,0.3282821075733587
+EICHERMOT,KOTAKBANK,Automobile,Financial Services,False,0.32812957349325594
+LT,POWERGRID,Construction,Power,False,0.32768013591326495
+TRENT,BAJFINANCE,Consumer Services,Financial Services,False,0.3272330237051146
+TMPV,AXISBANK,Automobile,Financial Services,False,0.32576128953412853
+HDFCLIFE,ADANIPORTS,Financial Services,Services,False,0.32566863156481723
+SBILIFE,TATASTEEL,Financial Services,Metals & Mining,False,0.3256521438539205
+SBIN,HINDALCO,Financial Services,Metals & Mining,False,0.32548089420489856
+KOTAKBANK,JSWSTEEL,Financial Services,Metals & Mining,False,0.32528753687491035
+HDFCLIFE,SHRIRAMFIN,Financial Services,Financial Services,True,0.3251289802858639
+BEL,INDIGO,Capital Goods,Services,False,0.3250862330554578
+M&M,JIOFIN,Automobile,Financial Services,False,0.32491583082448816
+TRENT,BAJAJFINSV,Consumer Services,Financial Services,False,0.32427537301704845
+EICHERMOT,HDFCBANK,Automobile,Financial Services,False,0.32407909691215475
+EICHERMOT,ASIANPAINT,Automobile,Consumer Durables,False,0.32383274977143106
+M&M,KOTAKBANK,Automobile,Financial Services,False,0.32264849359669634
+SHRIRAMFIN,ADANIENT,Financial Services,Metals & Mining,False,0.3225054800825038
+TITAN,TATASTEEL,Consumer Durables,Metals & Mining,False,0.32237021055756027
+ULTRACEMCO,TATACONSUM,Construction Materials,FMCG,False,0.3222956524610502
+BAJFINANCE,HDFCLIFE,Financial Services,Financial Services,True,0.3222911593873888
+JSWSTEEL,BHARTIARTL,Metals & Mining,Telecommunication,False,0.3222523664314508
+BAJFINANCE,ADANIENT,Financial Services,Metals & Mining,False,0.32222001444060067
+M&M,TATASTEEL,Automobile,Metals & Mining,False,0.32193782651149133
+SHRIRAMFIN,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.32171551864658454
+ULTRACEMCO,NTPC,Construction Materials,Power,False,0.32062093863036084
+EICHERMOT,SBILIFE,Automobile,Financial Services,False,0.32040734249255787
+SBILIFE,JSWSTEEL,Financial Services,Metals & Mining,False,0.32024005793012583
+JSWSTEEL,POWERGRID,Metals & Mining,Power,False,0.3201718153329008
+TRENT,SBIN,Consumer Services,Financial Services,False,0.3193896110597839
+MARUTI,ICICIBANK,Automobile,Financial Services,False,0.31879152596996924
+TRENT,RELIANCE,Consumer Services,"Oil, Gas & Fuels",False,0.3184567675844249
+M&M,SBILIFE,Automobile,Financial Services,False,0.3183856607852062
+TMPV,ADANIENT,Automobile,Metals & Mining,False,0.31797830126252
+HDFCBANK,TATASTEEL,Financial Services,Metals & Mining,False,0.3158589257647272
+ITC,JSWSTEEL,FMCG,Metals & Mining,False,0.3152984254660985
+TMPV,TATACONSUM,Automobile,FMCG,False,0.3147345684792017
+MARUTI,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.3146607247375624
+BAJAJFINSV,NTPC,Financial Services,Power,False,0.31453002824053067
+ICICIBANK,BHARTIARTL,Financial Services,Telecommunication,False,0.3140003809224997
+ADANIENT,TATASTEEL,Metals & Mining,Metals & Mining,True,0.3137504336243159
+TATACONSUM,BAJAJFINSV,FMCG,Financial Services,False,0.31343471460037575
+ITC,RELIANCE,FMCG,"Oil, Gas & Fuels",False,0.3133065628447684
+LT,TRENT,Construction,Consumer Services,False,0.3128251175154688
+EICHERMOT,INDIGO,Automobile,Services,False,0.3128026826196206
+JIOFIN,SBILIFE,Financial Services,Financial Services,True,0.3127275647445382
+AXISBANK,NTPC,Financial Services,Power,False,0.3124721599803263
+GRASIM,BHARTIARTL,Construction Materials,Telecommunication,False,0.3122207328897453
+LT,ASIANPAINT,Construction,Consumer Durables,False,0.31179737520058504
+BAJAJ-AUTO,TITAN,Automobile,Consumer Durables,False,0.31171671369987025
+HINDALCO,ADANIPORTS,Metals & Mining,Services,False,0.31150423312336567
+TITAN,SBIN,Consumer Durables,Financial Services,False,0.31041374092811247
+BAJAJ-AUTO,SHRIRAMFIN,Automobile,Financial Services,False,0.3104027952540079
+HDFCLIFE,SBIN,Financial Services,Financial Services,True,0.3097357127924109
+EICHERMOT,ADANIPORTS,Automobile,Services,False,0.309725207623556
+HDFCLIFE,JIOFIN,Financial Services,Financial Services,True,0.30915364585486965
+HDFCLIFE,INDIGO,Financial Services,Services,False,0.30908160703114534
+TMPV,SBILIFE,Automobile,Financial Services,False,0.30869602136772656
+GRASIM,POWERGRID,Construction Materials,Power,False,0.30830007534283216
+BSE,JIOFIN,Financial Services,Financial Services,True,0.3081913126545927
+MARUTI,KOTAKBANK,Automobile,Financial Services,False,0.30808861654067
+HDFCLIFE,KOTAKBANK,Financial Services,Financial Services,True,0.3073799992144157
+TRENT,ADANIPORTS,Consumer Services,Services,False,0.30730197762017414
+HDFCLIFE,ADANIENT,Financial Services,Metals & Mining,False,0.3072730256721793
+EICHERMOT,TATACONSUM,Automobile,FMCG,False,0.3069620370361769
+GRASIM,NESTLEIND,Construction Materials,FMCG,False,0.3066198291091408
+ULTRACEMCO,ADANIENT,Construction Materials,Metals & Mining,False,0.3064844714300154
+RELIANCE,INDIGO,"Oil, Gas & Fuels",Services,False,0.30640893595109614
+M&M,BHARTIARTL,Automobile,Telecommunication,False,0.30598086832738336
+TMPV,HDFCBANK,Automobile,Financial Services,False,0.305372856097183
+ADANIENT,COALINDIA,Metals & Mining,"Oil, Gas & Fuels",False,0.30494446856254964
+JIOFIN,HINDALCO,Financial Services,Metals & Mining,False,0.30493403126346896
+SBIN,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.3047957266269989
+KOTAKBANK,SBILIFE,Financial Services,Financial Services,True,0.30477007597995653
+GRASIM,ITC,Construction Materials,FMCG,False,0.3045275435569157
+TMPV,ICICIBANK,Automobile,Financial Services,False,0.3042574415390867
+TMPV,HDFCLIFE,Automobile,Financial Services,False,0.30386602989204614
+HDFCLIFE,TATASTEEL,Financial Services,Metals & Mining,False,0.30381126299689115
+LT,HCLTECH,Construction,Information Technology,False,0.30345812304241543
+EICHERMOT,TATASTEEL,Automobile,Metals & Mining,False,0.30341245701088254
+M&M,ADANIENT,Automobile,Metals & Mining,False,0.30282654216116944
+ULTRACEMCO,NESTLEIND,Construction Materials,FMCG,False,0.3028058114841004
+EICHERMOT,BHARTIARTL,Automobile,Telecommunication,False,0.3027642736748467
+RELIANCE,POWERGRID,"Oil, Gas & Fuels",Power,False,0.30272208619715224
+TRENT,HINDALCO,Consumer Services,Metals & Mining,False,0.30245616066581427
+LT,INFY,Construction,Information Technology,False,0.302165350661685
+M&M,HDFCLIFE,Automobile,Financial Services,False,0.301795246984899
+BAJAJ-AUTO,GRASIM,Automobile,Construction Materials,False,0.30178286098986057
+MARUTI,HDFCBANK,Automobile,Financial Services,False,0.30176649370522557
+MARUTI,SBILIFE,Automobile,Financial Services,False,0.30158528605714596
+ADANIPORTS,BHARTIARTL,Services,Telecommunication,False,0.3015353174531455
+KOTAKBANK,BHARTIARTL,Financial Services,Telecommunication,False,0.3014138507370082
+LT,TCS,Construction,Information Technology,False,0.30074315855990785
+BSE,TATASTEEL,Financial Services,Metals & Mining,False,0.3002847802609443
+LT,TECHM,Construction,Information Technology,False,0.30008190240155136
+HDFCBANK,SBILIFE,Financial Services,Financial Services,True,0.3000471622805818
+ETERNAL,ADANIPORTS,Consumer Services,Services,False,0.29997765947782684
+HDFCLIFE,ICICIBANK,Financial Services,Financial Services,True,0.2997813726789301
+BEL,TRENT,Capital Goods,Consumer Services,False,0.2992080091526471
+KOTAKBANK,INDIGO,Financial Services,Services,False,0.29902412533567496
+BAJAJFINSV,HINDALCO,Financial Services,Metals & Mining,False,0.29889899689610155
 ETERNAL,INDIGO,Consumer Services,Services,False,0.29870464365200244
-MARUTI,ADANIPORTS,Automobile,Services,False,0.29845164085418674
-TMPV,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.29791528845654924
-TMPV,BSE,Automobile,Financial Services,False,0.29770064700829363
-BAJAJ-AUTO,ULTRACEMCO,Automobile,Construction Materials,False,0.2971855566578783
-AXISBANK,SBILIFE,Financial Services,Financial Services,True,0.2970664173016921
-TITAN,INDIGO,Consumer Durables,Services,False,0.2962597023481049
-APOLLOHOSP,MAXHEALTH,Healthcare,Healthcare,True,0.29620248983031977
-GRASIM,APOLLOHOSP,Construction Materials,Healthcare,False,0.29614950670898416
-ICICIBANK,NTPC,Financial Services,Power,False,0.29558235568189944
-TITAN,NESTLEIND,Consumer Durables,FMCG,False,0.29385503176360206
-BAJAJ-AUTO,JSWSTEEL,Automobile,Metals & Mining,False,0.29368693132317
-MARUTI,JSWSTEEL,Automobile,Metals & Mining,False,0.293531454366449
-BEL,AXISBANK,Capital Goods,Financial Services,False,0.293345283708419
-TITAN,ITC,Consumer Durables,FMCG,False,0.2930721307925868
-SBILIFE,ADANIENT,Financial Services,Metals & Mining,False,0.2930502933848074
-HDFCLIFE,JSWSTEEL,Financial Services,Metals & Mining,False,0.29192844490613784
-ICICIBANK,ADANIENT,Financial Services,Metals & Mining,False,0.2918057908384507
-LT,BHARTIARTL,Construction,Telecommunication,False,0.2915780439205853
-TITAN,ETERNAL,Consumer Durables,Consumer Services,False,0.290780890513627
-TMPV,ITC,Automobile,FMCG,False,0.29040282370772336
-HDFCLIFE,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.29025359554826236
-BSE,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.28992889807632777
-BAJAJ-AUTO,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.2898645213285484
-BAJAJFINSV,INFY,Financial Services,Information Technology,False,0.28978291989093186
-HDFCBANK,ADANIENT,Financial Services,Metals & Mining,False,0.28939711632877524
-EICHERMOT,HINDUNILVR,Automobile,FMCG,False,0.28920485552627667
-JIOFIN,KOTAKBANK,Financial Services,Financial Services,True,0.28916559426757965
-BAJAJ-AUTO,TATASTEEL,Automobile,Metals & Mining,False,0.28890323540347873
-ITC,NESTLEIND,FMCG,FMCG,True,0.288856562010495
-ITC,KOTAKBANK,FMCG,Financial Services,False,0.2888169150131107
-ICICIBANK,SBILIFE,Financial Services,Financial Services,True,0.288760919570991
-MARUTI,HINDUNILVR,Automobile,FMCG,False,0.2886409636303768
-M&M,NTPC,Automobile,Power,False,0.28831140450506126
-TITAN,HDFCBANK,Consumer Durables,Financial Services,False,0.2880794432215047
-M&M,TATACONSUM,Automobile,FMCG,False,0.2880203133507881
-BEL,BAJAJFINSV,Capital Goods,Financial Services,False,0.2878378547393948
-EICHERMOT,BEL,Automobile,Capital Goods,False,0.2875195800316235
-EICHERMOT,ADANIENT,Automobile,Metals & Mining,False,0.2873397084550918
-ETERNAL,BAJFINANCE,Consumer Services,Financial Services,False,0.2864135063108669
-TMPV,POWERGRID,Automobile,Power,False,0.28614672659914886
-ULTRACEMCO,HINDALCO,Construction Materials,Metals & Mining,False,0.28608080731522334
-TRENT,SHRIRAMFIN,Consumer Services,Financial Services,False,0.28604048475633687
-SBIN,BHARTIARTL,Financial Services,Telecommunication,False,0.2859453879020359
-HDFCBANK,BHARTIARTL,Financial Services,Telecommunication,False,0.2858871492191336
-ASIANPAINT,JIOFIN,Consumer Durables,Financial Services,False,0.2858807293531154
-ADANIENT,INDIGO,Metals & Mining,Services,False,0.28577151398171696
-GRASIM,COALINDIA,Construction Materials,"Oil, Gas & Fuels",False,0.28574669168704675
-TATACONSUM,BAJFINANCE,FMCG,Financial Services,False,0.2856879314538267
-BAJAJ-AUTO,LT,Automobile,Construction,False,0.28540919691564753
-MARUTI,TATACONSUM,Automobile,FMCG,False,0.2851552293844571
-GRASIM,SUNPHARMA,Construction Materials,Healthcare,False,0.2848473761389001
-BAJFINANCE,APOLLOHOSP,Financial Services,Healthcare,False,0.2843056478340578
-BEL,HDFCLIFE,Capital Goods,Financial Services,False,0.28416484257490093
-BAJFINANCE,NTPC,Financial Services,Power,False,0.28390296194530634
-BEL,ICICIBANK,Capital Goods,Financial Services,False,0.2837325338359423
-TITAN,KOTAKBANK,Consumer Durables,Financial Services,False,0.2833651125332716
-M&M,ETERNAL,Automobile,Consumer Services,False,0.2833534032860612
-HINDALCO,POWERGRID,Metals & Mining,Power,False,0.2832997553065395
-TATACONSUM,INDIGO,FMCG,Services,False,0.28318208943114553
-JIOFIN,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.2831038402093227
-BAJAJ-AUTO,BAJAJFINSV,Automobile,Financial Services,False,0.2823318026906331
-KOTAKBANK,ADANIPORTS,Financial Services,Services,False,0.2821899004762914
-SBILIFE,SHRIRAMFIN,Financial Services,Financial Services,True,0.2818799241885358
-TATACONSUM,HDFCLIFE,FMCG,Financial Services,False,0.2817581450542276
-ETERNAL,HDFCBANK,Consumer Services,Financial Services,False,0.2813678746121752
-BEL,TITAN,Capital Goods,Consumer Durables,False,0.2812232831379769
-TITAN,JIOFIN,Consumer Durables,Financial Services,False,0.28090908081651017
-BSE,SBIN,Financial Services,Financial Services,True,0.28042624713617104
-TITAN,HDFCLIFE,Consumer Durables,Financial Services,False,0.28012118144194
-MARUTI,JIOFIN,Automobile,Financial Services,False,0.2801087040140063
-ASIANPAINT,TRENT,Consumer Durables,Consumer Services,False,0.27984620402292476
-ULTRACEMCO,BHARTIARTL,Construction Materials,Telecommunication,False,0.2796611440636375
-BAJAJFINSV,TECHM,Financial Services,Information Technology,False,0.279318492448485
-TATACONSUM,RELIANCE,FMCG,"Oil, Gas & Fuels",False,0.2791696267590528
-BAJAJFINSV,TCS,Financial Services,Information Technology,False,0.2791129524036651
-LT,TATACONSUM,Construction,FMCG,False,0.2788622960513829
-BSE,INDIGO,Financial Services,Services,False,0.2788452118258471
-TITAN,ICICIBANK,Consumer Durables,Financial Services,False,0.27869939991946047
-SHRIRAMFIN,HINDALCO,Financial Services,Metals & Mining,False,0.2786390339264401
-TITAN,BHARTIARTL,Consumer Durables,Telecommunication,False,0.27838997619416533
-TECHM,JSWSTEEL,Information Technology,Metals & Mining,False,0.278244750792976
-TECHM,RELIANCE,Information Technology,"Oil, Gas & Fuels",False,0.27808950383871295
-BSE,ADANIPORTS,Financial Services,Services,False,0.2777554337893115
-TRENT,TATACONSUM,Consumer Services,FMCG,False,0.2773550858528426
-TATACONSUM,JSWSTEEL,FMCG,Metals & Mining,False,0.27691817080558223
-SHRIRAMFIN,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.27637013430484064
-MARUTI,BHARTIARTL,Automobile,Telecommunication,False,0.27636379376193443
-BAJAJ-AUTO,BHARTIARTL,Automobile,Telecommunication,False,0.2760149861749008
-ASIANPAINT,ADANIPORTS,Consumer Durables,Services,False,0.2759544571378108
-ITC,SBIN,FMCG,Financial Services,False,0.2759042409649799
-ASIANPAINT,RELIANCE,Consumer Durables,"Oil, Gas & Fuels",False,0.2759028349086454
-BAJAJ-AUTO,JIOFIN,Automobile,Financial Services,False,0.27561030030824846
-SBILIFE,NTPC,Financial Services,Power,False,0.27555023408582235
-BAJAJ-AUTO,NESTLEIND,Automobile,FMCG,False,0.2755404941555457
-NESTLEIND,BAJAJFINSV,FMCG,Financial Services,False,0.2751501003044118
-TMPV,TECHM,Automobile,Information Technology,False,0.2747658490756028
-TATASTEEL,BHARTIARTL,Metals & Mining,Telecommunication,False,0.2747475802923768
-TITAN,HINDALCO,Consumer Durables,Metals & Mining,False,0.2742256286339793
-M&M,ASIANPAINT,Automobile,Consumer Durables,False,0.27403186394513684
-BAJAJ-AUTO,TRENT,Automobile,Consumer Services,False,0.27401462202474297
-BEL,BSE,Capital Goods,Financial Services,False,0.273935591701377
-SBILIFE,HINDALCO,Financial Services,Metals & Mining,False,0.2739070940371975
-ONGC,ADANIPORTS,"Oil, Gas & Fuels",Services,False,0.27338660509604606
-TITAN,AXISBANK,Consumer Durables,Financial Services,False,0.2733821999704757
-ITC,TATASTEEL,FMCG,Metals & Mining,False,0.27286645059319303
-ULTRACEMCO,APOLLOHOSP,Construction Materials,Healthcare,False,0.27285871245603016
-AXISBANK,ADANIENT,Financial Services,Metals & Mining,False,0.27217074473336267
-ULTRACEMCO,HINDUNILVR,Construction Materials,FMCG,False,0.27186069286445314
-TITAN,ADANIENT,Consumer Durables,Metals & Mining,False,0.2714204536042695
-LT,BSE,Construction,Financial Services,False,0.27118387318629567
-TITAN,HINDUNILVR,Consumer Durables,FMCG,False,0.27085925143292966
-ETERNAL,BSE,Consumer Services,Financial Services,False,0.27053447561781
-BAJFINANCE,BHARTIARTL,Financial Services,Telecommunication,False,0.27052067071659824
-HCLTECH,JSWSTEEL,Information Technology,Metals & Mining,False,0.2704095384889462
-ETERNAL,TRENT,Consumer Services,Consumer Services,True,0.27038097629357205
-SUNPHARMA,TATASTEEL,Healthcare,Metals & Mining,False,0.2702247787469859
-BEL,BAJFINANCE,Capital Goods,Financial Services,False,0.2702223670038183
-TCS,RELIANCE,Information Technology,"Oil, Gas & Fuels",False,0.26986640457083977
-ETERNAL,RELIANCE,Consumer Services,"Oil, Gas & Fuels",False,0.26978400250902274
-HCLTECH,RELIANCE,Information Technology,"Oil, Gas & Fuels",False,0.2697439583287534
-ITC,BAJFINANCE,FMCG,Financial Services,False,0.2695329672649165
-ETERNAL,HDFCLIFE,Consumer Services,Financial Services,False,0.26947554752945774
-NTPC,INDIGO,Power,Services,False,0.2693948938652104
-ETERNAL,ADANIENT,Consumer Services,Metals & Mining,False,0.2693396119606882
-BAJAJFINSV,APOLLOHOSP,Financial Services,Healthcare,False,0.26925971184270087
-ADANIENT,POWERGRID,Metals & Mining,Power,False,0.2691004696968007
-ETERNAL,BAJAJFINSV,Consumer Services,Financial Services,False,0.2689918106194525
-TMPV,SUNPHARMA,Automobile,Healthcare,False,0.26891120041165456
-EICHERMOT,HDFCLIFE,Automobile,Financial Services,False,0.2686061167238064
-ASIANPAINT,HDFCBANK,Consumer Durables,Financial Services,False,0.2685074682248376
-HINDUNILVR,SBILIFE,FMCG,Financial Services,False,0.26846423541729564
-SBILIFE,INDIGO,Financial Services,Services,False,0.26837501951448345
-BEL,SBILIFE,Capital Goods,Financial Services,False,0.26833923669507537
-TECHM,TATASTEEL,Information Technology,Metals & Mining,False,0.2681581029883974
-TRENT,ADANIENT,Consumer Services,Metals & Mining,False,0.26783923920973035
-HINDALCO,INDIGO,Metals & Mining,Services,False,0.2678059548182824
-TITAN,APOLLOHOSP,Consumer Durables,Healthcare,False,0.2676093598402175
-HDFCBANK,HINDALCO,Financial Services,Metals & Mining,False,0.26735876798553826
-NESTLEIND,BAJFINANCE,FMCG,Financial Services,False,0.26708027648149624
-HCLTECH,BHARTIARTL,Information Technology,Telecommunication,False,0.2670776621935203
-ASIANPAINT,SBILIFE,Consumer Durables,Financial Services,False,0.26675188131708377
-M&M,APOLLOHOSP,Automobile,Healthcare,False,0.2665744413503229
-ASIANPAINT,ICICIBANK,Consumer Durables,Financial Services,False,0.26645577944890336
-M&M,NESTLEIND,Automobile,FMCG,False,0.2663045224193703
-BAJAJ-AUTO,AXISBANK,Automobile,Financial Services,False,0.26547383184251244
-KOTAKBANK,TATASTEEL,Financial Services,Metals & Mining,False,0.26528603688957847
-SBILIFE,BHARTIARTL,Financial Services,Telecommunication,False,0.26514210768309693
-TATACONSUM,TCS,FMCG,Information Technology,False,0.2649824219110436
-GRASIM,ETERNAL,Construction Materials,Consumer Services,False,0.2648632825940568
-MARUTI,TATASTEEL,Automobile,Metals & Mining,False,0.26484202040375904
-BAJAJ-AUTO,INDIGO,Automobile,Services,False,0.26472020409728936
-HCLTECH,TATASTEEL,Information Technology,Metals & Mining,False,0.26466126707334586
-BSE,JSWSTEEL,Financial Services,Metals & Mining,False,0.264121163877616
-ULTRACEMCO,POWERGRID,Construction Materials,Power,False,0.26411911542992234
-HINDALCO,BHARTIARTL,Metals & Mining,Telecommunication,False,0.263741399335446
-BAJAJ-AUTO,TATACONSUM,Automobile,FMCG,False,0.26366632117390687
-SHRIRAMFIN,POWERGRID,Financial Services,Power,False,0.26260830568789334
-TMPV,ETERNAL,Automobile,Consumer Services,False,0.2625126707206796
-TITAN,NTPC,Consumer Durables,Power,False,0.2623163594955752
-ULTRACEMCO,ITC,Construction Materials,FMCG,False,0.2619337829059648
-BSE,SHRIRAMFIN,Financial Services,Financial Services,True,0.26190459774723096
-HINDUNILVR,KOTAKBANK,FMCG,Financial Services,False,0.26184962254746647
-BAJAJFINSV,HCLTECH,Financial Services,Information Technology,False,0.26165276325910625
-APOLLOHOSP,SUNPHARMA,Healthcare,Healthcare,True,0.26145245819177704
-ITC,ADANIPORTS,FMCG,Services,False,0.26107156298731327
-TATACONSUM,INFY,FMCG,Information Technology,False,0.260674249893729
-MARUTI,HDFCLIFE,Automobile,Financial Services,False,0.2606072400931525
-MARUTI,TRENT,Automobile,Consumer Services,False,0.2605561289378307
-AXISBANK,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.2605291108809707
-TATACONSUM,SBILIFE,FMCG,Financial Services,False,0.26044313698794463
-ICICIBANK,HINDALCO,Financial Services,Metals & Mining,False,0.2603571262476585
-INFY,RELIANCE,Information Technology,"Oil, Gas & Fuels",False,0.26034910277619977
-TRENT,JIOFIN,Consumer Services,Financial Services,False,0.26029602271012003
-LT,ITC,Construction,FMCG,False,0.2602082707029007
-MARUTI,NESTLEIND,Automobile,FMCG,False,0.2601127163709941
-APOLLOHOSP,JSWSTEEL,Healthcare,Metals & Mining,False,0.2599665864941611
-TRENT,BSE,Consumer Services,Financial Services,False,0.25981948494346463
-EICHERMOT,ITC,Automobile,FMCG,False,0.2594560696318478
-ETERNAL,TATASTEEL,Consumer Services,Metals & Mining,False,0.2592265083903641
-SUNPHARMA,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.25894073624623803
-BEL,KOTAKBANK,Capital Goods,Financial Services,False,0.2589215947950272
-TRENT,AXISBANK,Consumer Services,Financial Services,False,0.2588583692485302
-INFY,JSWSTEEL,Information Technology,Metals & Mining,False,0.25850761255186633
-TATACONSUM,BHARTIARTL,FMCG,Telecommunication,False,0.2577686094592454
-HCLTECH,HINDALCO,Information Technology,Metals & Mining,False,0.25723934742024307
-JIOFIN,SUNPHARMA,Financial Services,Healthcare,False,0.2571707052891585
-BAJAJ-AUTO,SBIN,Automobile,Financial Services,False,0.2569356904277033
-TATACONSUM,ADANIPORTS,FMCG,Services,False,0.25643224168737827
-TRENT,COALINDIA,Consumer Services,"Oil, Gas & Fuels",False,0.2563789205774766
-ASIANPAINT,SHRIRAMFIN,Consumer Durables,Financial Services,False,0.25629228695622885
-NESTLEIND,SBILIFE,FMCG,Financial Services,False,0.25622605379844265
-BSE,HINDALCO,Financial Services,Metals & Mining,False,0.2560452020978598
-HDFCBANK,INFY,Financial Services,Information Technology,False,0.2559366741668277
-M&M,ITC,Automobile,FMCG,False,0.2559139951555882
-AXISBANK,HINDALCO,Financial Services,Metals & Mining,False,0.2555492116279439
-TITAN,SUNPHARMA,Consumer Durables,Healthcare,False,0.2553781951959046
-BAJAJ-AUTO,BAJFINANCE,Automobile,Financial Services,False,0.25494514763047565
-SUNPHARMA,HINDALCO,Healthcare,Metals & Mining,False,0.2547258084993093
-ITC,ICICIBANK,FMCG,Financial Services,False,0.254701055276234
-BAJAJ-AUTO,SBILIFE,Automobile,Financial Services,False,0.2542740383213885
-BSE,ADANIENT,Financial Services,Metals & Mining,False,0.25413505940562464
-HDFCBANK,NTPC,Financial Services,Power,False,0.25380666160987986
-ETERNAL,SBIN,Consumer Services,Financial Services,False,0.25366802682367895
-M&M,HINDUNILVR,Automobile,FMCG,False,0.2534425675710258
-ITC,INDIGO,FMCG,Services,False,0.25342530830740684
-TATACONSUM,KOTAKBANK,FMCG,Financial Services,False,0.25318933123619464
-TMPV,BHARTIARTL,Automobile,Telecommunication,False,0.25305534467916874
-MARUTI,ADANIENT,Automobile,Metals & Mining,False,0.2530432434383121
-JIOFIN,CIPLA,Financial Services,Healthcare,False,0.25283075607037553
-TATACONSUM,SHRIRAMFIN,FMCG,Financial Services,False,0.25255256105161467
-TMPV,TCS,Automobile,Information Technology,False,0.2524713089582427
-GRASIM,HINDUNILVR,Construction Materials,FMCG,False,0.25236256769555077
-GRASIM,TECHM,Construction Materials,Information Technology,False,0.2523054856867283
-BEL,ETERNAL,Capital Goods,Consumer Services,False,0.25225889474965435
-BAJAJFINSV,BHARTIARTL,Financial Services,Telecommunication,False,0.2521999523462957
-BAJAJ-AUTO,NTPC,Automobile,Power,False,0.25203743977188875
-SHRIRAMFIN,BHARTIARTL,Financial Services,Telecommunication,False,0.25199919292734385
-BAJFINANCE,HINDALCO,Financial Services,Metals & Mining,False,0.2517448128834678
-BAJAJFINSV,BSE,Financial Services,Financial Services,True,0.2516695633668525
-MARUTI,NTPC,Automobile,Power,False,0.25140768726645674
-BAJFINANCE,INFY,Financial Services,Information Technology,False,0.25090773856978177
-EICHERMOT,NTPC,Automobile,Power,False,0.25080128355307396
-TECHM,HINDALCO,Information Technology,Metals & Mining,False,0.2506534835492953
-ASIANPAINT,APOLLOHOSP,Consumer Durables,Healthcare,False,0.2506426217300789
-BSE,NTPC,Financial Services,Power,False,0.2503956335322391
-LT,SUNPHARMA,Construction,Healthcare,False,0.2502185921617672
-BAJAJ-AUTO,HDFCBANK,Automobile,Financial Services,False,0.25003356997506065
-EICHERMOT,NESTLEIND,Automobile,FMCG,False,0.24986152670046763
-SUNPHARMA,JSWSTEEL,Healthcare,Metals & Mining,False,0.24965441299895336
-ADANIENT,HINDALCO,Metals & Mining,Metals & Mining,True,0.24965148166296172
-LT,APOLLOHOSP,Construction,Healthcare,False,0.24952662022163025
-TMPV,APOLLOHOSP,Automobile,Healthcare,False,0.24935886412007618
-ETERNAL,SHRIRAMFIN,Consumer Services,Financial Services,False,0.24925021876371184
-ASIANPAINT,HDFCLIFE,Consumer Durables,Financial Services,False,0.24914664223746338
-ULTRACEMCO,SUNPHARMA,Construction Materials,Healthcare,False,0.2490832035496557
-TRENT,ICICIBANK,Consumer Services,Financial Services,False,0.24904384081196654
-NTPC,BHARTIARTL,Power,Telecommunication,False,0.24895968987657302
-TATACONSUM,HDFCBANK,FMCG,Financial Services,False,0.24881798280960277
-LT,ONGC,Construction,"Oil, Gas & Fuels",False,0.248738796475679
-LT,ETERNAL,Construction,Consumer Services,False,0.24864195603106
-BAJAJ-AUTO,HDFCLIFE,Automobile,Financial Services,False,0.24862087331445945
-ITC,BAJAJFINSV,FMCG,Financial Services,False,0.24856415144196298
-EICHERMOT,HINDALCO,Automobile,Metals & Mining,False,0.24844244158054607
-EICHERMOT,APOLLOHOSP,Automobile,Healthcare,False,0.24833140605382378
-BEL,ITC,Capital Goods,FMCG,False,0.24815736014999062
-EICHERMOT,BSE,Automobile,Financial Services,False,0.2481165459053932
-BAJAJFINSV,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.24804001266946019
-KOTAKBANK,NTPC,Financial Services,Power,False,0.24796714314024723
-M&M,SUNPHARMA,Automobile,Healthcare,False,0.2478432031688102
-ETERNAL,SBILIFE,Consumer Services,Financial Services,False,0.24769440316290084
-SBILIFE,SUNPHARMA,Financial Services,Healthcare,False,0.24751985864741094
-NESTLEIND,RELIANCE,FMCG,"Oil, Gas & Fuels",False,0.2469606389035996
-HDFCBANK,TECHM,Financial Services,Information Technology,False,0.24658116576678463
-BEL,HDFCBANK,Capital Goods,Financial Services,False,0.24586230072718898
-HDFCLIFE,HINDALCO,Financial Services,Metals & Mining,False,0.24585087281740364
-NESTLEIND,APOLLOHOSP,FMCG,Healthcare,False,0.2458353990007235
-ADANIENT,BHARTIARTL,Metals & Mining,Telecommunication,False,0.24533872212512786
-ULTRACEMCO,ETERNAL,Construction Materials,Consumer Services,False,0.24526419449579032
-TATACONSUM,ICICIBANK,FMCG,Financial Services,False,0.24514182229632264
-TMPV,HCLTECH,Automobile,Information Technology,False,0.24498896159186068
-POWERGRID,INDIGO,Power,Services,False,0.24473812633282727
-M&M,POWERGRID,Automobile,Power,False,0.24463204943063863
-BAJAJ-AUTO,ASIANPAINT,Automobile,Consumer Durables,False,0.24450174238548358
-GRASIM,INFY,Construction Materials,Information Technology,False,0.24443023504737965
-TRENT,ITC,Consumer Services,FMCG,False,0.24440765638260956
-HDFCLIFE,BHARTIARTL,Financial Services,Telecommunication,False,0.24437263390571773
-INFY,HINDALCO,Information Technology,Metals & Mining,False,0.24403152287794866
-BAJAJ-AUTO,ADANIPORTS,Automobile,Services,False,0.2438386615028235
-ITC,BHARTIARTL,FMCG,Telecommunication,False,0.24346028275430248
-INFY,BHARTIARTL,Information Technology,Telecommunication,False,0.24300272090183994
-M&M,INFY,Automobile,Information Technology,False,0.24292538867858773
-JIOFIN,APOLLOHOSP,Financial Services,Healthcare,False,0.24287971437363043
-GRASIM,TCS,Construction Materials,Information Technology,False,0.24270966180354206
-ETERNAL,APOLLOHOSP,Consumer Services,Healthcare,False,0.24268045848919625
-TATACONSUM,APOLLOHOSP,FMCG,Healthcare,False,0.24266114799689037
-TRENT,HDFCBANK,Consumer Services,Financial Services,False,0.24250169816898684
-HINDUNILVR,INDIGO,FMCG,Services,False,0.24202944685839722
-ASIANPAINT,SBIN,Consumer Durables,Financial Services,False,0.24202640805102812
-SHRIRAMFIN,APOLLOHOSP,Financial Services,Healthcare,False,0.24196372125948576
-SBILIFE,TECHM,Financial Services,Information Technology,False,0.24195442758207442
-BAJAJ-AUTO,HINDALCO,Automobile,Metals & Mining,False,0.24145264502291666
-M&M,BSE,Automobile,Financial Services,False,0.24130604163097225
-ASIANPAINT,ADANIENT,Consumer Durables,Metals & Mining,False,0.24110629842197837
-SBILIFE,TCS,Financial Services,Information Technology,False,0.24054023630282595
-SUNPHARMA,ADANIPORTS,Healthcare,Services,False,0.24025624299630532
-SBILIFE,HCLTECH,Financial Services,Information Technology,False,0.23994113693574357
-M&M,HINDALCO,Automobile,Metals & Mining,False,0.23949220174365998
-SUNPHARMA,BHARTIARTL,Healthcare,Telecommunication,False,0.23895380647337966
-HINDUNILVR,HDFCLIFE,FMCG,Financial Services,False,0.2389402120505754
-BAJFINANCE,TECHM,Financial Services,Information Technology,False,0.23857327462172198
-TRENT,BHARTIARTL,Consumer Services,Telecommunication,False,0.23850211868364407
-BEL,APOLLOHOSP,Capital Goods,Healthcare,False,0.23840708055591997
-AXISBANK,BHARTIARTL,Financial Services,Telecommunication,False,0.23830934670153983
-BAJFINANCE,BSE,Financial Services,Financial Services,True,0.23808201311724086
-BSE,HDFCBANK,Financial Services,Financial Services,True,0.23802462111467662
-SBILIFE,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.23791301973734819
-TITAN,TCS,Consumer Durables,Information Technology,False,0.23786328288302908
-KOTAKBANK,ADANIENT,Financial Services,Metals & Mining,False,0.23765232797557242
-BEL,BHARTIARTL,Capital Goods,Telecommunication,False,0.23730442516420222
-TECHM,BHARTIARTL,Information Technology,Telecommunication,False,0.2371627145385365
-POWERGRID,BHARTIARTL,Power,Telecommunication,False,0.23698745339841717
-SBILIFE,INFY,Financial Services,Information Technology,False,0.23679979530389592
-APOLLOHOSP,CIPLA,Healthcare,Healthcare,True,0.23676811378757046
-LT,DRREDDY,Construction,Healthcare,False,0.23658557184490464
-ETERNAL,JSWSTEEL,Consumer Services,Metals & Mining,False,0.23654436326835446
-NESTLEIND,HDFCLIFE,FMCG,Financial Services,False,0.23629221312222828
-TITAN,HCLTECH,Consumer Durables,Information Technology,False,0.23580097324348712
-TCS,JSWSTEEL,Information Technology,Metals & Mining,False,0.23566144389982432
-BEL,TATACONSUM,Capital Goods,FMCG,False,0.23546518902036168
-EICHERMOT,ETERNAL,Automobile,Consumer Services,False,0.2354253475716743
-ICICIBANK,APOLLOHOSP,Financial Services,Healthcare,False,0.23532117651786172
-TMPV,ASIANPAINT,Automobile,Consumer Durables,False,0.23500483482002904
-TATACONSUM,TATASTEEL,FMCG,Metals & Mining,False,0.23491510207111999
-GRASIM,BSE,Construction Materials,Financial Services,False,0.2348351469875892
-TATACONSUM,TECHM,FMCG,Information Technology,False,0.23475742740873254
-TRENT,NTPC,Consumer Services,Power,False,0.2346899287935442
-TMPV,ONGC,Automobile,"Oil, Gas & Fuels",False,0.23444306977140575
-ULTRACEMCO,TCS,Construction Materials,Information Technology,False,0.23419828558216793
-ASIANPAINT,KOTAKBANK,Consumer Durables,Financial Services,False,0.23395165638483859
-ULTRACEMCO,DRREDDY,Construction Materials,Healthcare,False,0.23379811053991126
-TITAN,INFY,Consumer Durables,Information Technology,False,0.23325791093121995
-HDFCBANK,HCLTECH,Financial Services,Information Technology,False,0.23284397911465252
-HINDUNILVR,AXISBANK,FMCG,Financial Services,False,0.23261327459954675
-BSE,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.23204301091486998
-TMPV,INFY,Automobile,Information Technology,False,0.23204059324834134
-BAJAJ-AUTO,KOTAKBANK,Automobile,Financial Services,False,0.23193454335844046
-ASIANPAINT,TCS,Consumer Durables,Information Technology,False,0.2315909020524391
-BAJAJ-AUTO,BEL,Automobile,Capital Goods,False,0.23129345243939858
-BAJFINANCE,TCS,Financial Services,Information Technology,False,0.2312029101500234
-APOLLOHOSP,INDIGO,Healthcare,Services,False,0.2311076990321888
-COALINDIA,INDIGO,"Oil, Gas & Fuels",Services,False,0.23104179098697608
-GRASIM,HCLTECH,Construction Materials,Information Technology,False,0.23099585286087415
-TATACONSUM,SBIN,FMCG,Financial Services,False,0.23099574185009733
-ULTRACEMCO,TECHM,Construction Materials,Information Technology,False,0.23091226563670605
-HINDUNILVR,HDFCBANK,FMCG,Financial Services,False,0.23072375293369846
-ITC,HDFCBANK,FMCG,Financial Services,False,0.23048632545298461
-ASIANPAINT,ITC,Consumer Durables,FMCG,False,0.2300553934626757
-HDFCLIFE,NTPC,Financial Services,Power,False,0.22992394110253805
-ICICIBANK,POWERGRID,Financial Services,Power,False,0.22987725233880926
-M&M,DRREDDY,Automobile,Healthcare,False,0.2298476736151562
-GRASIM,DRREDDY,Construction Materials,Healthcare,False,0.22975641390279497
-BAJAJFINSV,POWERGRID,Financial Services,Power,False,0.22967126109224606
-M&M,TCS,Automobile,Information Technology,False,0.22945672340242504
-HDFCBANK,TCS,Financial Services,Information Technology,False,0.2292461577015649
-ITC,AXISBANK,FMCG,Financial Services,False,0.22867101860056446
-TITAN,TECHM,Consumer Durables,Information Technology,False,0.22839685444257238
-M&M,TECHM,Automobile,Information Technology,False,0.2282741927529303
-BAJAJ-AUTO,ICICIBANK,Automobile,Financial Services,False,0.22818677231832962
-MARUTI,ITC,Automobile,FMCG,False,0.22744353500994338
-TATACONSUM,SUNPHARMA,FMCG,Healthcare,False,0.22714722094414622
-ONGC,BHARTIARTL,"Oil, Gas & Fuels",Telecommunication,False,0.22707048721330333
-ETERNAL,HINDALCO,Consumer Services,Metals & Mining,False,0.2269958940176411
-M&M,MAXHEALTH,Automobile,Healthcare,False,0.22693823361114848
-ULTRACEMCO,HCLTECH,Construction Materials,Information Technology,False,0.22682599142974935
-BAJAJFINSV,SUNPHARMA,Financial Services,Healthcare,False,0.22662088989353546
-ITC,COALINDIA,FMCG,"Oil, Gas & Fuels",False,0.22646359005842684
-TATACONSUM,AXISBANK,FMCG,Financial Services,False,0.2261071575126709
-APOLLOHOSP,TATASTEEL,Healthcare,Metals & Mining,False,0.22552873713401958
-TATACONSUM,ADANIENT,FMCG,Metals & Mining,False,0.22510376650771527
-ASIANPAINT,JSWSTEEL,Consumer Durables,Metals & Mining,False,0.22503642653615044
-APOLLOHOSP,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.22485310444442505
-TCS,TATASTEEL,Information Technology,Metals & Mining,False,0.22449320523206354
-INFY,TATASTEEL,Information Technology,Metals & Mining,False,0.2240669004625855
-SUNPHARMA,NTPC,Healthcare,Power,False,0.22337900849251802
-ICICIBANK,INFY,Financial Services,Information Technology,False,0.2232719673954025
-TATACONSUM,HCLTECH,FMCG,Information Technology,False,0.22326026182690548
-ETERNAL,ICICIBANK,Consumer Services,Financial Services,False,0.2231794735684773
-HDFCLIFE,SUNPHARMA,Financial Services,Healthcare,False,0.22313160952420713
-MARUTI,BEL,Automobile,Capital Goods,False,0.22300078857153013
-TATACONSUM,NTPC,FMCG,Power,False,0.22280152057386504
-SUNPHARMA,TECHM,Healthcare,Information Technology,False,0.2226150009688999
-BAJAJ-AUTO,HINDUNILVR,Automobile,FMCG,False,0.22253629698091112
-ASIANPAINT,SUNPHARMA,Consumer Durables,Healthcare,False,0.22252260001333365
-TRENT,SBILIFE,Consumer Services,Financial Services,False,0.2217756971741651
-TRENT,NESTLEIND,Consumer Services,FMCG,False,0.2213313099810874
-HINDUNILVR,BAJFINANCE,FMCG,Financial Services,False,0.22067164057606825
-APOLLOHOSP,DRREDDY,Healthcare,Healthcare,True,0.22061390744720807
-APOLLOHOSP,TECHM,Healthcare,Information Technology,False,0.22053071518223002
-ITC,NTPC,FMCG,Power,False,0.22010823139380137
-BAJAJ-AUTO,APOLLOHOSP,Automobile,Healthcare,False,0.22008494479340932
-DRREDDY,JSWSTEEL,Healthcare,Metals & Mining,False,0.22001632395758144
-TMPV,DRREDDY,Automobile,Healthcare,False,0.21974023439753168
-ETERNAL,TECHM,Consumer Services,Information Technology,False,0.21932140575482514
-TITAN,COALINDIA,Consumer Durables,"Oil, Gas & Fuels",False,0.21914909410636105
-TITAN,BSE,Consumer Durables,Financial Services,False,0.2191439515863991
-BAJAJ-AUTO,SUNPHARMA,Automobile,Healthcare,False,0.21911846626148299
-ULTRACEMCO,INFY,Construction Materials,Information Technology,False,0.21904398665753927
-NESTLEIND,JSWSTEEL,FMCG,Metals & Mining,False,0.21815558655932382
-ICICIBANK,TECHM,Financial Services,Information Technology,False,0.2175711266086504
-BSE,SBILIFE,Financial Services,Financial Services,True,0.21739518440506755
-BSE,HDFCLIFE,Financial Services,Financial Services,True,0.2171593921104763
-MARUTI,HINDALCO,Automobile,Metals & Mining,False,0.21698133548948467
-BAJFINANCE,HCLTECH,Financial Services,Information Technology,False,0.2168597779975759
-KOTAKBANK,TECHM,Financial Services,Information Technology,False,0.21647233201313146
-HDFCBANK,POWERGRID,Financial Services,Power,False,0.21637225817173705
-HDFCLIFE,TECHM,Financial Services,Information Technology,False,0.21628316045978283
-TRENT,POWERGRID,Consumer Services,Power,False,0.2160775462970065
-ADANIENT,ONGC,Metals & Mining,"Oil, Gas & Fuels",False,0.21599449151833425
-MAXHEALTH,SUNPHARMA,Healthcare,Healthcare,True,0.21590698528061444
-SUNPHARMA,TCS,Healthcare,Information Technology,False,0.21545414913750693
-MARUTI,ETERNAL,Automobile,Consumer Services,False,0.21535829549210242
-TCS,HINDALCO,Information Technology,Metals & Mining,False,0.215242179984671
-TRENT,HDFCLIFE,Consumer Services,Financial Services,False,0.2150845391926316
-APOLLOHOSP,ADANIPORTS,Healthcare,Services,False,0.21478139949528294
-SBILIFE,APOLLOHOSP,Financial Services,Healthcare,False,0.21474723136402407
-AXISBANK,POWERGRID,Financial Services,Power,False,0.21451738816725374
-HINDUNILVR,RELIANCE,FMCG,"Oil, Gas & Fuels",False,0.21428267584387184
-HINDUNILVR,BAJAJFINSV,FMCG,Financial Services,False,0.21408220911307677
-SBILIFE,POWERGRID,Financial Services,Power,False,0.2138903646691515
-HDFCLIFE,HCLTECH,Financial Services,Information Technology,False,0.21369485087645348
-ITC,SHRIRAMFIN,FMCG,Financial Services,False,0.2136917185217547
-AXISBANK,BSE,Financial Services,Financial Services,True,0.21360872088068739
-NESTLEIND,AXISBANK,FMCG,Financial Services,False,0.2133366376689109
-ITC,SUNPHARMA,FMCG,Healthcare,False,0.21271120797078744
-BAJFINANCE,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.21248903349991766
-HDFCLIFE,APOLLOHOSP,Financial Services,Healthcare,False,0.21209265253992168
-ICICIBANK,SUNPHARMA,Financial Services,Healthcare,False,0.21184466734858912
-TECHM,ADANIPORTS,Information Technology,Services,False,0.211144040354005
-APOLLOHOSP,HINDALCO,Healthcare,Metals & Mining,False,0.21064849024595067
-M&M,HCLTECH,Automobile,Information Technology,False,0.21033234186804814
-ETERNAL,AXISBANK,Consumer Services,Financial Services,False,0.21030132674700022
-APOLLOHOSP,BHARTIARTL,Healthcare,Telecommunication,False,0.21019076623473845
-MARUTI,APOLLOHOSP,Automobile,Healthcare,False,0.20997487959715266
-MARUTI,BSE,Automobile,Financial Services,False,0.20993547113480496
-INDIGO,BHARTIARTL,Services,Telecommunication,False,0.20992115707905062
-NESTLEIND,INDIGO,FMCG,Services,False,0.20980632852198244
-APOLLOHOSP,HCLTECH,Healthcare,Information Technology,False,0.20943158499736933
-TITAN,POWERGRID,Consumer Durables,Power,False,0.20943124244336211
-ICICIBANK,TCS,Financial Services,Information Technology,False,0.20892810723938116
-KOTAKBANK,POWERGRID,Financial Services,Power,False,0.2085473741772526
-ASIANPAINT,AXISBANK,Consumer Durables,Financial Services,False,0.20799196375440954
-BAJAJ-AUTO,ADANIENT,Automobile,Metals & Mining,False,0.20785657820760356
-NESTLEIND,KOTAKBANK,FMCG,Financial Services,False,0.20746213736242664
-TRENT,SUNPHARMA,Consumer Services,Healthcare,False,0.20724127701592956
-EICHERMOT,MAXHEALTH,Automobile,Healthcare,False,0.2063318612436475
-ITC,HINDALCO,FMCG,Metals & Mining,False,0.20612527690567803
-ETERNAL,TATACONSUM,Consumer Services,FMCG,False,0.2056621935390445
-HDFCLIFE,TCS,Financial Services,Information Technology,False,0.20515943671738335
-HDFCBANK,APOLLOHOSP,Financial Services,Healthcare,False,0.20510284257943084
-EICHERMOT,SUNPHARMA,Automobile,Healthcare,False,0.20494028616281343
-JIOFIN,MAXHEALTH,Financial Services,Healthcare,False,0.2049382531406107
-ITC,SBILIFE,FMCG,Financial Services,False,0.20484027220512405
-ULTRACEMCO,COALINDIA,Construction Materials,"Oil, Gas & Fuels",False,0.2047364467026156
-BSE,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.20470613170333948
-ICICIBANK,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.20448498119763744
-SUNPHARMA,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.2039385832937547
-HINDUNILVR,ICICIBANK,FMCG,Financial Services,False,0.20316025094684448
-ULTRACEMCO,BSE,Construction Materials,Financial Services,False,0.20284640781628913
-ETERNAL,KOTAKBANK,Consumer Services,Financial Services,False,0.20275401457267767
-SBIN,APOLLOHOSP,Financial Services,Healthcare,False,0.20267276769533507
-BAJAJ-AUTO,BSE,Automobile,Financial Services,False,0.20158330907012378
-ASIANPAINT,BHARTIARTL,Consumer Durables,Telecommunication,False,0.2013691293521043
-SUNPHARMA,HCLTECH,Healthcare,Information Technology,False,0.20124029113623867
-HINDUNILVR,TCS,FMCG,Information Technology,False,0.20089173148011136
-M&M,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.20065426569336473
-TMPV,HINDUNILVR,Automobile,FMCG,False,0.2004691996521364
-KOTAKBANK,HINDALCO,Financial Services,Metals & Mining,False,0.2004449855928944
-LT,NESTLEIND,Construction,FMCG,False,0.20042105027461024
-SBIN,TECHM,Financial Services,Information Technology,False,0.20039535652431345
-TCS,BHARTIARTL,Information Technology,Telecommunication,False,0.19994758463369253
-ITC,HCLTECH,FMCG,Information Technology,False,0.19991933698121828
-DRREDDY,TATASTEEL,Healthcare,Metals & Mining,False,0.19979417565332738
-GRASIM,ONGC,Construction Materials,"Oil, Gas & Fuels",False,0.19975698453823232
-DRREDDY,HCLTECH,Healthcare,Information Technology,False,0.19971836040800237
-COALINDIA,BHARTIARTL,"Oil, Gas & Fuels",Telecommunication,False,0.19918198318712016
-BAJAJ-AUTO,POWERGRID,Automobile,Power,False,0.19872888594881857
-ULTRACEMCO,MAXHEALTH,Construction Materials,Healthcare,False,0.1984295783293651
-KOTAKBANK,HCLTECH,Financial Services,Information Technology,False,0.19839533401943074
-SUNPHARMA,INFY,Healthcare,Information Technology,False,0.19809157520448628
-BAJAJ-AUTO,HCLTECH,Automobile,Information Technology,False,0.1976255066094783
-TRENT,TECHM,Consumer Services,Information Technology,False,0.1972048926635014
-SUNPHARMA,INDIGO,Healthcare,Services,False,0.1967240234949247
-HINDUNILVR,INFY,FMCG,Information Technology,False,0.1966749113760686
-BEL,TECHM,Capital Goods,Information Technology,False,0.1965414236169443
-SHRIRAMFIN,SUNPHARMA,Financial Services,Healthcare,False,0.19640449450698722
-DRREDDY,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.19634957984872087
-EICHERMOT,DRREDDY,Automobile,Healthcare,False,0.19631148629492023
-EICHERMOT,POWERGRID,Automobile,Power,False,0.1962036773438196
-HDFCLIFE,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.19592018009700035
-MARUTI,SUNPHARMA,Automobile,Healthcare,False,0.195643880479534
-APOLLOHOSP,POWERGRID,Healthcare,Power,False,0.19560310739228878
-SUNPHARMA,POWERGRID,Healthcare,Power,False,0.1955950232118575
-ETERNAL,INFY,Consumer Services,Information Technology,False,0.19554488364890427
-ETERNAL,TCS,Consumer Services,Information Technology,False,0.19541579660102956
-BSE,KOTAKBANK,Financial Services,Financial Services,True,0.1949083851129691
-SBIN,DRREDDY,Financial Services,Healthcare,False,0.19445996878021884
-SBIN,TCS,Financial Services,Information Technology,False,0.19416787685538153
-HDFCBANK,DRREDDY,Financial Services,Healthcare,False,0.19401202418358673
-BSE,ICICIBANK,Financial Services,Financial Services,True,0.19399514698840048
-ETERNAL,COALINDIA,Consumer Services,"Oil, Gas & Fuels",False,0.19370466193374755
-DRREDDY,INFY,Healthcare,Information Technology,False,0.19351178817718814
-EICHERMOT,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.19348077285791657
-ITC,DRREDDY,FMCG,Healthcare,False,0.1934418389394399
-ITC,TECHM,FMCG,Information Technology,False,0.19293893047892874
-KOTAKBANK,SUNPHARMA,Financial Services,Healthcare,False,0.1928928214758279
-AXISBANK,APOLLOHOSP,Financial Services,Healthcare,False,0.19273427642514382
-HDFCLIFE,MAXHEALTH,Financial Services,Healthcare,False,0.1924128829403476
-BAJAJ-AUTO,ITC,Automobile,FMCG,False,0.1922968530034814
-TRENT,APOLLOHOSP,Consumer Services,Healthcare,False,0.19221949178211517
-TRENT,KOTAKBANK,Consumer Services,Financial Services,False,0.19181038114809648
-TATACONSUM,HINDALCO,FMCG,Metals & Mining,False,0.191713309104537
-TATACONSUM,JIOFIN,FMCG,Financial Services,False,0.19133628989244295
-HCLTECH,ADANIPORTS,Information Technology,Services,False,0.19125948038779042
-HINDUNILVR,APOLLOHOSP,FMCG,Healthcare,False,0.19113735517528335
-HINDUNILVR,HCLTECH,FMCG,Information Technology,False,0.1911308488727536
-HDFCLIFE,INFY,Financial Services,Information Technology,False,0.1910939769771656
-HCLTECH,COALINDIA,Information Technology,"Oil, Gas & Fuels",False,0.19104299313005468
-KOTAKBANK,APOLLOHOSP,Financial Services,Healthcare,False,0.19082184326108553
-TATACONSUM,BSE,FMCG,Financial Services,False,0.19055749206461411
-SUNPHARMA,ADANIENT,Healthcare,Metals & Mining,False,0.19025055148464393
-ITC,HDFCLIFE,FMCG,Financial Services,False,0.19020074093686115
-ETERNAL,SUNPHARMA,Consumer Services,Healthcare,False,0.1899331112864703
-SBILIFE,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.18986530194870652
-NESTLEIND,SUNPHARMA,FMCG,Healthcare,False,0.1897420347190674
-DRREDDY,ADANIPORTS,Healthcare,Services,False,0.18944759353475474
-BAJFINANCE,SUNPHARMA,Financial Services,Healthcare,False,0.18908457083789998
-TRENT,HCLTECH,Consumer Services,Information Technology,False,0.18860046511601103
-BSE,APOLLOHOSP,Financial Services,Healthcare,False,0.18819927473413148
-LT,CIPLA,Construction,Healthcare,False,0.18812783904960156
-DRREDDY,BHARTIARTL,Healthcare,Telecommunication,False,0.18793140167825348
-TECHM,COALINDIA,Information Technology,"Oil, Gas & Fuels",False,0.18771655827134343
-MARUTI,POWERGRID,Automobile,Power,False,0.18754438261855283
-BEL,SUNPHARMA,Capital Goods,Healthcare,False,0.18752238681245406
-INFY,ADANIPORTS,Information Technology,Services,False,0.18685419040276066
-NESTLEIND,TCS,FMCG,Information Technology,False,0.18683439510772615
-APOLLOHOSP,ADANIENT,Healthcare,Metals & Mining,False,0.1867538997982059
-EICHERMOT,TECHM,Automobile,Information Technology,False,0.18668035426558002
-TCS,ADANIPORTS,Information Technology,Services,False,0.18644275393634216
-MAXHEALTH,INDIGO,Healthcare,Services,False,0.18609908782842427
-BAJAJ-AUTO,DRREDDY,Automobile,Healthcare,False,0.18603240358670847
-ITC,ADANIENT,FMCG,Metals & Mining,False,0.18601587307259493
-ICICIBANK,HCLTECH,Financial Services,Information Technology,False,0.18595015294280562
-APOLLOHOSP,NTPC,Healthcare,Power,False,0.1859044007387229
-BAJFINANCE,POWERGRID,Financial Services,Power,False,0.18579550298170167
-ITC,INFY,FMCG,Information Technology,False,0.18553097111401712
-SHRIRAMFIN,TECHM,Financial Services,Information Technology,False,0.18539294560334224
-CIPLA,BHARTIARTL,Healthcare,Telecommunication,False,0.18497505358183491
-ASIANPAINT,TATASTEEL,Consumer Durables,Metals & Mining,False,0.18487160857103446
-KOTAKBANK,TCS,Financial Services,Information Technology,False,0.18404364395300768
-AXISBANK,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.18404294193271117
-APOLLOHOSP,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.18389005986653525
-ETERNAL,BHARTIARTL,Consumer Services,Telecommunication,False,0.18361287447783792
-LT,HINDUNILVR,Construction,FMCG,False,0.18336276811003296
-JIOFIN,TECHM,Financial Services,Information Technology,False,0.18329765479550258
-DRREDDY,TCS,Healthcare,Information Technology,False,0.1832188388043052
-SHRIRAMFIN,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.18308439494419504
-KOTAKBANK,INFY,Financial Services,Information Technology,False,0.18300729765565824
-SBILIFE,DRREDDY,Financial Services,Healthcare,False,0.1829437492976277
-NESTLEIND,HDFCBANK,FMCG,Financial Services,False,0.1824649780629259
-EICHERMOT,HCLTECH,Automobile,Information Technology,False,0.18245096351974513
-TRENT,HINDUNILVR,Consumer Services,FMCG,False,0.18228146319856478
-BSE,POWERGRID,Financial Services,Power,False,0.18202327931674311
-AXISBANK,TCS,Financial Services,Information Technology,False,0.18173355018145274
-ULTRACEMCO,CIPLA,Construction Materials,Healthcare,False,0.18160158994580738
-DRREDDY,TECHM,Healthcare,Information Technology,False,0.1813006856833667
-DRREDDY,HINDALCO,Healthcare,Metals & Mining,False,0.18115667809808733
-ETERNAL,ITC,Consumer Services,FMCG,False,0.18105681315894048
-TECHM,INDIGO,Information Technology,Services,False,0.18101396559875355
-MARUTI,TCS,Automobile,Information Technology,False,0.18078120781933416
-DRREDDY,NTPC,Healthcare,Power,False,0.18075070820493272
-TMPV,NESTLEIND,Automobile,FMCG,False,0.18073872842838226
-ASIANPAINT,HCLTECH,Consumer Durables,Information Technology,False,0.18012327480659804
-NESTLEIND,ICICIBANK,FMCG,Financial Services,False,0.1795851095454047
-HDFCBANK,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.17948887680224312
-SBIN,HCLTECH,Financial Services,Information Technology,False,0.179469639459773
-TECHM,ONGC,Information Technology,"Oil, Gas & Fuels",False,0.17917268108941214
-ETERNAL,NESTLEIND,Consumer Services,FMCG,False,0.17911308331434497
-EICHERMOT,TCS,Automobile,Information Technology,False,0.1789428709575563
-GRASIM,CIPLA,Construction Materials,Healthcare,False,0.17886644329156096
-KOTAKBANK,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.17858453556695814
-ASIANPAINT,DRREDDY,Consumer Durables,Healthcare,False,0.17842486735928006
-SBILIFE,CIPLA,Financial Services,Healthcare,False,0.1780343136770717
-HCLTECH,INDIGO,Information Technology,Services,False,0.1779965298776062
-BAJAJ-AUTO,ONGC,Automobile,"Oil, Gas & Fuels",False,0.17792507460216975
-NESTLEIND,POWERGRID,FMCG,Power,False,0.17779386202639835
-ASIANPAINT,ETERNAL,Consumer Durables,Consumer Services,False,0.17777203425286525
-BEL,ASIANPAINT,Capital Goods,Consumer Durables,False,0.17764455515271063
-SBIN,INFY,Financial Services,Information Technology,False,0.1776346455879273
-ETERNAL,POWERGRID,Consumer Services,Power,False,0.17756686820507545
-TATACONSUM,POWERGRID,FMCG,Power,False,0.1773342779061097
-ITC,TCS,FMCG,Information Technology,False,0.17705496724040523
-SHRIRAMFIN,INFY,Financial Services,Information Technology,False,0.17695799692537464
-TMPV,MAXHEALTH,Automobile,Healthcare,False,0.17685306692365224
-BAJAJ-AUTO,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.17590618783263426
-BEL,CIPLA,Capital Goods,Healthcare,False,0.1757521534789316
-AXISBANK,INFY,Financial Services,Information Technology,False,0.17557045058617185
-HDFCLIFE,DRREDDY,Financial Services,Healthcare,False,0.1755645656415334
-NESTLEIND,BHARTIARTL,FMCG,Telecommunication,False,0.17524598909441413
-JIOFIN,DRREDDY,Financial Services,Healthcare,False,0.175219550278852
-CIPLA,JSWSTEEL,Healthcare,Metals & Mining,False,0.17503131155391863
-DRREDDY,ADANIENT,Healthcare,Metals & Mining,False,0.17500434260265985
-BAJAJ-AUTO,ETERNAL,Automobile,Consumer Services,False,0.1747984366374077
-TITAN,DRREDDY,Consumer Durables,Healthcare,False,0.17475516335436986
-TCS,INDIGO,Information Technology,Services,False,0.17468300649194696
-NESTLEIND,DRREDDY,FMCG,Healthcare,False,0.1744726167073755
-TECHM,ADANIENT,Information Technology,Metals & Mining,False,0.1741850650427653
-DRREDDY,INDIGO,Healthcare,Services,False,0.17390298129703266
-ASIANPAINT,INFY,Consumer Durables,Information Technology,False,0.17358481713316343
-BEL,DRREDDY,Capital Goods,Healthcare,False,0.17346692846571288
-INFY,INDIGO,Information Technology,Services,False,0.1731958415014168
-AXISBANK,TECHM,Financial Services,Information Technology,False,0.17253620986294163
-CIPLA,TATASTEEL,Healthcare,Metals & Mining,False,0.17240501633496635
-SHRIRAMFIN,MAXHEALTH,Financial Services,Healthcare,False,0.17182558868734038
-MAXHEALTH,JSWSTEEL,Healthcare,Metals & Mining,False,0.17173901630379973
-NESTLEIND,ADANIPORTS,FMCG,Services,False,0.17162182117012953
-MARUTI,HCLTECH,Automobile,Information Technology,False,0.1714647061932567
-TRENT,MAXHEALTH,Consumer Services,Healthcare,False,0.17141189750948746
-JIOFIN,BHARTIARTL,Financial Services,Telecommunication,False,0.17140016534605
-JIOFIN,HCLTECH,Financial Services,Information Technology,False,0.17120402092007822
-CIPLA,MAXHEALTH,Healthcare,Healthcare,True,0.1704410195387549
-NESTLEIND,SBIN,FMCG,Financial Services,False,0.17018955571024752
-TATACONSUM,COALINDIA,FMCG,"Oil, Gas & Fuels",False,0.16976467114168092
-MARUTI,TECHM,Automobile,Information Technology,False,0.16873512802670476
-SHRIRAMFIN,HCLTECH,Financial Services,Information Technology,False,0.1686558272730705
-TRENT,INFY,Consumer Services,Information Technology,False,0.16859919687322064
-ETERNAL,NTPC,Consumer Services,Power,False,0.16856773248751686
-ASIANPAINT,TECHM,Consumer Durables,Information Technology,False,0.16845029123327085
-ITC,APOLLOHOSP,FMCG,Healthcare,False,0.16817241576984465
-TRENT,DRREDDY,Consumer Services,Healthcare,False,0.16798118905478848
-ITC,JIOFIN,FMCG,Financial Services,False,0.16766964700775905
-AXISBANK,HCLTECH,Financial Services,Information Technology,False,0.16762353291274207
-HDFCBANK,SUNPHARMA,Financial Services,Healthcare,False,0.16749130796397846
-BSE,TECHM,Financial Services,Information Technology,False,0.16705527196197606
-ICICIBANK,MAXHEALTH,Financial Services,Healthcare,False,0.16691201769546105
-HINDUNILVR,JSWSTEEL,FMCG,Metals & Mining,False,0.1665174145523696
-ASIANPAINT,MAXHEALTH,Consumer Durables,Healthcare,False,0.16618381527803847
-ITC,POWERGRID,FMCG,Power,False,0.16604550928314957
-HINDUNILVR,SHRIRAMFIN,FMCG,Financial Services,False,0.16586938786637742
-MARUTI,MAXHEALTH,Automobile,Healthcare,False,0.16583926849371167
-M&M,CIPLA,Automobile,Healthcare,False,0.1654395654005974
-NESTLEIND,SHRIRAMFIN,FMCG,Financial Services,False,0.16529405320704602
-NESTLEIND,MAXHEALTH,FMCG,Healthcare,False,0.1648166253961177
-EICHERMOT,INFY,Automobile,Information Technology,False,0.16450010665851783
-ETERNAL,HCLTECH,Consumer Services,Information Technology,False,0.16446833247919937
-ETERNAL,DRREDDY,Consumer Services,Healthcare,False,0.16442920565426358
-BEL,HCLTECH,Capital Goods,Information Technology,False,0.1642095842221714
-JIOFIN,TCS,Financial Services,Information Technology,False,0.16409740877332543
-HINDUNILVR,BHARTIARTL,FMCG,Telecommunication,False,0.16406126006831467
-TRENT,TCS,Consumer Services,Information Technology,False,0.16388003640327145
-APOLLOHOSP,TCS,Healthcare,Information Technology,False,0.1634229681647904
-MARUTI,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.16316932313794003
-ETERNAL,MAXHEALTH,Consumer Services,Healthcare,False,0.16316778565676301
-SBIN,SUNPHARMA,Financial Services,Healthcare,False,0.1631587171287748
-NESTLEIND,JIOFIN,FMCG,Financial Services,False,0.1619525664634815
-NESTLEIND,HCLTECH,FMCG,Information Technology,False,0.16194693907421145
-APOLLOHOSP,INFY,Healthcare,Information Technology,False,0.16139103943012814
-ASIANPAINT,NTPC,Consumer Durables,Power,False,0.1613785178774007
-BAJAJFINSV,DRREDDY,Financial Services,Healthcare,False,0.16125150911799288
-TRENT,ONGC,Consumer Services,"Oil, Gas & Fuels",False,0.16121053377066552
-CIPLA,ADANIPORTS,Healthcare,Services,False,0.1610101182178649
-NESTLEIND,TATASTEEL,FMCG,Metals & Mining,False,0.16088402661391468
-M&M,ONGC,Automobile,"Oil, Gas & Fuels",False,0.1606124994266992
-DRREDDY,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.1600750318972207
-BAJFINANCE,MAXHEALTH,Financial Services,Healthcare,False,0.1596501944703266
-BSE,BHARTIARTL,Financial Services,Telecommunication,False,0.15953405614099722
-SHRIRAMFIN,DRREDDY,Financial Services,Healthcare,False,0.15902767377868354
-TCS,COALINDIA,Information Technology,"Oil, Gas & Fuels",False,0.15902503047976035
-TATACONSUM,DRREDDY,FMCG,Healthcare,False,0.15871317187408068
-TECHM,NTPC,Information Technology,Power,False,0.15830670754057083
-BAJAJ-AUTO,TCS,Automobile,Information Technology,False,0.15822940122176543
-GRASIM,MAXHEALTH,Construction Materials,Healthcare,False,0.15815729299922543
-BAJAJ-AUTO,TECHM,Automobile,Information Technology,False,0.15807766530832526
-ITC,BSE,FMCG,Financial Services,False,0.1574688654813201
-CIPLA,NTPC,Healthcare,Power,False,0.15737340330351304
-HINDUNILVR,SUNPHARMA,FMCG,Healthcare,False,0.15669256027701284
-MAXHEALTH,BHARTIARTL,Healthcare,Telecommunication,False,0.15660330658337349
-MAXHEALTH,ADANIPORTS,Healthcare,Services,False,0.15654319599328104
-SHRIRAMFIN,TCS,Financial Services,Information Technology,False,0.15584091742853784
-HCLTECH,ONGC,Information Technology,"Oil, Gas & Fuels",False,0.15484437195793105
-BAJAJ-AUTO,MAXHEALTH,Automobile,Healthcare,False,0.15451578106835354
-NESTLEIND,HINDALCO,FMCG,Metals & Mining,False,0.15450671158445425
-BEL,NESTLEIND,Capital Goods,FMCG,False,0.15439230727817183
-CIPLA,POWERGRID,Healthcare,Power,False,0.15432328932163225
-SBILIFE,MAXHEALTH,Financial Services,Healthcare,False,0.15332463001834304
-BAJAJFINSV,MAXHEALTH,Financial Services,Healthcare,False,0.15316370904560025
-HINDUNILVR,SBIN,FMCG,Financial Services,False,0.1521151589468212
-TITAN,CIPLA,Consumer Durables,Healthcare,False,0.15200281856352324
-HDFCLIFE,POWERGRID,Financial Services,Power,False,0.1515407233954031
-AXISBANK,DRREDDY,Financial Services,Healthcare,False,0.1514565721132844
-ICICIBANK,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.15113555803279258
-MAXHEALTH,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.1510650747462556
-ITC,CIPLA,FMCG,Healthcare,False,0.15102292648925544
-ASIANPAINT,CIPLA,Consumer Durables,Healthcare,False,0.14993562036346472
-HCLTECH,NTPC,Information Technology,Power,False,0.14960180865959516
-TCS,ADANIENT,Information Technology,Metals & Mining,False,0.14939515475677667
-HINDUNILVR,ADANIPORTS,FMCG,Services,False,0.14906730837144908
-MAXHEALTH,NTPC,Healthcare,Power,False,0.14901662263916604
-CIPLA,HINDALCO,Healthcare,Metals & Mining,False,0.14885571830724473
-AXISBANK,MAXHEALTH,Financial Services,Healthcare,False,0.14862729164100633
-HCLTECH,ADANIENT,Information Technology,Metals & Mining,False,0.14821946395257934
-TMPV,CIPLA,Automobile,Healthcare,False,0.1475856795635895
-HDFCLIFE,CIPLA,Financial Services,Healthcare,False,0.14719782743989132
-INFY,ADANIENT,Information Technology,Metals & Mining,False,0.14634592464120177
-HDFCBANK,MAXHEALTH,Financial Services,Healthcare,False,0.14586271809947762
-BSE,SUNPHARMA,Financial Services,Healthcare,False,0.14580458511380676
-BAJFINANCE,DRREDDY,Financial Services,Healthcare,False,0.14575076049095048
-KOTAKBANK,MAXHEALTH,Financial Services,Healthcare,False,0.14537473156320246
-ICICIBANK,DRREDDY,Financial Services,Healthcare,False,0.1449972089630167
-NESTLEIND,ADANIENT,FMCG,Metals & Mining,False,0.1447040305605952
-HINDUNILVR,DRREDDY,FMCG,Healthcare,False,0.1434218164702171
-DRREDDY,MAXHEALTH,Healthcare,Healthcare,True,0.14328910782502527
-NESTLEIND,CIPLA,FMCG,Healthcare,False,0.14321730061492474
-BEL,MAXHEALTH,Capital Goods,Healthcare,False,0.1426655346817551
-TRENT,CIPLA,Consumer Services,Healthcare,False,0.1423532613697924
-MARUTI,INFY,Automobile,Information Technology,False,0.14223147413378248
-MARUTI,DRREDDY,Automobile,Healthcare,False,0.1420555252114759
-DRREDDY,POWERGRID,Healthcare,Power,False,0.14163609817477082
-ASIANPAINT,BSE,Consumer Durables,Financial Services,False,0.14136586494499737
-SHRIRAMFIN,CIPLA,Financial Services,Healthcare,False,0.14018566023357815
-BEL,INFY,Capital Goods,Information Technology,False,0.14012717155083249
-JIOFIN,INFY,Financial Services,Information Technology,False,0.1400248848041501
-CIPLA,ADANIENT,Healthcare,Metals & Mining,False,0.1400015742268376
-TATACONSUM,MAXHEALTH,FMCG,Healthcare,False,0.1399243336257578
-ITC,ONGC,FMCG,"Oil, Gas & Fuels",False,0.13988259249584437
-MAXHEALTH,TATASTEEL,Healthcare,Metals & Mining,False,0.13908862482128925
-BEL,TCS,Capital Goods,Information Technology,False,0.1389723836285031
-MAXHEALTH,ADANIENT,Healthcare,Metals & Mining,False,0.13868570367922356
-BAJAJFINSV,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.13787806557257665
-BAJAJ-AUTO,INFY,Automobile,Information Technology,False,0.13761123901152
-BAJAJFINSV,CIPLA,Financial Services,Healthcare,False,0.13750104252837006
-ULTRACEMCO,ONGC,Construction Materials,"Oil, Gas & Fuels",False,0.1372690020455973
-NESTLEIND,NTPC,FMCG,Power,False,0.13580580609394546
-CIPLA,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.13574660904662292
-MAXHEALTH,TECHM,Healthcare,Information Technology,False,0.13571983328367448
-NESTLEIND,TECHM,FMCG,Information Technology,False,0.13563783221835776
-ASIANPAINT,POWERGRID,Consumer Durables,Power,False,0.13510594103647042
-BSE,MAXHEALTH,Financial Services,Healthcare,False,0.1345525356858259
-TECHM,POWERGRID,Information Technology,Power,False,0.13432118907111834
-EICHERMOT,ONGC,Automobile,"Oil, Gas & Fuels",False,0.134236234693994
-HCLTECH,POWERGRID,Information Technology,Power,False,0.13380446571665575
-BAJAJ-AUTO,CIPLA,Automobile,Healthcare,False,0.13209871942449494
-BSE,HCLTECH,Financial Services,Information Technology,False,0.13029261682892027
-NESTLEIND,INFY,FMCG,Information Technology,False,0.12929964158219223
-AXISBANK,CIPLA,Financial Services,Healthcare,False,0.12915112960303332
-ASIANPAINT,HINDALCO,Consumer Durables,Metals & Mining,False,0.1286640873387568
-ITC,MAXHEALTH,FMCG,Healthcare,False,0.12854600907950217
-KOTAKBANK,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.12826680767108833
-HINDUNILVR,MAXHEALTH,FMCG,Healthcare,False,0.12775938176662885
-HDFCLIFE,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.12739455097551952
-EICHERMOT,CIPLA,Automobile,Healthcare,False,0.12720886826012087
-ETERNAL,HINDUNILVR,Consumer Services,FMCG,False,0.1270004339243504
-TITAN,MAXHEALTH,Consumer Durables,Healthcare,False,0.12628243992588617
-LT,MAXHEALTH,Construction,Healthcare,False,0.12361005092907178
-HINDUNILVR,TECHM,FMCG,Information Technology,False,0.12336918092111904
-INFY,ONGC,Information Technology,"Oil, Gas & Fuels",False,0.12315749473494271
-HDFCBANK,CIPLA,Financial Services,Healthcare,False,0.12312196016919258
-TCS,ONGC,Information Technology,"Oil, Gas & Fuels",False,0.122799706035182
-TITAN,ONGC,Consumer Durables,"Oil, Gas & Fuels",False,0.12205462070277714
-BAJFINANCE,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.12033518393825704
-HINDUNILVR,CIPLA,FMCG,Healthcare,False,0.12025300122515083
-CIPLA,INDIGO,Healthcare,Services,False,0.11932187218243881
-BSE,DRREDDY,Financial Services,Healthcare,False,0.11907979517369315
-BSE,INFY,Financial Services,Information Technology,False,0.11874537207122778
-INFY,COALINDIA,Information Technology,"Oil, Gas & Fuels",False,0.11830575039928275
-NESTLEIND,BSE,FMCG,Financial Services,False,0.11774794942780284
-HDFCBANK,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.11773212673266546
-TATACONSUM,CIPLA,FMCG,Healthcare,False,0.11710400228269306
-SUNPHARMA,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.11584644989794296
-MAXHEALTH,POWERGRID,Healthcare,Power,False,0.11532197861180864
-HINDUNILVR,JIOFIN,FMCG,Financial Services,False,0.11506951012332471
-APOLLOHOSP,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.11479290758456115
-CIPLA,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.11471600112149613
-DRREDDY,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.11438595212891674
-SBIN,CIPLA,Financial Services,Healthcare,False,0.11123770691481215
-BSE,TCS,Financial Services,Information Technology,False,0.1102718364729676
-CIPLA,TCS,Healthcare,Information Technology,False,0.10978612966180856
-MARUTI,CIPLA,Automobile,Healthcare,False,0.10972884199402333
-HINDUNILVR,TATASTEEL,FMCG,Metals & Mining,False,0.10949348579890802
-AXISBANK,SUNPHARMA,Financial Services,Healthcare,False,0.10917561695720546
-INFY,NTPC,Information Technology,Power,False,0.10889053887103345
-CIPLA,HCLTECH,Healthcare,Information Technology,False,0.10793912175197387
-MAXHEALTH,HCLTECH,Healthcare,Information Technology,False,0.10790081163557635
-HINDUNILVR,POWERGRID,FMCG,Power,False,0.10762846135750162
-TCS,POWERGRID,Information Technology,Power,False,0.10707872093978187
-SBIN,MAXHEALTH,Financial Services,Healthcare,False,0.10675310261092855
-CIPLA,INFY,Healthcare,Information Technology,False,0.10583995946097878
-HINDUNILVR,BSE,FMCG,Financial Services,False,0.105224917257693
-ICICIBANK,CIPLA,Financial Services,Healthcare,False,0.10433861285734004
-TCS,NTPC,Information Technology,Power,False,0.10402819614391492
-BAJFINANCE,CIPLA,Financial Services,Healthcare,False,0.10205305893734856
-KOTAKBANK,DRREDDY,Financial Services,Healthcare,False,0.10188064331030651
-ETERNAL,ONGC,Consumer Services,"Oil, Gas & Fuels",False,0.10183748841412348
-BSE,CIPLA,Financial Services,Healthcare,False,0.09953743518887934
-KOTAKBANK,CIPLA,Financial Services,Healthcare,False,0.09916586534744877
-HINDUNILVR,NTPC,FMCG,Power,False,0.098735466411063
-MAXHEALTH,INFY,Healthcare,Information Technology,False,0.09673375634048782
-HINDUNILVR,ADANIENT,FMCG,Metals & Mining,False,0.09551212621348719
-INFY,POWERGRID,Information Technology,Power,False,0.09482683935614405
-BEL,HINDUNILVR,Capital Goods,FMCG,False,0.09459079778047956
-MAXHEALTH,TCS,Healthcare,Information Technology,False,0.09444651583077832
-NESTLEIND,COALINDIA,FMCG,"Oil, Gas & Fuels",False,0.09417386865491448
-MARUTI,ONGC,Automobile,"Oil, Gas & Fuels",False,0.09377216709168418
-CIPLA,TECHM,Healthcare,Information Technology,False,0.09341728812808019
-HINDUNILVR,HINDALCO,FMCG,Metals & Mining,False,0.0912113611552948
-MAXHEALTH,HINDALCO,Healthcare,Metals & Mining,False,0.08925191938730526
-ETERNAL,CIPLA,Consumer Services,Healthcare,False,0.08873642714734602
-TATACONSUM,ONGC,FMCG,"Oil, Gas & Fuels",False,0.08572258233781603
-CIPLA,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.08093237869767227
-MAXHEALTH,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.07795182161700322
-ONGC,INDIGO,"Oil, Gas & Fuels",Services,False,0.0703498100937243
-ASIANPAINT,COALINDIA,Consumer Durables,"Oil, Gas & Fuels",False,0.06772410037726066
-NESTLEIND,ONGC,FMCG,"Oil, Gas & Fuels",False,0.056293798393702174
-MAXHEALTH,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.0445240671756941
-HINDUNILVR,COALINDIA,FMCG,"Oil, Gas & Fuels",False,0.029661810009702024
-ASIANPAINT,ONGC,Consumer Durables,"Oil, Gas & Fuels",False,-0.019320560679400862
-HINDUNILVR,ONGC,FMCG,"Oil, Gas & Fuels",False,-0.02364174765827943
+MARUTI,ADANIPORTS,Automobile,Services,False,0.29845183367860106
+TMPV,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.29791529072828565
+TMPV,BSE,Automobile,Financial Services,False,0.29770062232558553
+BAJAJ-AUTO,ULTRACEMCO,Automobile,Construction Materials,False,0.2971853706656903
+AXISBANK,SBILIFE,Financial Services,Financial Services,True,0.29706648683642023
+TITAN,INDIGO,Consumer Durables,Services,False,0.29625953721451603
+APOLLOHOSP,MAXHEALTH,Healthcare,Healthcare,True,0.29620219060073755
+GRASIM,APOLLOHOSP,Construction Materials,Healthcare,False,0.29614948610823516
+ICICIBANK,NTPC,Financial Services,Power,False,0.2955820551021967
+TITAN,NESTLEIND,Consumer Durables,FMCG,False,0.29385500791350155
+BAJAJ-AUTO,JSWSTEEL,Automobile,Metals & Mining,False,0.2936870353444072
+MARUTI,JSWSTEEL,Automobile,Metals & Mining,False,0.2935313909561373
+BEL,AXISBANK,Capital Goods,Financial Services,False,0.29334527564532015
+TITAN,ITC,Consumer Durables,FMCG,False,0.29307188905619963
+SBILIFE,ADANIENT,Financial Services,Metals & Mining,False,0.29305047162612224
+HDFCLIFE,JSWSTEEL,Financial Services,Metals & Mining,False,0.29192855298048853
+ICICIBANK,ADANIENT,Financial Services,Metals & Mining,False,0.29180566018145926
+LT,BHARTIARTL,Construction,Telecommunication,False,0.2915779567902128
+TITAN,ETERNAL,Consumer Durables,Consumer Services,False,0.2907808646445643
+TMPV,ITC,Automobile,FMCG,False,0.2904026125423801
+HDFCLIFE,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.2902532448474002
+BSE,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.2899289027544067
+BAJAJ-AUTO,RELIANCE,Automobile,"Oil, Gas & Fuels",False,0.2898645207003513
+BAJAJFINSV,INFY,Financial Services,Information Technology,False,0.2897830181715249
+HDFCBANK,ADANIENT,Financial Services,Metals & Mining,False,0.2893971717932123
+EICHERMOT,HINDUNILVR,Automobile,FMCG,False,0.2892054234904087
+JIOFIN,KOTAKBANK,Financial Services,Financial Services,True,0.2891653648490707
+BAJAJ-AUTO,TATASTEEL,Automobile,Metals & Mining,False,0.2889031677911608
+ITC,NESTLEIND,FMCG,FMCG,True,0.2888567448766816
+ITC,KOTAKBANK,FMCG,Financial Services,False,0.28881716818290204
+ICICIBANK,SBILIFE,Financial Services,Financial Services,True,0.28876105303244265
+MARUTI,HINDUNILVR,Automobile,FMCG,False,0.2886404619705631
+M&M,NTPC,Automobile,Power,False,0.28831129352031926
+TITAN,HDFCBANK,Consumer Durables,Financial Services,False,0.2880795356554923
+M&M,TATACONSUM,Automobile,FMCG,False,0.28802032701262037
+BEL,BAJAJFINSV,Capital Goods,Financial Services,False,0.28783734662504734
+EICHERMOT,BEL,Automobile,Capital Goods,False,0.28751963458845264
+EICHERMOT,ADANIENT,Automobile,Metals & Mining,False,0.28733979461838655
+ETERNAL,BAJFINANCE,Consumer Services,Financial Services,False,0.2864134817150945
+TMPV,POWERGRID,Automobile,Power,False,0.28614608333532704
+ULTRACEMCO,HINDALCO,Construction Materials,Metals & Mining,False,0.2860807573068808
+TRENT,SHRIRAMFIN,Consumer Services,Financial Services,False,0.28604050432583056
+SBIN,BHARTIARTL,Financial Services,Telecommunication,False,0.2859453958643173
+HDFCBANK,BHARTIARTL,Financial Services,Telecommunication,False,0.28588678292033964
+ASIANPAINT,JIOFIN,Consumer Durables,Financial Services,False,0.28588093259176833
+ADANIENT,INDIGO,Metals & Mining,Services,False,0.28577154118543147
+GRASIM,COALINDIA,Construction Materials,"Oil, Gas & Fuels",False,0.285746549686869
+TATACONSUM,BAJFINANCE,FMCG,Financial Services,False,0.2856878312706669
+BAJAJ-AUTO,LT,Automobile,Construction,False,0.2854091881412917
+MARUTI,TATACONSUM,Automobile,FMCG,False,0.2851554996485741
+GRASIM,SUNPHARMA,Construction Materials,Healthcare,False,0.2848474368020142
+BAJFINANCE,APOLLOHOSP,Financial Services,Healthcare,False,0.2843056350964819
+BEL,HDFCLIFE,Capital Goods,Financial Services,False,0.2841649758025483
+BAJFINANCE,NTPC,Financial Services,Power,False,0.2839024414753376
+BEL,ICICIBANK,Capital Goods,Financial Services,False,0.28373260427809993
+TITAN,KOTAKBANK,Consumer Durables,Financial Services,False,0.2833651747116931
+M&M,ETERNAL,Automobile,Consumer Services,False,0.28335338192061543
+HINDALCO,POWERGRID,Metals & Mining,Power,False,0.2832990608641152
+TATACONSUM,INDIGO,FMCG,Services,False,0.28318209556949103
+JIOFIN,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.28310369706858934
+BAJAJ-AUTO,BAJAJFINSV,Automobile,Financial Services,False,0.28233178491372873
+KOTAKBANK,ADANIPORTS,Financial Services,Services,False,0.2821898688846177
+SBILIFE,SHRIRAMFIN,Financial Services,Financial Services,True,0.28188032184560624
+TATACONSUM,HDFCLIFE,FMCG,Financial Services,False,0.2817582127933996
+ETERNAL,HDFCBANK,Consumer Services,Financial Services,False,0.28136805872489096
+BEL,TITAN,Capital Goods,Consumer Durables,False,0.28122338900267896
+TITAN,JIOFIN,Consumer Durables,Financial Services,False,0.28090895011396133
+BSE,SBIN,Financial Services,Financial Services,True,0.2804261296229025
+TITAN,HDFCLIFE,Consumer Durables,Financial Services,False,0.2801214867298304
+MARUTI,JIOFIN,Automobile,Financial Services,False,0.28010884976180433
+ASIANPAINT,TRENT,Consumer Durables,Consumer Services,False,0.2798464405995137
+ULTRACEMCO,BHARTIARTL,Construction Materials,Telecommunication,False,0.27966105912742184
+BAJAJFINSV,TECHM,Financial Services,Information Technology,False,0.2793185646953306
+TATACONSUM,RELIANCE,FMCG,"Oil, Gas & Fuels",False,0.2791695272912343
+BAJAJFINSV,TCS,Financial Services,Information Technology,False,0.2791129375253088
+LT,TATACONSUM,Construction,FMCG,False,0.27886228785379524
+BSE,INDIGO,Financial Services,Services,False,0.2788451316390652
+TITAN,ICICIBANK,Consumer Durables,Financial Services,False,0.278698967472328
+SHRIRAMFIN,HINDALCO,Financial Services,Metals & Mining,False,0.27863867266618336
+TITAN,BHARTIARTL,Consumer Durables,Telecommunication,False,0.2783900092480939
+TECHM,JSWSTEEL,Information Technology,Metals & Mining,False,0.2782445385681613
+TECHM,RELIANCE,Information Technology,"Oil, Gas & Fuels",False,0.27808971252960984
+BSE,ADANIPORTS,Financial Services,Services,False,0.27775547718066707
+TRENT,TATACONSUM,Consumer Services,FMCG,False,0.2773551162245917
+TATACONSUM,JSWSTEEL,FMCG,Metals & Mining,False,0.2769180712077332
+SHRIRAMFIN,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.27636983360962536
+MARUTI,BHARTIARTL,Automobile,Telecommunication,False,0.27636380305320507
+BAJAJ-AUTO,BHARTIARTL,Automobile,Telecommunication,False,0.27601512266893696
+ASIANPAINT,ADANIPORTS,Consumer Durables,Services,False,0.2759543228001162
+ITC,SBIN,FMCG,Financial Services,False,0.27590432907015594
+ASIANPAINT,RELIANCE,Consumer Durables,"Oil, Gas & Fuels",False,0.2759030233717638
+BAJAJ-AUTO,JIOFIN,Automobile,Financial Services,False,0.2756104109611846
+SBILIFE,NTPC,Financial Services,Power,False,0.2755506903069174
+BAJAJ-AUTO,NESTLEIND,Automobile,FMCG,False,0.275541424406035
+NESTLEIND,BAJAJFINSV,FMCG,Financial Services,False,0.27514969572301745
+TMPV,TECHM,Automobile,Information Technology,False,0.2747655325180032
+TATASTEEL,BHARTIARTL,Metals & Mining,Telecommunication,False,0.27474762517867635
+TITAN,HINDALCO,Consumer Durables,Metals & Mining,False,0.27422521628781527
+M&M,ASIANPAINT,Automobile,Consumer Durables,False,0.27403159921478104
+BAJAJ-AUTO,TRENT,Automobile,Consumer Services,False,0.2740147488796252
+BEL,BSE,Capital Goods,Financial Services,False,0.2739356841613019
+SBILIFE,HINDALCO,Financial Services,Metals & Mining,False,0.27390708848980494
+ONGC,ADANIPORTS,"Oil, Gas & Fuels",Services,False,0.2733867679185268
+TITAN,AXISBANK,Consumer Durables,Financial Services,False,0.27338219791242235
+ITC,TATASTEEL,FMCG,Metals & Mining,False,0.27286626174649625
+ULTRACEMCO,APOLLOHOSP,Construction Materials,Healthcare,False,0.27285861025017477
+AXISBANK,ADANIENT,Financial Services,Metals & Mining,False,0.2721705983140976
+ULTRACEMCO,HINDUNILVR,Construction Materials,FMCG,False,0.2718605488465685
+TITAN,ADANIENT,Consumer Durables,Metals & Mining,False,0.27142033118484904
+LT,BSE,Construction,Financial Services,False,0.2711838128615851
+TITAN,HINDUNILVR,Consumer Durables,FMCG,False,0.2708597374194686
+ETERNAL,BSE,Consumer Services,Financial Services,False,0.2705343662504082
+BAJFINANCE,BHARTIARTL,Financial Services,Telecommunication,False,0.2705206372147701
+HCLTECH,JSWSTEEL,Information Technology,Metals & Mining,False,0.2704098508379042
+ETERNAL,TRENT,Consumer Services,Consumer Services,True,0.2703809945927622
+SUNPHARMA,TATASTEEL,Healthcare,Metals & Mining,False,0.2702252323195444
+BEL,BAJFINANCE,Capital Goods,Financial Services,False,0.270222008744318
+TCS,RELIANCE,Information Technology,"Oil, Gas & Fuels",False,0.2698663582698428
+ETERNAL,RELIANCE,Consumer Services,"Oil, Gas & Fuels",False,0.2697836037230968
+HCLTECH,RELIANCE,Information Technology,"Oil, Gas & Fuels",False,0.2697436438187773
+ITC,BAJFINANCE,FMCG,Financial Services,False,0.2695333316857409
+ETERNAL,HDFCLIFE,Consumer Services,Financial Services,False,0.26947525152784596
+NTPC,INDIGO,Power,Services,False,0.26939449370854546
+ETERNAL,ADANIENT,Consumer Services,Metals & Mining,False,0.26933953183061776
+BAJAJFINSV,APOLLOHOSP,Financial Services,Healthcare,False,0.2692596689583032
+ADANIENT,POWERGRID,Metals & Mining,Power,False,0.2691002423740518
+ETERNAL,BAJAJFINSV,Consumer Services,Financial Services,False,0.2689916267078416
+TMPV,SUNPHARMA,Automobile,Healthcare,False,0.26891122689837627
+EICHERMOT,HDFCLIFE,Automobile,Financial Services,False,0.2686061926335717
+ASIANPAINT,HDFCBANK,Consumer Durables,Financial Services,False,0.2685076480607093
+HINDUNILVR,SBILIFE,FMCG,Financial Services,False,0.2684641723322408
+SBILIFE,INDIGO,Financial Services,Services,False,0.2683751039054428
+BEL,SBILIFE,Capital Goods,Financial Services,False,0.2683398621628096
+TECHM,TATASTEEL,Information Technology,Metals & Mining,False,0.26815804219154427
+TRENT,ADANIENT,Consumer Services,Metals & Mining,False,0.26783939192996303
+HINDALCO,INDIGO,Metals & Mining,Services,False,0.2678058905726347
+TITAN,APOLLOHOSP,Consumer Durables,Healthcare,False,0.2676091916221603
+HDFCBANK,HINDALCO,Financial Services,Metals & Mining,False,0.2673588906053942
+NESTLEIND,BAJFINANCE,FMCG,Financial Services,False,0.26707985914448684
+HCLTECH,BHARTIARTL,Information Technology,Telecommunication,False,0.2670776444107138
+ASIANPAINT,SBILIFE,Consumer Durables,Financial Services,False,0.26675197663011396
+M&M,APOLLOHOSP,Automobile,Healthcare,False,0.26657428328184934
+ASIANPAINT,ICICIBANK,Consumer Durables,Financial Services,False,0.26645569980112727
+M&M,NESTLEIND,Automobile,FMCG,False,0.2663044500593011
+BAJAJ-AUTO,AXISBANK,Automobile,Financial Services,False,0.26547373343981207
+KOTAKBANK,TATASTEEL,Financial Services,Metals & Mining,False,0.2652859165761322
+SBILIFE,BHARTIARTL,Financial Services,Telecommunication,False,0.26514196148999375
+TATACONSUM,TCS,FMCG,Information Technology,False,0.264982533789973
+GRASIM,ETERNAL,Construction Materials,Consumer Services,False,0.2648633880842075
+MARUTI,TATASTEEL,Automobile,Metals & Mining,False,0.264841999830642
+BAJAJ-AUTO,INDIGO,Automobile,Services,False,0.26472020479244046
+HCLTECH,TATASTEEL,Information Technology,Metals & Mining,False,0.2646612243317275
+BSE,JSWSTEEL,Financial Services,Metals & Mining,False,0.2641211080162693
+ULTRACEMCO,POWERGRID,Construction Materials,Power,False,0.2641188076177072
+HINDALCO,BHARTIARTL,Metals & Mining,Telecommunication,False,0.2637415047050886
+BAJAJ-AUTO,TATACONSUM,Automobile,FMCG,False,0.26366633333405376
+SHRIRAMFIN,POWERGRID,Financial Services,Power,False,0.262607678808605
+TMPV,ETERNAL,Automobile,Consumer Services,False,0.2625126035667414
+TITAN,NTPC,Consumer Durables,Power,False,0.2623162310858771
+ULTRACEMCO,ITC,Construction Materials,FMCG,False,0.2619338013681137
+BSE,SHRIRAMFIN,Financial Services,Financial Services,True,0.2619046170753286
+HINDUNILVR,KOTAKBANK,FMCG,Financial Services,False,0.2618498331719292
+BAJAJFINSV,HCLTECH,Financial Services,Information Technology,False,0.26165266285747085
+APOLLOHOSP,SUNPHARMA,Healthcare,Healthcare,True,0.2614525724539038
+ITC,ADANIPORTS,FMCG,Services,False,0.26107152726325833
+TATACONSUM,INFY,FMCG,Information Technology,False,0.2606740962648867
+MARUTI,HDFCLIFE,Automobile,Financial Services,False,0.26060741767844275
+MARUTI,TRENT,Automobile,Consumer Services,False,0.2605562612437365
+AXISBANK,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.26052927405037185
+TATACONSUM,SBILIFE,FMCG,Financial Services,False,0.2604433202129206
+ICICIBANK,HINDALCO,Financial Services,Metals & Mining,False,0.26035710725259864
+INFY,RELIANCE,Information Technology,"Oil, Gas & Fuels",False,0.2603493222157033
+TRENT,JIOFIN,Consumer Services,Financial Services,False,0.26029599968321515
+LT,ITC,Construction,FMCG,False,0.2602080451859878
+MARUTI,NESTLEIND,Automobile,FMCG,False,0.2601130026136867
+APOLLOHOSP,JSWSTEEL,Healthcare,Metals & Mining,False,0.2599666971878837
+TRENT,BSE,Consumer Services,Financial Services,False,0.2598196208436312
+EICHERMOT,ITC,Automobile,FMCG,False,0.2594563030009728
+ETERNAL,TATASTEEL,Consumer Services,Metals & Mining,False,0.2592264995486852
+SUNPHARMA,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.25894110796817793
+BEL,KOTAKBANK,Capital Goods,Financial Services,False,0.2589215467837587
+TRENT,AXISBANK,Consumer Services,Financial Services,False,0.25885845776291294
+INFY,JSWSTEEL,Information Technology,Metals & Mining,False,0.2585073129925947
+TATACONSUM,BHARTIARTL,FMCG,Telecommunication,False,0.25776886321376213
+HCLTECH,HINDALCO,Information Technology,Metals & Mining,False,0.2572395684765153
+JIOFIN,SUNPHARMA,Financial Services,Healthcare,False,0.257170643885577
+BAJAJ-AUTO,SBIN,Automobile,Financial Services,False,0.25693569863477844
+TATACONSUM,ADANIPORTS,FMCG,Services,False,0.25643226747709913
+TRENT,COALINDIA,Consumer Services,"Oil, Gas & Fuels",False,0.25637917320930376
+ASIANPAINT,SHRIRAMFIN,Consumer Durables,Financial Services,False,0.25629218988838376
+NESTLEIND,SBILIFE,FMCG,Financial Services,False,0.2562254116590612
+BSE,HINDALCO,Financial Services,Metals & Mining,False,0.2560451734724653
+HDFCBANK,INFY,Financial Services,Information Technology,False,0.2559371443940274
+M&M,ITC,Automobile,FMCG,False,0.2559140817273652
+AXISBANK,HINDALCO,Financial Services,Metals & Mining,False,0.2555491732466911
+TITAN,SUNPHARMA,Consumer Durables,Healthcare,False,0.25537805865843805
+BAJAJ-AUTO,BAJFINANCE,Automobile,Financial Services,False,0.25494529310793246
+SUNPHARMA,HINDALCO,Healthcare,Metals & Mining,False,0.25472590158356473
+ITC,ICICIBANK,FMCG,Financial Services,False,0.2547012757818574
+BAJAJ-AUTO,SBILIFE,Automobile,Financial Services,False,0.2542742852317529
+BSE,ADANIENT,Financial Services,Metals & Mining,False,0.2541350449737174
+HDFCBANK,NTPC,Financial Services,Power,False,0.253806140682542
+ETERNAL,SBIN,Consumer Services,Financial Services,False,0.253668086016762
+M&M,HINDUNILVR,Automobile,FMCG,False,0.2534427678770751
+ITC,INDIGO,FMCG,Services,False,0.25342564582654303
+TATACONSUM,KOTAKBANK,FMCG,Financial Services,False,0.2531894328981336
+TMPV,BHARTIARTL,Automobile,Telecommunication,False,0.2530550563522186
+MARUTI,ADANIENT,Automobile,Metals & Mining,False,0.253043241468598
+JIOFIN,CIPLA,Financial Services,Healthcare,False,0.2528308021852702
+TATACONSUM,SHRIRAMFIN,FMCG,Financial Services,False,0.2525526398312535
+TMPV,TCS,Automobile,Information Technology,False,0.25247149466374597
+GRASIM,HINDUNILVR,Construction Materials,FMCG,False,0.2523630603817702
+GRASIM,TECHM,Construction Materials,Information Technology,False,0.2523053103773909
+BEL,ETERNAL,Capital Goods,Consumer Services,False,0.25225872160744917
+BAJAJFINSV,BHARTIARTL,Financial Services,Telecommunication,False,0.2521996573433465
+BAJAJ-AUTO,NTPC,Automobile,Power,False,0.25203727180017244
+SHRIRAMFIN,BHARTIARTL,Financial Services,Telecommunication,False,0.25199921487889543
+BAJFINANCE,HINDALCO,Financial Services,Metals & Mining,False,0.2517449306203661
+BAJAJFINSV,BSE,Financial Services,Financial Services,True,0.2516694255800231
+MARUTI,NTPC,Automobile,Power,False,0.25140759081926645
+BAJFINANCE,INFY,Financial Services,Information Technology,False,0.25090774031257457
+EICHERMOT,NTPC,Automobile,Power,False,0.25080120154739316
+TECHM,HINDALCO,Information Technology,Metals & Mining,False,0.25065342232557447
+ASIANPAINT,APOLLOHOSP,Consumer Durables,Healthcare,False,0.2506421271243576
+BSE,NTPC,Financial Services,Power,False,0.2503953335623184
+LT,SUNPHARMA,Construction,Healthcare,False,0.25021865781056724
+BAJAJ-AUTO,HDFCBANK,Automobile,Financial Services,False,0.2500333815520685
+EICHERMOT,NESTLEIND,Automobile,FMCG,False,0.2498614997132991
+SUNPHARMA,JSWSTEEL,Healthcare,Metals & Mining,False,0.24965459299213658
+ADANIENT,HINDALCO,Metals & Mining,Metals & Mining,True,0.24965142591056277
+LT,APOLLOHOSP,Construction,Healthcare,False,0.24952638620876746
+TMPV,APOLLOHOSP,Automobile,Healthcare,False,0.24935880782038347
+ETERNAL,SHRIRAMFIN,Consumer Services,Financial Services,False,0.24925025204318726
+ASIANPAINT,HDFCLIFE,Consumer Durables,Financial Services,False,0.24914685285611798
+ULTRACEMCO,SUNPHARMA,Construction Materials,Healthcare,False,0.24908341880965723
+TRENT,ICICIBANK,Consumer Services,Financial Services,False,0.2490440223237413
+NTPC,BHARTIARTL,Power,Telecommunication,False,0.24895957866490911
+TATACONSUM,HDFCBANK,FMCG,Financial Services,False,0.2488181582885105
+LT,ONGC,Construction,"Oil, Gas & Fuels",False,0.2487390068098
+LT,ETERNAL,Construction,Consumer Services,False,0.24864186215809217
+BAJAJ-AUTO,HDFCLIFE,Automobile,Financial Services,False,0.24862085160726732
+ITC,BAJAJFINSV,FMCG,Financial Services,False,0.24856403426706708
+EICHERMOT,HINDALCO,Automobile,Metals & Mining,False,0.24844242581436993
+EICHERMOT,APOLLOHOSP,Automobile,Healthcare,False,0.24833166423041883
+BEL,ITC,Capital Goods,FMCG,False,0.24815754476914248
+EICHERMOT,BSE,Automobile,Financial Services,False,0.24811668817330565
+BAJAJFINSV,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.24803997926771276
+KOTAKBANK,NTPC,Financial Services,Power,False,0.24796684393097881
+M&M,SUNPHARMA,Automobile,Healthcare,False,0.24784327367916462
+ETERNAL,SBILIFE,Consumer Services,Financial Services,False,0.24769443615494735
+SBILIFE,SUNPHARMA,Financial Services,Healthcare,False,0.2475200132928929
+NESTLEIND,RELIANCE,FMCG,"Oil, Gas & Fuels",False,0.24696068209224772
+HDFCBANK,TECHM,Financial Services,Information Technology,False,0.24658131878374487
+BEL,HDFCBANK,Capital Goods,Financial Services,False,0.24586202486608977
+HDFCLIFE,HINDALCO,Financial Services,Metals & Mining,False,0.24585070837881623
+NESTLEIND,APOLLOHOSP,FMCG,Healthcare,False,0.24583566426494058
+ADANIENT,BHARTIARTL,Metals & Mining,Telecommunication,False,0.24533899325776395
+ULTRACEMCO,ETERNAL,Construction Materials,Consumer Services,False,0.24526420691588705
+TATACONSUM,ICICIBANK,FMCG,Financial Services,False,0.24514183145468835
+TMPV,HCLTECH,Automobile,Information Technology,False,0.24498885040093832
+POWERGRID,INDIGO,Power,Services,False,0.24473776251246832
+M&M,POWERGRID,Automobile,Power,False,0.24463171707423567
+BAJAJ-AUTO,ASIANPAINT,Automobile,Consumer Durables,False,0.24450151620275723
+GRASIM,INFY,Construction Materials,Information Technology,False,0.24442989310409402
+TRENT,ITC,Consumer Services,FMCG,False,0.244407479344463
+HDFCLIFE,BHARTIARTL,Financial Services,Telecommunication,False,0.24437266392995327
+INFY,HINDALCO,Information Technology,Metals & Mining,False,0.2440312905197536
+BAJAJ-AUTO,ADANIPORTS,Automobile,Services,False,0.24383850956681624
+ITC,BHARTIARTL,FMCG,Telecommunication,False,0.24346021004425034
+INFY,BHARTIARTL,Information Technology,Telecommunication,False,0.24300247992519164
+M&M,INFY,Automobile,Information Technology,False,0.24292529152844808
+JIOFIN,APOLLOHOSP,Financial Services,Healthcare,False,0.24287982846356135
+GRASIM,TCS,Construction Materials,Information Technology,False,0.24270947324685185
+ETERNAL,APOLLOHOSP,Consumer Services,Healthcare,False,0.24268043911097695
+TATACONSUM,APOLLOHOSP,FMCG,Healthcare,False,0.242661229133985
+TRENT,HDFCBANK,Consumer Services,Financial Services,False,0.2425015920289985
+HINDUNILVR,INDIGO,FMCG,Services,False,0.24202940642903065
+ASIANPAINT,SBIN,Consumer Durables,Financial Services,False,0.24202645054250554
+SHRIRAMFIN,APOLLOHOSP,Financial Services,Healthcare,False,0.24196369038387316
+SBILIFE,TECHM,Financial Services,Information Technology,False,0.24195485602177577
+BAJAJ-AUTO,HINDALCO,Automobile,Metals & Mining,False,0.24145247286578927
+M&M,BSE,Automobile,Financial Services,False,0.24130599637295674
+ASIANPAINT,ADANIENT,Consumer Durables,Metals & Mining,False,0.24110621305376728
+SBILIFE,TCS,Financial Services,Information Technology,False,0.2405405526962046
+SUNPHARMA,ADANIPORTS,Healthcare,Services,False,0.24025634159515502
+SBILIFE,HCLTECH,Financial Services,Information Technology,False,0.23994120237055164
+M&M,HINDALCO,Automobile,Metals & Mining,False,0.23949236241643446
+SUNPHARMA,BHARTIARTL,Healthcare,Telecommunication,False,0.23895361819061614
+HINDUNILVR,HDFCLIFE,FMCG,Financial Services,False,0.23894059118734448
+BAJFINANCE,TECHM,Financial Services,Information Technology,False,0.23857320752882455
+TRENT,BHARTIARTL,Consumer Services,Telecommunication,False,0.23850218783001517
+BEL,APOLLOHOSP,Capital Goods,Healthcare,False,0.2384072074354339
+AXISBANK,BHARTIARTL,Financial Services,Telecommunication,False,0.23830948381925737
+BAJFINANCE,BSE,Financial Services,Financial Services,True,0.23808207384373437
+BSE,HDFCBANK,Financial Services,Financial Services,True,0.23802479399556667
+SBILIFE,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.23791368136980104
+TITAN,TCS,Consumer Durables,Information Technology,False,0.2378636592655187
+KOTAKBANK,ADANIENT,Financial Services,Metals & Mining,False,0.23765235797111586
+BEL,BHARTIARTL,Capital Goods,Telecommunication,False,0.23730479197900692
+TECHM,BHARTIARTL,Information Technology,Telecommunication,False,0.23716265674877302
+POWERGRID,BHARTIARTL,Power,Telecommunication,False,0.23698651063729773
+SBILIFE,INFY,Financial Services,Information Technology,False,0.23680002805367018
+APOLLOHOSP,CIPLA,Healthcare,Healthcare,True,0.23676780209117465
+LT,DRREDDY,Construction,Healthcare,False,0.2365852719391904
+ETERNAL,JSWSTEEL,Consumer Services,Metals & Mining,False,0.2365442929231181
+NESTLEIND,HDFCLIFE,FMCG,Financial Services,False,0.23629231735937678
+TITAN,HCLTECH,Consumer Durables,Information Technology,False,0.23580109515476375
+TCS,JSWSTEEL,Information Technology,Metals & Mining,False,0.235661303239488
+BEL,TATACONSUM,Capital Goods,FMCG,False,0.235465077772827
+EICHERMOT,ETERNAL,Automobile,Consumer Services,False,0.23542536600023775
+ICICIBANK,APOLLOHOSP,Financial Services,Healthcare,False,0.2353210869328243
+TMPV,ASIANPAINT,Automobile,Consumer Durables,False,0.23500500915354822
+TATACONSUM,TATASTEEL,FMCG,Metals & Mining,False,0.23491500199336413
+GRASIM,BSE,Construction Materials,Financial Services,False,0.23483501862815798
+TATACONSUM,TECHM,FMCG,Information Technology,False,0.23475724343430862
+TRENT,NTPC,Consumer Services,Power,False,0.2346901574421473
+TMPV,ONGC,Automobile,"Oil, Gas & Fuels",False,0.23444298114701012
+ULTRACEMCO,TCS,Construction Materials,Information Technology,False,0.23419794218052456
+ASIANPAINT,KOTAKBANK,Consumer Durables,Financial Services,False,0.23395199471175485
+ULTRACEMCO,DRREDDY,Construction Materials,Healthcare,False,0.23379787713553163
+TITAN,INFY,Consumer Durables,Information Technology,False,0.23325789011011697
+HDFCBANK,HCLTECH,Financial Services,Information Technology,False,0.2328439771641937
+HINDUNILVR,AXISBANK,FMCG,Financial Services,False,0.23261303239995731
+BSE,RELIANCE,Financial Services,"Oil, Gas & Fuels",False,0.2320431792745092
+TMPV,INFY,Automobile,Information Technology,False,0.23204066377005358
+BAJAJ-AUTO,KOTAKBANK,Automobile,Financial Services,False,0.23193467680253682
+ASIANPAINT,TCS,Consumer Durables,Information Technology,False,0.23159074583519212
+BAJAJ-AUTO,BEL,Automobile,Capital Goods,False,0.23129352201437703
+BAJFINANCE,TCS,Financial Services,Information Technology,False,0.2312029894929828
+APOLLOHOSP,INDIGO,Healthcare,Services,False,0.23110777841656163
+COALINDIA,INDIGO,"Oil, Gas & Fuels",Services,False,0.23104188223027036
+GRASIM,HCLTECH,Construction Materials,Information Technology,False,0.2309958184457234
+TATACONSUM,SBIN,FMCG,Financial Services,False,0.23099571697228313
+ULTRACEMCO,TECHM,Construction Materials,Information Technology,False,0.2309117719766078
+HINDUNILVR,HDFCBANK,FMCG,Financial Services,False,0.2307236956381305
+ITC,HDFCBANK,FMCG,Financial Services,False,0.2304859314836972
+ASIANPAINT,ITC,Consumer Durables,FMCG,False,0.23005536984728112
+HDFCLIFE,NTPC,Financial Services,Power,False,0.22992401321067268
+ICICIBANK,POWERGRID,Financial Services,Power,False,0.22987687779176155
+M&M,DRREDDY,Automobile,Healthcare,False,0.22984763166314942
+GRASIM,DRREDDY,Construction Materials,Healthcare,False,0.22975633899080342
+BAJAJFINSV,POWERGRID,Financial Services,Power,False,0.22967058837782883
+M&M,TCS,Automobile,Information Technology,False,0.22945714181865878
+HDFCBANK,TCS,Financial Services,Information Technology,False,0.22924634544938113
+ITC,AXISBANK,FMCG,Financial Services,False,0.22867115041566674
+TITAN,TECHM,Consumer Durables,Information Technology,False,0.22839687484727264
+M&M,TECHM,Automobile,Information Technology,False,0.22827414566953408
+BAJAJ-AUTO,ICICIBANK,Automobile,Financial Services,False,0.22818677277235394
+MARUTI,ITC,Automobile,FMCG,False,0.22744318639315278
+TATACONSUM,SUNPHARMA,FMCG,Healthcare,False,0.2271474248729727
+ONGC,BHARTIARTL,"Oil, Gas & Fuels",Telecommunication,False,0.22707058428109514
+ETERNAL,HINDALCO,Consumer Services,Metals & Mining,False,0.22699589610682036
+M&M,MAXHEALTH,Automobile,Healthcare,False,0.22693848359304042
+ULTRACEMCO,HCLTECH,Construction Materials,Information Technology,False,0.22682565266529595
+BAJAJFINSV,SUNPHARMA,Financial Services,Healthcare,False,0.2266206857012701
+ITC,COALINDIA,FMCG,"Oil, Gas & Fuels",False,0.2264634054803148
+TATACONSUM,AXISBANK,FMCG,Financial Services,False,0.22610685094024377
+APOLLOHOSP,TATASTEEL,Healthcare,Metals & Mining,False,0.22552876989599777
+TATACONSUM,ADANIENT,FMCG,Metals & Mining,False,0.22510384339281597
+ASIANPAINT,JSWSTEEL,Consumer Durables,Metals & Mining,False,0.22503626048916378
+APOLLOHOSP,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.22485327932863594
+TCS,TATASTEEL,Information Technology,Metals & Mining,False,0.22449323228286247
+INFY,TATASTEEL,Information Technology,Metals & Mining,False,0.22406674744085323
+SUNPHARMA,NTPC,Healthcare,Power,False,0.22337920168349593
+ICICIBANK,INFY,Financial Services,Information Technology,False,0.22327206181210899
+TATACONSUM,HCLTECH,FMCG,Information Technology,False,0.2232597513938943
+ETERNAL,ICICIBANK,Consumer Services,Financial Services,False,0.2231794816502181
+HDFCLIFE,SUNPHARMA,Financial Services,Healthcare,False,0.22313151029745446
+MARUTI,BEL,Automobile,Capital Goods,False,0.22300098112324276
+TATACONSUM,NTPC,FMCG,Power,False,0.2228014662908794
+SUNPHARMA,TECHM,Healthcare,Information Technology,False,0.2226148874871699
+BAJAJ-AUTO,HINDUNILVR,Automobile,FMCG,False,0.22253675188893438
+ASIANPAINT,SUNPHARMA,Consumer Durables,Healthcare,False,0.22252224872760534
+TRENT,SBILIFE,Consumer Services,Financial Services,False,0.22177589782314194
+TRENT,NESTLEIND,Consumer Services,FMCG,False,0.221331134064363
+HINDUNILVR,BAJFINANCE,FMCG,Financial Services,False,0.22067179031683654
+APOLLOHOSP,DRREDDY,Healthcare,Healthcare,True,0.22061376844925654
+APOLLOHOSP,TECHM,Healthcare,Information Technology,False,0.22053065786805998
+ITC,NTPC,FMCG,Power,False,0.22010783564935155
+BAJAJ-AUTO,APOLLOHOSP,Automobile,Healthcare,False,0.2200851474760212
+DRREDDY,JSWSTEEL,Healthcare,Metals & Mining,False,0.220016226779788
+TMPV,DRREDDY,Automobile,Healthcare,False,0.2197402305559372
+ETERNAL,TECHM,Consumer Services,Information Technology,False,0.2193212352115749
+TITAN,COALINDIA,Consumer Durables,"Oil, Gas & Fuels",False,0.21914957026949647
+TITAN,BSE,Consumer Durables,Financial Services,False,0.21914370345556805
+BAJAJ-AUTO,SUNPHARMA,Automobile,Healthcare,False,0.21911839520016688
+ULTRACEMCO,INFY,Construction Materials,Information Technology,False,0.21904407337087697
+NESTLEIND,JSWSTEEL,FMCG,Metals & Mining,False,0.218155698873961
+ICICIBANK,TECHM,Financial Services,Information Technology,False,0.2175711052985596
+BSE,SBILIFE,Financial Services,Financial Services,True,0.2173952554302919
+BSE,HDFCLIFE,Financial Services,Financial Services,True,0.21715943235655022
+MARUTI,HINDALCO,Automobile,Metals & Mining,False,0.2169812543288228
+BAJFINANCE,HCLTECH,Financial Services,Information Technology,False,0.2168594574922365
+KOTAKBANK,TECHM,Financial Services,Information Technology,False,0.21647246648029547
+HDFCBANK,POWERGRID,Financial Services,Power,False,0.21637177554439313
+HDFCLIFE,TECHM,Financial Services,Information Technology,False,0.21628288709362972
+TRENT,POWERGRID,Consumer Services,Power,False,0.21607713563495592
+ADANIENT,ONGC,Metals & Mining,"Oil, Gas & Fuels",False,0.21599452208473138
+MAXHEALTH,SUNPHARMA,Healthcare,Healthcare,True,0.21590690542406912
+SUNPHARMA,TCS,Healthcare,Information Technology,False,0.2154536509584038
+MARUTI,ETERNAL,Automobile,Consumer Services,False,0.21535840592072633
+TCS,HINDALCO,Information Technology,Metals & Mining,False,0.21524191476769539
+TRENT,HDFCLIFE,Consumer Services,Financial Services,False,0.21508462893451374
+APOLLOHOSP,ADANIPORTS,Healthcare,Services,False,0.21478178348623303
+SBILIFE,APOLLOHOSP,Financial Services,Healthcare,False,0.21474724116672894
+AXISBANK,POWERGRID,Financial Services,Power,False,0.21451719788874468
+HINDUNILVR,RELIANCE,FMCG,"Oil, Gas & Fuels",False,0.21428309831839867
+HINDUNILVR,BAJAJFINSV,FMCG,Financial Services,False,0.21408213598416792
+SBILIFE,POWERGRID,Financial Services,Power,False,0.21389006693334245
+HDFCLIFE,HCLTECH,Financial Services,Information Technology,False,0.21369473416152565
+ITC,SHRIRAMFIN,FMCG,Financial Services,False,0.21369162038815082
+AXISBANK,BSE,Financial Services,Financial Services,True,0.2136085454262701
+NESTLEIND,AXISBANK,FMCG,Financial Services,False,0.21333642103109043
+ITC,SUNPHARMA,FMCG,Healthcare,False,0.2127117484799849
+BAJFINANCE,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.2124891713907869
+HDFCLIFE,APOLLOHOSP,Financial Services,Healthcare,False,0.21209257802464057
+ICICIBANK,SUNPHARMA,Financial Services,Healthcare,False,0.2118450535112761
+TECHM,ADANIPORTS,Information Technology,Services,False,0.2111440512363381
+APOLLOHOSP,HINDALCO,Healthcare,Metals & Mining,False,0.2106483932332142
+M&M,HCLTECH,Automobile,Information Technology,False,0.21033221254860762
+ETERNAL,AXISBANK,Consumer Services,Financial Services,False,0.21030121804071117
+APOLLOHOSP,BHARTIARTL,Healthcare,Telecommunication,False,0.21019030685290335
+MARUTI,APOLLOHOSP,Automobile,Healthcare,False,0.20997435888358035
+MARUTI,BSE,Automobile,Financial Services,False,0.2099353840699466
+INDIGO,BHARTIARTL,Services,Telecommunication,False,0.20992133971964771
+NESTLEIND,INDIGO,FMCG,Services,False,0.20980642652624426
+APOLLOHOSP,HCLTECH,Healthcare,Information Technology,False,0.20943161880430558
+TITAN,POWERGRID,Consumer Durables,Power,False,0.20943051188784445
+ICICIBANK,TCS,Financial Services,Information Technology,False,0.20892810806974085
+KOTAKBANK,POWERGRID,Financial Services,Power,False,0.208547045626692
+ASIANPAINT,AXISBANK,Consumer Durables,Financial Services,False,0.20799232954845723
+BAJAJ-AUTO,ADANIENT,Automobile,Metals & Mining,False,0.2078563961059447
+NESTLEIND,KOTAKBANK,FMCG,Financial Services,False,0.20746195460242442
+TRENT,SUNPHARMA,Consumer Services,Healthcare,False,0.207241307060862
+EICHERMOT,MAXHEALTH,Automobile,Healthcare,False,0.20633200607435215
+ITC,HINDALCO,FMCG,Metals & Mining,False,0.20612501307730977
+ETERNAL,TATACONSUM,Consumer Services,FMCG,False,0.20566210790460165
+HDFCLIFE,TCS,Financial Services,Information Technology,False,0.20515942164869744
+HDFCBANK,APOLLOHOSP,Financial Services,Healthcare,False,0.2051025352948771
+EICHERMOT,SUNPHARMA,Automobile,Healthcare,False,0.20494086396654435
+JIOFIN,MAXHEALTH,Financial Services,Healthcare,False,0.2049380619088222
+ITC,SBILIFE,FMCG,Financial Services,False,0.20484039191848202
+ULTRACEMCO,COALINDIA,Construction Materials,"Oil, Gas & Fuels",False,0.20473626220113367
+BSE,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.2047058360432745
+ICICIBANK,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.20448530199778062
+SUNPHARMA,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.20393900292514855
+HINDUNILVR,ICICIBANK,FMCG,Financial Services,False,0.20316022122435157
+ULTRACEMCO,BSE,Construction Materials,Financial Services,False,0.20284644428243356
+ETERNAL,KOTAKBANK,Consumer Services,Financial Services,False,0.20275390944766575
+SBIN,APOLLOHOSP,Financial Services,Healthcare,False,0.20267283355030244
+BAJAJ-AUTO,BSE,Automobile,Financial Services,False,0.20158324889978482
+ASIANPAINT,BHARTIARTL,Consumer Durables,Telecommunication,False,0.20136894058821736
+SUNPHARMA,HCLTECH,Healthcare,Information Technology,False,0.20123979868645137
+HINDUNILVR,TCS,FMCG,Information Technology,False,0.2008917285779041
+M&M,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.20065453752471546
+TMPV,HINDUNILVR,Automobile,FMCG,False,0.2004693989636486
+KOTAKBANK,HINDALCO,Financial Services,Metals & Mining,False,0.20044461105661815
+LT,NESTLEIND,Construction,FMCG,False,0.20042098354997115
+SBIN,TECHM,Financial Services,Information Technology,False,0.20039534926450342
+TCS,BHARTIARTL,Information Technology,Telecommunication,False,0.19994774247973301
+ITC,HCLTECH,FMCG,Information Technology,False,0.1999191784709332
+DRREDDY,TATASTEEL,Healthcare,Metals & Mining,False,0.19979420687795532
+GRASIM,ONGC,Construction Materials,"Oil, Gas & Fuels",False,0.19975715404318392
+DRREDDY,HCLTECH,Healthcare,Information Technology,False,0.1997184662652565
+COALINDIA,BHARTIARTL,"Oil, Gas & Fuels",Telecommunication,False,0.199182175110071
+BAJAJ-AUTO,POWERGRID,Automobile,Power,False,0.1987288730955874
+ULTRACEMCO,MAXHEALTH,Construction Materials,Healthcare,False,0.19842956727338423
+KOTAKBANK,HCLTECH,Financial Services,Information Technology,False,0.19839520069749048
+SUNPHARMA,INFY,Healthcare,Information Technology,False,0.1980913084763137
+BAJAJ-AUTO,HCLTECH,Automobile,Information Technology,False,0.1976254449440932
+TRENT,TECHM,Consumer Services,Information Technology,False,0.197204669255975
+SUNPHARMA,INDIGO,Healthcare,Services,False,0.19672426005027716
+HINDUNILVR,INFY,FMCG,Information Technology,False,0.19667497788222585
+BEL,TECHM,Capital Goods,Information Technology,False,0.19654135668528222
+SHRIRAMFIN,SUNPHARMA,Financial Services,Healthcare,False,0.19640469337699945
+DRREDDY,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.1963495403917607
+EICHERMOT,DRREDDY,Automobile,Healthcare,False,0.19631137113134123
+EICHERMOT,POWERGRID,Automobile,Power,False,0.19620296024162767
+HDFCLIFE,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.19592048762118003
+MARUTI,SUNPHARMA,Automobile,Healthcare,False,0.1956441080885245
+APOLLOHOSP,POWERGRID,Healthcare,Power,False,0.1956027023082664
+SUNPHARMA,POWERGRID,Healthcare,Power,False,0.19559537996652276
+ETERNAL,INFY,Consumer Services,Information Technology,False,0.1955447212708261
+ETERNAL,TCS,Consumer Services,Information Technology,False,0.1954164709810053
+BSE,KOTAKBANK,Financial Services,Financial Services,True,0.194908243365465
+SBIN,DRREDDY,Financial Services,Healthcare,False,0.19446024568882703
+SBIN,TCS,Financial Services,Information Technology,False,0.19416811611103715
+HDFCBANK,DRREDDY,Financial Services,Healthcare,False,0.19401196494691936
+BSE,ICICIBANK,Financial Services,Financial Services,True,0.19399538185330645
+ETERNAL,COALINDIA,Consumer Services,"Oil, Gas & Fuels",False,0.19370460496731687
+DRREDDY,INFY,Healthcare,Information Technology,False,0.19351180548729993
+EICHERMOT,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.1934809417997873
+ITC,DRREDDY,FMCG,Healthcare,False,0.19344142236846443
+ITC,TECHM,FMCG,Information Technology,False,0.19293878593948383
+KOTAKBANK,SUNPHARMA,Financial Services,Healthcare,False,0.19289274788247876
+AXISBANK,APOLLOHOSP,Financial Services,Healthcare,False,0.1927339527570494
+HDFCLIFE,MAXHEALTH,Financial Services,Healthcare,False,0.19241310481413046
+BAJAJ-AUTO,ITC,Automobile,FMCG,False,0.1922967737752477
+TRENT,APOLLOHOSP,Consumer Services,Healthcare,False,0.19221957290041838
+TRENT,KOTAKBANK,Consumer Services,Financial Services,False,0.19181042613532062
+TATACONSUM,HINDALCO,FMCG,Metals & Mining,False,0.19171294746867912
+TATACONSUM,JIOFIN,FMCG,Financial Services,False,0.19133613375470984
+HCLTECH,ADANIPORTS,Information Technology,Services,False,0.19125921293611844
+HINDUNILVR,APOLLOHOSP,FMCG,Healthcare,False,0.19113798380260635
+HINDUNILVR,HCLTECH,FMCG,Information Technology,False,0.19113067470264267
+HDFCLIFE,INFY,Financial Services,Information Technology,False,0.19109398312066847
+HCLTECH,COALINDIA,Information Technology,"Oil, Gas & Fuels",False,0.1910431106204356
+KOTAKBANK,APOLLOHOSP,Financial Services,Healthcare,False,0.19082165686176258
+TATACONSUM,BSE,FMCG,Financial Services,False,0.19055746927952885
+SUNPHARMA,ADANIENT,Healthcare,Metals & Mining,False,0.1902506864203583
+ITC,HDFCLIFE,FMCG,Financial Services,False,0.1902006573974967
+ETERNAL,SUNPHARMA,Consumer Services,Healthcare,False,0.18993332002145105
+SBILIFE,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.1898657080440881
+NESTLEIND,SUNPHARMA,FMCG,Healthcare,False,0.18974211539393643
+DRREDDY,ADANIPORTS,Healthcare,Services,False,0.18944752127993386
+BAJFINANCE,SUNPHARMA,Financial Services,Healthcare,False,0.18908453124346727
+TRENT,HCLTECH,Consumer Services,Information Technology,False,0.18860037959803683
+BSE,APOLLOHOSP,Financial Services,Healthcare,False,0.18819939255267484
+LT,CIPLA,Construction,Healthcare,False,0.18812804635814093
+DRREDDY,BHARTIARTL,Healthcare,Telecommunication,False,0.1879313125925985
+TECHM,COALINDIA,Information Technology,"Oil, Gas & Fuels",False,0.1877166657002288
+MARUTI,POWERGRID,Automobile,Power,False,0.1875439103420797
+BEL,SUNPHARMA,Capital Goods,Healthcare,False,0.18752281495806794
+INFY,ADANIPORTS,Information Technology,Services,False,0.18685419225076627
+NESTLEIND,TCS,FMCG,Information Technology,False,0.18683408280357186
+APOLLOHOSP,ADANIENT,Healthcare,Metals & Mining,False,0.18675418585631667
+EICHERMOT,TECHM,Automobile,Information Technology,False,0.18668035294432475
+TCS,ADANIPORTS,Information Technology,Services,False,0.1864431760594623
+MAXHEALTH,INDIGO,Healthcare,Services,False,0.18609905342369062
+BAJAJ-AUTO,DRREDDY,Automobile,Healthcare,False,0.1860322438439159
+ITC,ADANIENT,FMCG,Metals & Mining,False,0.18601587546112452
+ICICIBANK,HCLTECH,Financial Services,Information Technology,False,0.1859497580824953
+APOLLOHOSP,NTPC,Healthcare,Power,False,0.18590438040967477
+BAJFINANCE,POWERGRID,Financial Services,Power,False,0.1857947370268172
+ITC,INFY,FMCG,Information Technology,False,0.18553070901225435
+SHRIRAMFIN,TECHM,Financial Services,Information Technology,False,0.18539281121713663
+CIPLA,BHARTIARTL,Healthcare,Telecommunication,False,0.18497467044637148
+ASIANPAINT,TATASTEEL,Consumer Durables,Metals & Mining,False,0.1848714095742192
+KOTAKBANK,TCS,Financial Services,Information Technology,False,0.18404354002615622
+AXISBANK,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.1840431186486986
+APOLLOHOSP,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.1838897440151022
+ETERNAL,BHARTIARTL,Consumer Services,Telecommunication,False,0.1836129164378568
+LT,HINDUNILVR,Construction,FMCG,False,0.18336249102622043
+JIOFIN,TECHM,Financial Services,Information Technology,False,0.18329738734649417
+DRREDDY,TCS,Healthcare,Information Technology,False,0.18321913026180828
+SHRIRAMFIN,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.1830839651956966
+KOTAKBANK,INFY,Financial Services,Information Technology,False,0.1830076200472039
+SBILIFE,DRREDDY,Financial Services,Healthcare,False,0.18294350968544215
+NESTLEIND,HDFCBANK,FMCG,Financial Services,False,0.18246467269791034
+EICHERMOT,HCLTECH,Automobile,Information Technology,False,0.18245082185891917
+TRENT,HINDUNILVR,Consumer Services,FMCG,False,0.18228157133420408
+BSE,POWERGRID,Financial Services,Power,False,0.18202287573107492
+AXISBANK,TCS,Financial Services,Information Technology,False,0.18173351079711586
+ULTRACEMCO,CIPLA,Construction Materials,Healthcare,False,0.18160164739982118
+DRREDDY,TECHM,Healthcare,Information Technology,False,0.18130068998983642
+DRREDDY,HINDALCO,Healthcare,Metals & Mining,False,0.1811564066058875
+ETERNAL,ITC,Consumer Services,FMCG,False,0.18105674818043907
+TECHM,INDIGO,Information Technology,Services,False,0.18101389601795653
+MARUTI,TCS,Automobile,Information Technology,False,0.18078098510763949
+DRREDDY,NTPC,Healthcare,Power,False,0.18075057370952155
+TMPV,NESTLEIND,Automobile,FMCG,False,0.1807385613581179
+ASIANPAINT,HCLTECH,Consumer Durables,Information Technology,False,0.18012340756208556
+NESTLEIND,ICICIBANK,FMCG,Financial Services,False,0.17958551434284994
+HDFCBANK,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.1794890897910219
+SBIN,HCLTECH,Financial Services,Information Technology,False,0.1794697453947421
+TECHM,ONGC,Information Technology,"Oil, Gas & Fuels",False,0.1791727704405928
+ETERNAL,NESTLEIND,Consumer Services,FMCG,False,0.17911323054073158
+EICHERMOT,TCS,Automobile,Information Technology,False,0.1789430805471392
+GRASIM,CIPLA,Construction Materials,Healthcare,False,0.1788663635995643
+KOTAKBANK,COALINDIA,Financial Services,"Oil, Gas & Fuels",False,0.17858485126294793
+ASIANPAINT,DRREDDY,Consumer Durables,Healthcare,False,0.17842478652210933
+SBILIFE,CIPLA,Financial Services,Healthcare,False,0.17803410709568232
+HCLTECH,INDIGO,Information Technology,Services,False,0.17799673483844608
+BAJAJ-AUTO,ONGC,Automobile,"Oil, Gas & Fuels",False,0.1779251131728521
+NESTLEIND,POWERGRID,FMCG,Power,False,0.1777936735884562
+ASIANPAINT,ETERNAL,Consumer Durables,Consumer Services,False,0.177772052610152
+BEL,ASIANPAINT,Capital Goods,Consumer Durables,False,0.17764463977454203
+SBIN,INFY,Financial Services,Information Technology,False,0.1776347189694671
+ETERNAL,POWERGRID,Consumer Services,Power,False,0.17756665892120602
+TATACONSUM,POWERGRID,FMCG,Power,False,0.17733381738556878
+ITC,TCS,FMCG,Information Technology,False,0.17705473086261245
+SHRIRAMFIN,INFY,Financial Services,Information Technology,False,0.17695810188986222
+TMPV,MAXHEALTH,Automobile,Healthcare,False,0.17685304527208154
+BAJAJ-AUTO,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.1759064884382095
+BEL,CIPLA,Capital Goods,Healthcare,False,0.17575228974860901
+AXISBANK,INFY,Financial Services,Information Technology,False,0.17557043981711282
+HDFCLIFE,DRREDDY,Financial Services,Healthcare,False,0.17556424703253865
+NESTLEIND,BHARTIARTL,FMCG,Telecommunication,False,0.17524607966724154
+JIOFIN,DRREDDY,Financial Services,Healthcare,False,0.17521939681883392
+CIPLA,JSWSTEEL,Healthcare,Metals & Mining,False,0.17503157738918151
+DRREDDY,ADANIENT,Healthcare,Metals & Mining,False,0.17500405019246087
+BAJAJ-AUTO,ETERNAL,Automobile,Consumer Services,False,0.17479840951031833
+TITAN,DRREDDY,Consumer Durables,Healthcare,False,0.1747550107339954
+TCS,INDIGO,Information Technology,Services,False,0.17468322762582789
+NESTLEIND,DRREDDY,FMCG,Healthcare,False,0.1744723410304112
+TECHM,ADANIENT,Information Technology,Metals & Mining,False,0.17418496233904537
+DRREDDY,INDIGO,Healthcare,Services,False,0.1739027603570112
+ASIANPAINT,INFY,Consumer Durables,Information Technology,False,0.1735849688359702
+BEL,DRREDDY,Capital Goods,Healthcare,False,0.1734671196723156
+INFY,INDIGO,Information Technology,Services,False,0.17319574520921702
+AXISBANK,TECHM,Financial Services,Information Technology,False,0.17253594365709216
+CIPLA,TATASTEEL,Healthcare,Metals & Mining,False,0.1724052370063434
+SHRIRAMFIN,MAXHEALTH,Financial Services,Healthcare,False,0.17182559205611206
+MAXHEALTH,JSWSTEEL,Healthcare,Metals & Mining,False,0.17173866113022485
+NESTLEIND,ADANIPORTS,FMCG,Services,False,0.17162213748897268
+MARUTI,HCLTECH,Automobile,Information Technology,False,0.1714650062551354
+TRENT,MAXHEALTH,Consumer Services,Healthcare,False,0.17141203893288293
+JIOFIN,BHARTIARTL,Financial Services,Telecommunication,False,0.17140027180601683
+JIOFIN,HCLTECH,Financial Services,Information Technology,False,0.17120410513210077
+CIPLA,MAXHEALTH,Healthcare,Healthcare,True,0.17044119422103607
+NESTLEIND,SBIN,FMCG,Financial Services,False,0.17018940481347763
+TATACONSUM,COALINDIA,FMCG,"Oil, Gas & Fuels",False,0.16976502814133754
+MARUTI,TECHM,Automobile,Information Technology,False,0.16873509787429336
+SHRIRAMFIN,HCLTECH,Financial Services,Information Technology,False,0.16865595453009213
+TRENT,INFY,Consumer Services,Information Technology,False,0.16859910428288502
+ETERNAL,NTPC,Consumer Services,Power,False,0.16856727223790727
+ASIANPAINT,TECHM,Consumer Durables,Information Technology,False,0.16845036774841943
+ITC,APOLLOHOSP,FMCG,Healthcare,False,0.16817222315972186
+TRENT,DRREDDY,Consumer Services,Healthcare,False,0.167980981399859
+ITC,JIOFIN,FMCG,Financial Services,False,0.16766947020378545
+AXISBANK,HCLTECH,Financial Services,Information Technology,False,0.16762319162566894
+HDFCBANK,SUNPHARMA,Financial Services,Healthcare,False,0.16749084645485504
+BSE,TECHM,Financial Services,Information Technology,False,0.16705523776109832
+ICICIBANK,MAXHEALTH,Financial Services,Healthcare,False,0.1669121896808796
+HINDUNILVR,JSWSTEEL,FMCG,Metals & Mining,False,0.1665174726656892
+ASIANPAINT,MAXHEALTH,Consumer Durables,Healthcare,False,0.16618342830281
+ITC,POWERGRID,FMCG,Power,False,0.16604508332782533
+HINDUNILVR,SHRIRAMFIN,FMCG,Financial Services,False,0.16586970969771964
+MARUTI,MAXHEALTH,Automobile,Healthcare,False,0.1658393754024546
+M&M,CIPLA,Automobile,Healthcare,False,0.1654396984206494
+NESTLEIND,SHRIRAMFIN,FMCG,Financial Services,False,0.16529425723929284
+NESTLEIND,MAXHEALTH,FMCG,Healthcare,False,0.16481693926492222
+EICHERMOT,INFY,Automobile,Information Technology,False,0.16450028763150296
+ETERNAL,HCLTECH,Consumer Services,Information Technology,False,0.1644678080190666
+ETERNAL,DRREDDY,Consumer Services,Healthcare,False,0.1644294549158018
+BEL,HCLTECH,Capital Goods,Information Technology,False,0.16420971922133829
+JIOFIN,TCS,Financial Services,Information Technology,False,0.16409739382303068
+HINDUNILVR,BHARTIARTL,FMCG,Telecommunication,False,0.1640615514484272
+TRENT,TCS,Consumer Services,Information Technology,False,0.1638800410832776
+APOLLOHOSP,TCS,Healthcare,Information Technology,False,0.1634232301483027
+MARUTI,COALINDIA,Automobile,"Oil, Gas & Fuels",False,0.16316964733678996
+ETERNAL,MAXHEALTH,Consumer Services,Healthcare,False,0.1631677562762627
+SBIN,SUNPHARMA,Financial Services,Healthcare,False,0.16315884438500602
+NESTLEIND,JIOFIN,FMCG,Financial Services,False,0.16195252918317737
+NESTLEIND,HCLTECH,FMCG,Information Technology,False,0.1619464638460714
+APOLLOHOSP,INFY,Healthcare,Information Technology,False,0.16139049503113728
+ASIANPAINT,NTPC,Consumer Durables,Power,False,0.1613778477120578
+BAJAJFINSV,DRREDDY,Financial Services,Healthcare,False,0.1612513937208415
+TRENT,ONGC,Consumer Services,"Oil, Gas & Fuels",False,0.1612102624284105
+CIPLA,ADANIPORTS,Healthcare,Services,False,0.16101018128476155
+NESTLEIND,TATASTEEL,FMCG,Metals & Mining,False,0.16088397055514095
+M&M,ONGC,Automobile,"Oil, Gas & Fuels",False,0.16061237548313861
+DRREDDY,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.16007521072159014
+BAJFINANCE,MAXHEALTH,Financial Services,Healthcare,False,0.1596502746426412
+BSE,BHARTIARTL,Financial Services,Telecommunication,False,0.15953424096590973
+SHRIRAMFIN,DRREDDY,Financial Services,Healthcare,False,0.15902772308778462
+TCS,COALINDIA,Information Technology,"Oil, Gas & Fuels",False,0.15902508920937028
+TATACONSUM,DRREDDY,FMCG,Healthcare,False,0.15871330910105608
+TECHM,NTPC,Information Technology,Power,False,0.15830671626462753
+BAJAJ-AUTO,TCS,Automobile,Information Technology,False,0.15822974899293085
+GRASIM,MAXHEALTH,Construction Materials,Healthcare,False,0.158157279416417
+BAJAJ-AUTO,TECHM,Automobile,Information Technology,False,0.1580777749358776
+ITC,BSE,FMCG,Financial Services,False,0.15746878879824616
+CIPLA,NTPC,Healthcare,Power,False,0.15737325623504111
+HINDUNILVR,SUNPHARMA,FMCG,Healthcare,False,0.1566932213284009
+MAXHEALTH,BHARTIARTL,Healthcare,Telecommunication,False,0.1566029068163322
+MAXHEALTH,ADANIPORTS,Healthcare,Services,False,0.15654311338631755
+SHRIRAMFIN,TCS,Financial Services,Information Technology,False,0.15584107029820982
+HCLTECH,ONGC,Information Technology,"Oil, Gas & Fuels",False,0.15484500295843256
+BAJAJ-AUTO,MAXHEALTH,Automobile,Healthcare,False,0.1545158377441398
+NESTLEIND,HINDALCO,FMCG,Metals & Mining,False,0.15450670473334158
+BEL,NESTLEIND,Capital Goods,FMCG,False,0.15439245018103254
+CIPLA,POWERGRID,Healthcare,Power,False,0.15432328765160128
+SBILIFE,MAXHEALTH,Financial Services,Healthcare,False,0.1533248154442405
+BAJAJFINSV,MAXHEALTH,Financial Services,Healthcare,False,0.15316357360950383
+HINDUNILVR,SBIN,FMCG,Financial Services,False,0.152115027168693
+TITAN,CIPLA,Consumer Durables,Healthcare,False,0.1520028368957899
+HDFCLIFE,POWERGRID,Financial Services,Power,False,0.15154040880148548
+AXISBANK,DRREDDY,Financial Services,Healthcare,False,0.15145621474201032
+ICICIBANK,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.15113567605777892
+MAXHEALTH,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.15106499096862314
+ITC,CIPLA,FMCG,Healthcare,False,0.1510230526417364
+ASIANPAINT,CIPLA,Consumer Durables,Healthcare,False,0.14993554046937585
+HCLTECH,NTPC,Information Technology,Power,False,0.14960153277879853
+TCS,ADANIENT,Information Technology,Metals & Mining,False,0.14939547294342595
+HINDUNILVR,ADANIPORTS,FMCG,Services,False,0.149067766941406
+MAXHEALTH,NTPC,Healthcare,Power,False,0.14901639248517182
+CIPLA,HINDALCO,Healthcare,Metals & Mining,False,0.14885625648706544
+AXISBANK,MAXHEALTH,Financial Services,Healthcare,False,0.1486273023569673
+HCLTECH,ADANIENT,Information Technology,Metals & Mining,False,0.14821919549600848
+TMPV,CIPLA,Automobile,Healthcare,False,0.14758569676992117
+HDFCLIFE,CIPLA,Financial Services,Healthcare,False,0.14719751091571892
+INFY,ADANIENT,Information Technology,Metals & Mining,False,0.14634588851046804
+HDFCBANK,MAXHEALTH,Financial Services,Healthcare,False,0.145862532774491
+BSE,SUNPHARMA,Financial Services,Healthcare,False,0.14580476371240628
+BAJFINANCE,DRREDDY,Financial Services,Healthcare,False,0.14575059082281824
+KOTAKBANK,MAXHEALTH,Financial Services,Healthcare,False,0.14537444821052692
+ICICIBANK,DRREDDY,Financial Services,Healthcare,False,0.14499750238937345
+NESTLEIND,ADANIENT,FMCG,Metals & Mining,False,0.14470399339489898
+HINDUNILVR,DRREDDY,FMCG,Healthcare,False,0.14342166624084945
+DRREDDY,MAXHEALTH,Healthcare,Healthcare,True,0.14328877542059468
+NESTLEIND,CIPLA,FMCG,Healthcare,False,0.14321718174187417
+BEL,MAXHEALTH,Capital Goods,Healthcare,False,0.14266530521259776
+TRENT,CIPLA,Consumer Services,Healthcare,False,0.1423531917828733
+MARUTI,INFY,Automobile,Information Technology,False,0.14223160450460254
+MARUTI,DRREDDY,Automobile,Healthcare,False,0.14205548183780572
+DRREDDY,POWERGRID,Healthcare,Power,False,0.14163630548943235
+ASIANPAINT,BSE,Consumer Durables,Financial Services,False,0.1413659180873698
+SHRIRAMFIN,CIPLA,Financial Services,Healthcare,False,0.14018541175985666
+BEL,INFY,Capital Goods,Information Technology,False,0.14012724222275477
+JIOFIN,INFY,Financial Services,Information Technology,False,0.14002485517164398
+CIPLA,ADANIENT,Healthcare,Metals & Mining,False,0.14000149521597857
+TATACONSUM,MAXHEALTH,FMCG,Healthcare,False,0.13992447576536896
+ITC,ONGC,FMCG,"Oil, Gas & Fuels",False,0.13988276167914393
+MAXHEALTH,TATASTEEL,Healthcare,Metals & Mining,False,0.13908863206815414
+BEL,TCS,Capital Goods,Information Technology,False,0.1389730420713011
+MAXHEALTH,ADANIENT,Healthcare,Metals & Mining,False,0.13868569451381763
+BAJAJFINSV,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.13787803568686705
+BAJAJ-AUTO,INFY,Automobile,Information Technology,False,0.13761148245679072
+BAJAJFINSV,CIPLA,Financial Services,Healthcare,False,0.13750105878177862
+ULTRACEMCO,ONGC,Construction Materials,"Oil, Gas & Fuels",False,0.13726903116381742
+NESTLEIND,NTPC,FMCG,Power,False,0.13580544533307212
+CIPLA,RELIANCE,Healthcare,"Oil, Gas & Fuels",False,0.13574670161078686
+MAXHEALTH,TECHM,Healthcare,Information Technology,False,0.13571968194848147
+NESTLEIND,TECHM,FMCG,Information Technology,False,0.1356375894119741
+ASIANPAINT,POWERGRID,Consumer Durables,Power,False,0.1351059710863911
+BSE,MAXHEALTH,Financial Services,Healthcare,False,0.13455257822155717
+TECHM,POWERGRID,Information Technology,Power,False,0.1343207781132807
+EICHERMOT,ONGC,Automobile,"Oil, Gas & Fuels",False,0.13423600630320312
+HCLTECH,POWERGRID,Information Technology,Power,False,0.13380403468008925
+BAJAJ-AUTO,CIPLA,Automobile,Healthcare,False,0.13209832161707705
+BSE,HCLTECH,Financial Services,Information Technology,False,0.13029262563588231
+NESTLEIND,INFY,FMCG,Information Technology,False,0.12929950131025297
+AXISBANK,CIPLA,Financial Services,Healthcare,False,0.12915092445570212
+ASIANPAINT,HINDALCO,Consumer Durables,Metals & Mining,False,0.1286635049681752
+ITC,MAXHEALTH,FMCG,Healthcare,False,0.12854633658812797
+KOTAKBANK,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.12826690154923545
+HINDUNILVR,MAXHEALTH,FMCG,Healthcare,False,0.12775960948237797
+HDFCLIFE,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.12739484334870552
+EICHERMOT,CIPLA,Automobile,Healthcare,False,0.1272092307435398
+ETERNAL,HINDUNILVR,Consumer Services,FMCG,False,0.12700083790377767
+TITAN,MAXHEALTH,Consumer Durables,Healthcare,False,0.12628250311546932
+LT,MAXHEALTH,Construction,Healthcare,False,0.12361018754139678
+HINDUNILVR,TECHM,FMCG,Information Technology,False,0.1233692696539542
+INFY,ONGC,Information Technology,"Oil, Gas & Fuels",False,0.1231572581149206
+HDFCBANK,CIPLA,Financial Services,Healthcare,False,0.12312185559037095
+TCS,ONGC,Information Technology,"Oil, Gas & Fuels",False,0.12279988353239349
+TITAN,ONGC,Consumer Durables,"Oil, Gas & Fuels",False,0.12205497886522454
+BAJFINANCE,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.12033546452685598
+HINDUNILVR,CIPLA,FMCG,Healthcare,False,0.12025334042206039
+CIPLA,INDIGO,Healthcare,Services,False,0.11932189328340859
+BSE,DRREDDY,Financial Services,Healthcare,False,0.1190799791725756
+BSE,INFY,Financial Services,Information Technology,False,0.11874523084220444
+INFY,COALINDIA,Information Technology,"Oil, Gas & Fuels",False,0.11830562110636748
+NESTLEIND,BSE,FMCG,Financial Services,False,0.11774768919929457
+HDFCBANK,ONGC,Financial Services,"Oil, Gas & Fuels",False,0.11773203714327836
+TATACONSUM,CIPLA,FMCG,Healthcare,False,0.1171037987175408
+SUNPHARMA,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.11584699507452012
+MAXHEALTH,POWERGRID,Healthcare,Power,False,0.11532192957714958
+HINDUNILVR,JIOFIN,FMCG,Financial Services,False,0.11506935726390502
+APOLLOHOSP,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.11479289126082014
+CIPLA,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.11471624166826107
+DRREDDY,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.11438639695735327
+SBIN,CIPLA,Financial Services,Healthcare,False,0.11123764980450143
+BSE,TCS,Financial Services,Information Technology,False,0.11027156784055965
+CIPLA,TCS,Healthcare,Information Technology,False,0.109786213696234
+MARUTI,CIPLA,Automobile,Healthcare,False,0.10972860958844195
+HINDUNILVR,TATASTEEL,FMCG,Metals & Mining,False,0.10949338451836488
+AXISBANK,SUNPHARMA,Financial Services,Healthcare,False,0.10917571243789988
+INFY,NTPC,Information Technology,Power,False,0.1088902582080369
+CIPLA,HCLTECH,Healthcare,Information Technology,False,0.10793929304282862
+MAXHEALTH,HCLTECH,Healthcare,Information Technology,False,0.10790095487654507
+HINDUNILVR,POWERGRID,FMCG,Power,False,0.10762864821162023
+TCS,POWERGRID,Information Technology,Power,False,0.10707832927074147
+SBIN,MAXHEALTH,Financial Services,Healthcare,False,0.10675313303802741
+CIPLA,INFY,Healthcare,Information Technology,False,0.10583960601364574
+HINDUNILVR,BSE,FMCG,Financial Services,False,0.10522516526732104
+ICICIBANK,CIPLA,Financial Services,Healthcare,False,0.10433883550260967
+TCS,NTPC,Information Technology,Power,False,0.10402838659034083
+BAJFINANCE,CIPLA,Financial Services,Healthcare,False,0.10205340977958198
+KOTAKBANK,DRREDDY,Financial Services,Healthcare,False,0.10188050158323851
+ETERNAL,ONGC,Consumer Services,"Oil, Gas & Fuels",False,0.10183785348730702
+BSE,CIPLA,Financial Services,Healthcare,False,0.09953755224479552
+KOTAKBANK,CIPLA,Financial Services,Healthcare,False,0.09916621206326365
+HINDUNILVR,NTPC,FMCG,Power,False,0.09873510294626117
+MAXHEALTH,INFY,Healthcare,Information Technology,False,0.09673361817730358
+HINDUNILVR,ADANIENT,FMCG,Metals & Mining,False,0.09551241773577758
+INFY,POWERGRID,Information Technology,Power,False,0.09482632567114309
+BEL,HINDUNILVR,Capital Goods,FMCG,False,0.09459091532052447
+MAXHEALTH,TCS,Healthcare,Information Technology,False,0.09444664065098854
+NESTLEIND,COALINDIA,FMCG,"Oil, Gas & Fuels",False,0.09417415820096353
+MARUTI,ONGC,Automobile,"Oil, Gas & Fuels",False,0.09377188484519226
+CIPLA,TECHM,Healthcare,Information Technology,False,0.09341740050013149
+HINDUNILVR,HINDALCO,FMCG,Metals & Mining,False,0.09121125728920981
+MAXHEALTH,HINDALCO,Healthcare,Metals & Mining,False,0.08925190305868502
+ETERNAL,CIPLA,Consumer Services,Healthcare,False,0.08873654031002488
+TATACONSUM,ONGC,FMCG,"Oil, Gas & Fuels",False,0.08572263883056887
+CIPLA,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.08093238680776176
+MAXHEALTH,COALINDIA,Healthcare,"Oil, Gas & Fuels",False,0.07795188334914478
+ONGC,INDIGO,"Oil, Gas & Fuels",Services,False,0.0703495750139798
+ASIANPAINT,COALINDIA,Consumer Durables,"Oil, Gas & Fuels",False,0.06772418717854498
+NESTLEIND,ONGC,FMCG,"Oil, Gas & Fuels",False,0.05629367086450115
+MAXHEALTH,ONGC,Healthcare,"Oil, Gas & Fuels",False,0.04452384866047212
+HINDUNILVR,COALINDIA,FMCG,"Oil, Gas & Fuels",False,0.029662287661771505
+ASIANPAINT,ONGC,Consumer Durables,"Oil, Gas & Fuels",False,-0.01932085601564014
+HINDUNILVR,ONGC,FMCG,"Oil, Gas & Fuels",False,-0.023642182589342742
